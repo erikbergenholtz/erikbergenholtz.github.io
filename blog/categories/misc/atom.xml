@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Erik Bergenholtz' blog]]></title>
-  <link href="http://erikbergenholtz.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Misc | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/blog/categories/misc/atom.xml" rel="self"/>
   <link href="http://erikbergenholtz.github.io/"/>
   <updated>2017-07-18T15:49:17+02:00</updated>
   <id>http://erikbergenholtz.github.io/</id>

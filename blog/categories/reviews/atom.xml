@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tags: Reviews | My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/blog/categories/reviews/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Tags: Reviews | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/reviews/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Review: The Linux Commandline* by **William E. Shotts, Jr.**]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/linux-commandline-review/"/>
     <updated>2016-08-15T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/linux-commandline-review</id>
     <content type="html"><![CDATA[<p>It&rsquo;s finally time for me to post my first book review! As mentioned I&rsquo;ve wanted
 to do this for quite some time, both to get some more posting here on the blog
 done and to give me an incentive to actually read the books I buy. So here it

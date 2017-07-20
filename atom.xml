@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Book Review - Ansible: From Beginner to Pro]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/"/>
     <updated>2017-07-20T01:41:33+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2017/07/20/book-review-ansible-from-beginner-to-pro</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/20/book-review-ansible-from-beginner-to-pro</id>
     <content type="html"><![CDATA[<p>It&rsquo;s time for another book review. This time of Michael Heap&rsquo;s
 <a href="http://www.apress.com/us/book/9781484216606">Ansible: From Beginner to Pro</a>,
 published by <a href="http://www.apress.com/">Apress</a>. The 200 page book is, as the
@@ -76,9 +76,9 @@ for ricing reasons. We&rsquo;ll see I guess. Until then!</p>
   
   <entry>
     <title type="html"><![CDATA[Hello World! v3.0]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2017/07/18/hello-world-v3-dot-0/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/18/hello-world-v3-dot-0/"/>
     <updated>2017-07-18T15:42:24+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2017/07/18/hello-world-v3-dot-0</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/18/hello-world-v3-dot-0</id>
     <content type="html"><![CDATA[<p>Okay, here we are agian. Yet another change of blogging platform. This one is
 here to stay, at least of a while. I promise.</p>
 
@@ -105,9 +105,9 @@ and stuff. Until next time!</p>
   
   <entry>
     <title type="html"><![CDATA[My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"/>
     <updated>2017-07-11T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/11/my-thoughts-on-gray-hat-hacking</id>
     <content type="html"><![CDATA[<p>Here we are again, I&rsquo;ve actually read another book. That makes four this year,
 out of which three have been on some form of computer related topic. So my
 New Year&rsquo;s resolution to read twelve books this year is actually looking like
@@ -195,9 +195,9 @@ examples otherwise.</p>
   
   <entry>
     <title type="html"><![CDATA[Initial Impressions: Black Hat Python]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2017/07/10/initial-impressions-bhp/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/10/initial-impressions-bhp/"/>
     <updated>2017-07-10T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2017/07/10/initial-impressions-bhp</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/10/initial-impressions-bhp</id>
     <content type="html"><![CDATA[<p>The other day I dug my teeth into a new piece of literature:
 <a href="https://www.nostarch.com/blackhatpython">Black Hat Python: Python Programming for Hackers and Pentesters</a>
 by <a href="https://www.nostarch.com/">No Starch Press</a>. Anyone who&rsquo;s spent more then
@@ -313,9 +313,9 @@ recently read shortly, but until then</p>
   
   <entry>
     <title type="html"><![CDATA[Book Review: Learn You a Haskell for Great Good]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2017/01/14/review-learn-you-a-haskell/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/01/14/review-learn-you-a-haskell/"/>
     <updated>2017-01-14T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2017/01/14/review-learn-you-a-haskell</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/01/14/review-learn-you-a-haskell</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a long time coming, but now I am finally done reading
 <a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good</a>, so it is
 time for me not only to get coding, but also to review the book!</p>
@@ -370,9 +370,9 @@ a review of that will come when I&rsquo;m done working through it.</p>
   
   <entry>
     <title type="html"><![CDATA[New Year - Higher Resolution]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/31/new-year-higher-resolution/"/>
     <updated>2016-12-31T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/31/new-year-higher-resolution</id>
     <content type="html"><![CDATA[<p>It&rsquo;s a new year, which means that it&rsquo;s time to make new year&rsquo;s resolutions that
 you&rsquo;re not going to keep. Or maybe you will! I for one will really try to keep
 mine, because I really want to make myself a better person. So what are my
@@ -423,9 +423,9 @@ all.</p>
   
   <entry>
     <title type="html"><![CDATA[Getting Classy With Haskell]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/18/getting-classy-with-haskell/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/18/getting-classy-with-haskell/"/>
     <updated>2016-12-18T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/18/getting-classy-with-haskell</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/18/getting-classy-with-haskell</id>
     <content type="html"><![CDATA[<p>I thought that the next post I was going to do would be one on higher order
 functions. In fact, I started writing one a couple of times, but it just didn&rsquo;t
 seem necessary. Why was that? Well, it all actually made sense. I had a read
@@ -587,9 +587,9 @@ it better! But now I&rsquo;ll take a break. Until next time,</p>
   
   <entry>
     <title type="html"><![CDATA[I Made a Home Screen]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/13/i-made-a-home-screen/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/13/i-made-a-home-screen/"/>
     <updated>2016-12-13T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/13/i-made-a-home-screen</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/13/i-made-a-home-screen</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just finished a small project that I wanted to share with the rest of you.
 What I&rsquo;ve done is a home screen for your browser that at least I think is
 pretty good looking (see screenshot below) and faily easy to customize. The
@@ -610,9 +610,9 @@ say more about it, but leave you with a screenshot.</p>
   
   <entry>
     <title type="html"><![CDATA[I Like Recursive]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/11/i-like-recursive/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/11/i-like-recursive/"/>
     <updated>2016-12-11T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/11/i-like-recursive</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/11/i-like-recursive</id>
     <content type="html"><![CDATA[<p>Here we are again, another post about Haskell. To star off I just want to say
 that I am having a blast learning this, and that I think I am getting the
 hang of it. I&rsquo;ve gone through recursion today, which isn&rsquo;t really a new concept
@@ -671,9 +671,9 @@ there&rsquo;ll be a lot to anchor in my mind by writing about it. Until then,</p
   
   <entry>
     <title type="html"><![CDATA[More Haskell Peculiarities]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/10/more-haskell-peculiarities/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/10/more-haskell-peculiarities/"/>
     <updated>2016-12-10T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/10/more-haskell-peculiarities</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/10/more-haskell-peculiarities</id>
     <content type="html"><![CDATA[<p>My mission to learn Haskell goes on, and I&rsquo;ve now  read about functions. As
 Haskell is a purley functional language, it makes sense that functions are
 quite important and well developed in the language. There are a lot of things
@@ -758,9 +758,9 @@ a blast. But now I&rsquo;m going to sleep.</p>
   
   <entry>
     <title type="html"><![CDATA[Learning Me a Haskell for Great Good]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
     <updated>2016-12-09T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
     <content type="html"><![CDATA[<p>Today I was informed roughly what I will be doing at work next semester (when I
 say &ldquo;roughly&rdquo; I mean that the suggested work load probably is way through the
 roof, and that it will need to be adjusted before the term starts), and one
@@ -839,9 +839,9 @@ off now.</p>
   
   <entry>
     <title type="html"><![CDATA[Advent of Code 2016]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/06/advent-of-code-2016/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/06/advent-of-code-2016/"/>
     <updated>2016-12-06T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/06/advent-of-code-2016</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/06/advent-of-code-2016</id>
     <content type="html"><![CDATA[<p>I know, I know. I am terrible at this blogging thing. I will try to post more
 frequently in the future, and I actually have a plan on how to do that. But
 that&rsquo;s for another post. Today I want to talk about winter!</p>
@@ -868,9 +868,9 @@ go check that out!</p>
   
   <entry>
     <title type="html"><![CDATA[Review: The Linux Commandline* by **William E. Shotts, Jr.**]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/linux-commandline-review/"/>
     <updated>2016-08-15T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/linux-commandline-review</id>
     <content type="html"><![CDATA[<p>It&rsquo;s finally time for me to post my first book review! As mentioned I&rsquo;ve wanted
 to do this for quite some time, both to get some more posting here on the blog
 done and to give me an incentive to actually read the books I buy. So here it
@@ -920,9 +920,9 @@ would be a lot better.</p>
   
   <entry>
     <title type="html"><![CDATA[I've Had It With No Man's Sky]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/had-it-with-nms/"/>
     <updated>2016-08-15T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/had-it-with-nms</id>
     <content type="html"><![CDATA[<p>As probably nobody with even the slightest interest in gaming has missed, the
 hype of the year has finally come out: No Man&rsquo;s Sky. The game where there is an
 infinite, procedurally generated universe to discover and explore, creatures
@@ -989,9 +989,9 @@ enjoy at least they&rsquo;re enjoyable for the most part.</p>
   
   <entry>
     <title type="html"><![CDATA[Hello World 2.0]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/10/hello_world_2.0/"/>
     <updated>2016-08-10T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/10/hello_world_2.0</id>
     <content type="html"><![CDATA[<p>There we are. I have finally gotten around to rebuilding my blog. I&rsquo;ve been
 mearning to do that for a couple of months, but there&rsquo;s been a lot going on
 lately so I haven&rsquo;t had the time. Until now. I must say that I&rsquo;m quite
@@ -1017,9 +1017,9 @@ the future!</p>
   
   <entry>
     <title type="html"><![CDATA[Having a Blast With the RGB Shades]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2015/12/31/having-a-blast-with-the-rgb-shades/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/12/31/having-a-blast-with-the-rgb-shades/"/>
     <updated>2015-12-31T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2015/12/31/having-a-blast-with-the-rgb-shades</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/12/31/having-a-blast-with-the-rgb-shades</id>
     <content type="html"><![CDATA[<p>The past few weeks I&rsquo;ve been talking with a guy who found my
 video of my first effects for the Shades interesting. By being
 curious and questioning he sparked my interest in the shades again,
@@ -1060,9 +1060,9 @@ and happy hacking!</p>
   
   <entry>
     <title type="html"><![CDATA[First Ricing]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing/"/>
     <updated>2015-11-22T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a while, and since I have something to share I
 thought this might be a good time to pick up this blogging
 business again.</p>
@@ -1089,9 +1089,9 @@ or have a look at the dotfiles, they&rsquo;re all
   
   <entry>
     <title type="html"><![CDATA[Pump Up the SWAG]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2015/05/31/pump-up-the-swag/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/31/pump-up-the-swag/"/>
     <updated>2015-05-31T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2015/05/31/pump-up-the-swag</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/31/pump-up-the-swag</id>
     <content type="html"><![CDATA[<p>They are here. The long wait has been ended. After a couple of months, I now sit here as a
 proud owner of <a href="http://www.macetech.com/">Macetech</a>&rsquo;s brilliant invention
 the <a href="http://macetech.com/store/index.php?main_page=product_info&amp;cPath=14&amp;products_id=59&amp;zenid=121ac6e4b163befd0309e0ecf8399002">RGB-shades</a>.
@@ -1112,18 +1112,18 @@ some other cool extension to them as well.</p>
   
   <entry>
     <title type="html"><![CDATA[Real Tools Are Costly]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2015/05/19/real-tools-are-costly/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/19/real-tools-are-costly/"/>
     <updated>2015-05-19T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2015/05/19/real-tools-are-costly</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/19/real-tools-are-costly</id>
     <content type="html"><![CDATA[<p>So, I&rsquo;ve gotten my &ldquo;metal files&rdquo; from China now. I tried filing down one of the metal brush hairs I&rsquo;ve found which I want to use for material when making lockpicks. However, the files were rubbish. Sure, they are technically metal files as they are made from metal, but they are not build to work on metal. When I tried shaping a pick for myself the file I was trying out was filed down itself. I am a bit dissappointed, but I didn&rsquo;t really expect anything else considering the files are from China and cost about 1€ for 10pc. The moral of the story is that good tools are expensive, and that you should not order them from eBay but buy them from a hardware store. Oh well, it was worth a shot, better luck next time etc.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Spring Is Lockpicking My Door]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2015/04/29/spring-is-lockpicking-my-door/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/29/spring-is-lockpicking-my-door/"/>
     <updated>2015-04-29T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2015/04/29/spring-is-lockpicking-my-door</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/29/spring-is-lockpicking-my-door</id>
     <content type="html"><![CDATA[<p>Spring is here, and for a beginner lockpicker this is great news!
 Why is it so? Because the streets are being cleaned. That means that machines
 with large with large steel (spring steel even, I believe) brushes are roaming

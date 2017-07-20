@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tags: General | My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/blog/categories/general/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Tags: General | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World 2.0]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/10/hello_world_2.0/"/>
     <updated>2016-08-10T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/10/hello_world_2.0</id>
     <content type="html"><![CDATA[<p>There we are. I have finally gotten around to rebuilding my blog. I&rsquo;ve been
 mearning to do that for a couple of months, but there&rsquo;s been a lot going on
 lately so I haven&rsquo;t had the time. Until now. I must say that I&rsquo;m quite
@@ -43,9 +43,9 @@ the future!</p>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2015/04/14/helloWorld/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/14/helloWorld/"/>
     <updated>2015-04-14T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2015/04/14/helloWorld</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/14/helloWorld</id>
     <content type="html"><![CDATA[<p>Hello, and welcome to my blog! My name is Erik Bergenholtz, and I am a
 security enthusiast and hacker living in Sweden. I hope to expand my website in
 the future, but for now this blog will have to do.</p>

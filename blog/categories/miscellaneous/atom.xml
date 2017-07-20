@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tags: Miscellaneous | My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/blog/categories/miscellaneous/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Tags: Miscellaneous | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/miscellaneous/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Year - Higher Resolution]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/31/new-year-higher-resolution/"/>
     <updated>2016-12-31T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/31/new-year-higher-resolution</id>
     <content type="html"><![CDATA[<p>It&rsquo;s a new year, which means that it&rsquo;s time to make new year&rsquo;s resolutions that
 you&rsquo;re not going to keep. Or maybe you will! I for one will really try to keep
 mine, because I really want to make myself a better person. So what are my

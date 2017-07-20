@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tags: Rant | My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/blog/categories/rant/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Tags: Rant | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/rant/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I've Had It With No Man's Sky]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/had-it-with-nms/"/>
     <updated>2016-08-15T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/had-it-with-nms</id>
     <content type="html"><![CDATA[<p>As probably nobody with even the slightest interest in gaming has missed, the
 hype of the year has finally come out: No Man&rsquo;s Sky. The game where there is an
 infinite, procedurally generated universe to discover and explore, creatures

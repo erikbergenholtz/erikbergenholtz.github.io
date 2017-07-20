@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tags: Security | My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/blog/categories/security/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Tags: Security | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/security/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"/>
     <updated>2017-07-11T00:00:00+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/11/my-thoughts-on-gray-hat-hacking</id>
     <content type="html"><![CDATA[<p>Here we are again, I&rsquo;ve actually read another book. That makes four this year,
 out of which three have been on some form of computer related topic. So my
 New Year&rsquo;s resolution to read twelve books this year is actually looking like

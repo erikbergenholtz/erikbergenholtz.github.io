@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tags: Misc | My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/blog/categories/misc/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Tags: Misc | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/misc/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World! v3.0]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2017/07/18/hello-world-v3-dot-0/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/18/hello-world-v3-dot-0/"/>
     <updated>2017-07-18T15:42:24+02:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2017/07/18/hello-world-v3-dot-0</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/18/hello-world-v3-dot-0</id>
     <content type="html"><![CDATA[<p>Okay, here we are agian. Yet another change of blogging platform. This one is
 here to stay, at least of a while. I promise.</p>
 

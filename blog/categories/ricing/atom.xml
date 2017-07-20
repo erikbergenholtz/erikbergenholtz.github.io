@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Tags: Ricing | My Octopress Blog]]></title>
-  <link href="http://$ghname.github.io/$ghname/blog/categories/ricing/atom.xml" rel="self"/>
-  <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T11:09:58+02:00</updated>
-  <id>http://$ghname.github.io/$ghname/</id>
+  <title><![CDATA[Tags: Ricing | Erik Bergenholtz' blog]]></title>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/ricing/atom.xml" rel="self"/>
+  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
+  <updated>2017-07-20T11:17:55+02:00</updated>
+  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Erik Bergenholtz]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I Made a Home Screen]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2016/12/13/i-made-a-home-screen/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/13/i-made-a-home-screen/"/>
     <updated>2016-12-13T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2016/12/13/i-made-a-home-screen</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/13/i-made-a-home-screen</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just finished a small project that I wanted to share with the rest of you.
 What I&rsquo;ve done is a home screen for your browser that at least I think is
 pretty good looking (see screenshot below) and faily easy to customize. The
@@ -38,9 +38,9 @@ say more about it, but leave you with a screenshot.</p>
   
   <entry>
     <title type="html"><![CDATA[First Ricing]]></title>
-    <link href="http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing/"/>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing/"/>
     <updated>2015-11-22T23:00:00+01:00</updated>
-    <id>http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing</id>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a while, and since I have something to share I
 thought this might be a good time to pick up this blogging
 business again.</p>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tags: Rant | My Octopress Blog]]></title>
+  <link href="http://$ghname.github.io/$ghname/blog/categories/rant/atom.xml" rel="self"/>
+  <link href="http://$ghname.github.io/$ghname/"/>
+  <updated>2017-07-20T11:09:58+02:00</updated>
+  <id>http://$ghname.github.io/$ghname/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I've Had It With No Man's Sky]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms/"/>
+    <updated>2016-08-15T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms</id>
+    <content type="html"><![CDATA[<p>As probably nobody with even the slightest interest in gaming has missed, the
+hype of the year has finally come out: No Man&rsquo;s Sky. The game where there is an
+infinite, procedurally generated universe to discover and explore, creatures
+created not by careful design but by artifical evolution to marvel at, alien
+cultures to encounter and interact with! Over at
+<a href="https://www.reddit.com/r/NoMansSkyTheGame">/r/NoMansSkyTheGame</a> people have
+torn their hair in anticipation of this game. And I must admit, I was quite
+excited about it as well. Becuase it sounds pretty cool, doesn&rsquo;t it? With all
+that exploration to do, all those discoveries to be made.</p>
+
+<p>Now I&rsquo;ve tried. I really have. I&rsquo;ve spent ten hours over the weekend trying to
+get into it, but I just can&rsquo;t. The game is horrendous. I&rsquo;ve had it. It&rsquo;s not
+just that there&rsquo;s nothing to do in the game, it&rsquo;s also that everything is
+exactly the same and nothing makes sense! For instance I visited a quite
+chilly planet, so to speak. The temperature was at -30 to -60 centrigrades.
+Despite this there were liquid water! Fancy that, no ice! When I then fly over
+to another planet in the same solar system I notice something interesting; the
+exact same plants as I found on another planet <em>in another solar system</em> lives
+there. Not something similar, the <em>exact</em> same but with a (presumably)
+different name. Not to mention the creatures created by the artificial
+evolution.
+<a href="https://twitter.com/Britbongreturns/status/765190830894317568">This</a> post
+by <a href="https://twitter.com/Britbongreturns">@Britbongreturns</a> sums it up quite
+nicely, so I&rsquo;ll leave it at that.</p>
+
+<p>Before I conclude this post, let&rsquo;s go over a few of the selling points on the
+game&rsquo;s <a href="http://store.steampowered.com/app/275850/#app_reviews_hash">Steam page</a>.</p>
+
+<ol>
+<li><p>&ldquo;<em>a galaxy to explore, filled with unique planets and lifeforms, and constant
+ danger and action</em>&rdquo;</p>
+
+<p>Well this is just a downright lie: The planets may be procedurally
+generated, and therefore unique, but apparently reusing every resource
+there is in the game isn&rsquo;t covered by this. Also, if there is so much
+danger and action, how come I haven&rsquo;t experienced neither danger nor
+action?</p></li>
+<li><p>&ldquo;<em>Fly smoothly from deep space to planetary surfaces, with no loading
+ screens, and no limits.</em>&rdquo;</p>
+
+<p>That is actually true! There are no loading screens! Instead there is the
+most terrible texture popping I have ever seen! Not only does it pop in
+textures as you&rsquo;re closing up to them, but it &ldquo;unpops&rdquo; them as well; if you
+have mined out a huge pillar of e.g. gold then you&rsquo;ll still see it at a
+distance! Terrible!</p></li>
+<li><p>&ldquo;<em>At the centre of the galaxy lies a irresistible pulse which draws you on a
+ journey towards it</em>&rdquo;</p>
+
+<p>Huh, the more you know. Apart from the exposition given right here I haven&rsquo;t
+been given any incentive so far for going to the center of the galaxy.
+Weird.</p></li>
+</ol>
+
+
+<p>To conclude this rant I&rsquo;d like to say that I didn&rsquo;t want a 60€ game with
+horrible &ldquo;evolution&rdquo; in it. I already own a game like that: Spore! So now I&rsquo;m
+done with this disappointment. I&rsquo;m going back to buying small, unknown indie
+games via <a href="https://www.humblebundle.com/">HumbleBundle</a>, at least I usually
+enjoy at least they&rsquo;re enjoyable for the most part.</p>
+
+<p>/rant</p>
+]]></content>
+  </entry>
+  
+</feed>

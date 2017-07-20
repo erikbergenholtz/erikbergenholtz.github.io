@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tags: Linux | My Octopress Blog]]></title>
+  <link href="http://$ghname.github.io/$ghname/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://$ghname.github.io/$ghname/"/>
+  <updated>2017-07-20T11:09:58+02:00</updated>
+  <id>http://$ghname.github.io/$ghname/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Review: The Linux Commandline* by **William E. Shotts, Jr.**]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review/"/>
+    <updated>2016-08-15T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s finally time for me to post my first book review! As mentioned I&rsquo;ve wanted
+to do this for quite some time, both to get some more posting here on the blog
+done and to give me an incentive to actually read the books I buy. So here it
+is, the first book review on this blog!</p>
+
+<p>The book I&rsquo;ve (actually) read is
+<a href="https://www.nostarch.com/tlcl"><em>The Linux Commandline</em></a> by <strong>William E. Shotts,
+Jr.</strong>, published by <a href="https://www.nostarch.com/">No Starch Press</a>. The book is
+aimed at people who have just installed Linux and is clueless about where to go
+from there. As such I am quite a bit outside of the target audience, but despite
+this I found the book to be a very good read (I mean, I finished it&hellip;).</p>
+
+<p><em>The Linux Commandline</em> is divided into four parts: Learning the shell;
+Configuration and the Environment; Common Tasks and Essential Tools; and Writing
+Shell Scripts. Just looking at this it is clear that the book covers a great
+many subjects in the world of the Linux commandline. As I said it is aimed at
+complete Linux newbies, and as such it begins at a very basic level. In the very
+first chapter the concept of a <em>shell</em> is explained, along with things such as
+the fact that the shell tells you that no command was found if you try to
+execute random letters. Once that is dealt with the book works it&rsquo;s way from
+commands like <code>cd</code> and <code>ls</code> to more complex commands like <code>sed</code> and how to write
+regular expressions for <code>sed</code>. It covers pipes, redirection, searching with
+<code>find</code> and touches on editing with my personal favorite editor Vim. When all
+these topics are covered, the author shows how to glue it all together using
+<code>if</code>-statements, <code>for</code>-loops and shell functions to build complete shell
+scripts.</p>
+
+<p>It&rsquo;s obvious that the book covers a lot, but the big question is whether or not
+it does it well. To that my answer is yes. As mentioned I am far from the target
+audience with 10 years of working with Linux in my luggage. Despite this I
+actually learned a thing or two from the book. A large part of the book could be
+skimmed, such as descriptions of what <code>ls -l</code> and <code>ls -a</code> do, but some chapters
+were completely new such as how to print files to paper via the CLI. Apart from
+the content being very fleshed out it is also well written in a style that is
+easy to read and learn from. Descriptions are clear and the vast majority of all
+commands covered are also used in an example, so that it is easy for the reader
+to follow along and try things out.</p>
+
+<p>To conclude this is a book that according to me is clearly worth the $39.95. I
+only own it as an e-book, but I am tempted to buy a paperback as well to have a
+physical copy. It is well written, clearly describes how to efficiently work
+with the shell on a basic to intermediate level, and I think that if everyone
+who tried Linux would take the time to work through this their Linux experience
+would be a lot better.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Ricing]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing/"/>
+    <updated>2015-11-22T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been a while, and since I have something to share I
+thought this might be a good time to pick up this blogging
+business again.</p>
+
+<p>I have started with Linux ricing, i.e. doing &ldquo;unecessary
+modifications&rdquo; to my Linux system. I&rsquo;ve only been at it
+for little more than a day, but I must say that I quite
+enjoy it. There&rsquo;s a long way to go before I get to one
+of the increadible ricings displayed over at
+<a href="http://reddit.com/r/unixporn">r/unixporn</a>, which is a
+subreddit devoted to UNIX ricing. But I would say that
+my current rice is at least a decent start.</p>
+
+<p><img src="http://i.imgur.com/dxNRCjU.png" alt="rice" /></p>
+
+<p>I will keep up the good work, and hope to one day
+reach a wizardly look on my Debian system!</p>
+
+<p>If anyone is interested in trying my rice out,
+or have a look at the dotfiles, they&rsquo;re all
+<a href="https://github.com/Psyberion/ricedotfiles">available here</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

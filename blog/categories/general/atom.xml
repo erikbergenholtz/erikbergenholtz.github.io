@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tags: General | My Octopress Blog]]></title>
+  <link href="http://$ghname.github.io/$ghname/blog/categories/general/atom.xml" rel="self"/>
+  <link href="http://$ghname.github.io/$ghname/"/>
+  <updated>2017-07-20T11:09:58+02:00</updated>
+  <id>http://$ghname.github.io/$ghname/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World 2.0]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0/"/>
+    <updated>2016-08-10T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0</id>
+    <content type="html"><![CDATA[<p>There we are. I have finally gotten around to rebuilding my blog. I&rsquo;ve been
+mearning to do that for a couple of months, but there&rsquo;s been a lot going on
+lately so I haven&rsquo;t had the time. Until now. I must say that I&rsquo;m quite
+satisfied how it turned out. There are still a couple of things I want to
+add to it, like a commenting feature, but I&rsquo;ll get to that Later<TM>.</p>
+
+<p>Now, I know I&rsquo;ve been worse at posting here than a cat is at barking, but
+I&rsquo;m hoping to change that because I&rsquo;ve got a lot going on! First things first,
+I&rsquo;m planning to work my way though all the books I buy for decoration, I mean
+never get around to reading. What&rsquo;s more is that I&rsquo;m going to review them here
+too! That means that I&rsquo;ll both start reading <em>and</em> posting more! Win-win!</p>
+
+<p>Apart from reviewing printed teachings (and the odd piece of fiction maybe)
+I also have a couple of hardware projects coming up which I&rsquo;m going to share
+with you guys. So hopefully there&rsquo;ll be a lot going on here on the blog in
+the future!</p>
+
+<p>Right now I have to go to sleep though, so I&rsquo;ll see you next time!</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/04/14/helloWorld/"/>
+    <updated>2015-04-14T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/04/14/helloWorld</id>
+    <content type="html"><![CDATA[<p>Hello, and welcome to my blog! My name is Erik Bergenholtz, and I am a
+security enthusiast and hacker living in Sweden. I hope to expand my website in
+the future, but for now this blog will have to do.</p>
+
+<p>As I mentioned, I am a security enthusiast and hacker. I mostly enjoy
+computer security, but physical security such as burglary alarms and lock
+smithing is also quite amusing. This is what my blog will be about; security,
+hacking, projects and perhaps the odd contemplation.</p>
+
+<p>I am not sure what else to write in this first post, so I&rsquo;ll just leave it at
+that. I&rsquo;m looking forward to sharing some of my projects, and I hope you&rsquo;ll
+enjoy reading about them.</p>
+
+<p>Until then, <strong>happy hacking</strong>!</p>
+]]></content>
+  </entry>
+  
+</feed>

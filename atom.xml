@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://$ghname.github.io/$ghname/atom.xml" rel="self"/>
   <link href="http://$ghname.github.io/$ghname/"/>
-  <updated>2017-07-20T10:29:11+02:00</updated>
+  <updated>2017-07-20T11:09:58+02:00</updated>
   <id>http://$ghname.github.io/$ghname/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -98,6 +98,1048 @@ progress of which I&rsquo;ll share here.</p>
 <p>Anyway, that&rsquo;s all for now. I&rsquo;m going to migrate all the old posts to this
 platform, but it might take a bit of time because of formatting differences
 and stuff. Until next time!</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"/>
+    <updated>2017-07-11T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking</id>
+    <content type="html"><![CDATA[<p>Here we are again, I&rsquo;ve actually read another book. That makes four this year,
+out of which three have been on some form of computer related topic. So my
+New Year&rsquo;s resolution to read twelve books this year is actually looking like
+it&rsquo;s doable.</p>
+
+<p>But enough beating around be bush, if you&rsquo;re reading this it&rsquo;s because you want
+to know what I think of <a href="http://pages.cs.wisc.edu/~ace/media/gray-hat-hacking.pdf">Gray Hat Hacking: The Ethical Hacker&rsquo;s Handbook</a>,
+so here&rsquo;s what I think of it: I&rsquo;m not sure. I think that I may be a poor judge,
+because I was expecting more than I got. See, this book is quite praised in
+hacker circles, at least as I remember it from the days when I used to hang out
+in hacker forums. It is one of <em>the</em> books you should read if you want to get
+into the world of hacking. So knowing this I obviously expected miracles, more
+or less, when I started reading. Unfortunately, that is not what <em>I</em> got.</p>
+
+<p>Before we go any further, I want to point out a few things. Firstly, I have not
+read this cover to cover. I&rsquo;ve read the better part of it, but I&rsquo;ve skipped
+quite some text that I didn&rsquo;t have a need for right now. This mostly involves
+fluff like how to use specific tools, what it means to be an <em>Ethical Hacker</em>.
+Secondly, since I have an education in computer security where I have actually
+had this book as course literature (I didn&rsquo;t read it at the time though), I knew
+a lot of these things before. This is part of the reason why I didn&rsquo;t get the
+miracle I was expecting. With that out of the way, let&rsquo;s get into the meat of'er!</p>
+
+<p>The book quite hefty at 672 pages. It covers <em>a lot</em> of topics, ranging from how
+to report found vulnerabilities to basic programming (I&rsquo;m coming back to this
+later) to quite advanced tricks to get around protection schemes. This is why I
+believe that it&rsquo;s considered such a good book to read if you want to enter the
+world of hacking; it does give an introduction to a great many things. However,
+some of these fields are covered so briefly that they might as well have left
+them out. This includes SQL and XSS injections, that are only really touched
+upon. Other topics, buffer overflows in particular, are elaborated on. The
+explanations of these topics are well composed, with working(ish) examples,
+complete with code, explanations and references. This allow you to follow along
+for the most part, which is great! As opposed to Black Hat Python, where the
+code examples comes first and the explanation afterwards, here the explanation
+of the vulnerability comes first and the exploit is then iteratively
+constructed, showing all steps along the way. The only real problem I have with
+this is that their type setting for the code segment is quite bad, and sometimes
+separate lines are printed on the same line. This is really a minor complaint
+though.</p>
+
+<p>One thing that is not the books fault, but decreases the value of it none the
+less, is that it is a book and it&rsquo;s written in 2011. This means that some of the
+things brought up in it is no longer possible, or no longer relevant. For
+instance, the book walked throught the process of injecting shellcode via the
+<code>.dtors</code> section of a program (I&rsquo;m not explaining that further, not in this
+post at least). That section is replaces with <code>.fini_array</code> since GCC 4.7, which
+works differently and makes the covered attack impossible. There&rsquo;s likely a
+similar attack that exploits the new format, but for obvious reasons the book
+doesn&rsquo;t cover it. There are a number of such instances, but as mentioned it&rsquo;s
+not the fault of the authors but rather the ever-changing nature of the field.</p>
+
+<p>Another thing that I find strange about the book is it&rsquo;s pacing. It&rsquo;s covering
+fairly advanced attacks and how to construct your own shellcode, while at the
+same time covering basic programming. This section is really quite short and as
+I&rsquo;m quite adept at programming I only skimmed it, but I could see that it was on
+the level of &ldquo;every C program needs a function called <code>main()</code>&rdquo;. In other words,
+that part of the text was aimed at someone who has never seen a line of code.
+This is odd to me, as security is no basic topic. Sure, there are a ton of
+script kiddies who run around on the interwebs thinking they&rsquo;re 1337 hax0rz
+because the figured out how to download LOIC (or whatever is the latest and
+greatest DDoS tool now-a-days), but this is a book that aims to educate security
+professionals. Demanding a certain amount of previous knowledge of how C,
+memory and such works would not be too much to ask in my opinion. Especially
+when, as I said, shellcode construction is covered. This involves writing
+(short) C programs that do what you want, compiling them and removing any
+unnecessary ASM that the compiler added, only to then assemble and extract the
+opcodes. In other words, it&rsquo;s nothing you&rsquo;d be able to do confidently if you
+don&rsquo;t know C before you start reading.</p>
+
+<p>Apart from this I like the book. I didn&rsquo;t get much out of it, but that is
+because I already knew most of it. The parts I didn&rsquo;t know where quite
+interesting to read about, and as I said it covers the topics well. Because of
+this I&rsquo;d agree with the statement that this is one of <em>the books</em> to read if you
+want to get going with <em>ethical</em> hacking. Do yourself a favour and wait until
+you&rsquo;re at least somewhat proficient in C and x86 assembler before you pick up
+the book though, as you might have a hard time understanding some of the
+examples otherwise.</p>
+
+<p>That&rsquo;s it for now, I hope you enjoyed this.. reviewish. Until next time,</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Initial Impressions: Black Hat Python]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2017/07/10/initial-impressions-bhp/"/>
+    <updated>2017-07-10T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2017/07/10/initial-impressions-bhp</id>
+    <content type="html"><![CDATA[<p>The other day I dug my teeth into a new piece of literature:
+<a href="https://www.nostarch.com/blackhatpython">Black Hat Python: Python Programming for Hackers and Pentesters</a>
+by <a href="https://www.nostarch.com/">No Starch Press</a>. Anyone who&rsquo;s spent more then
+five minutes on this site probably knows that No Starch is my favorite publisher
+and that I think they usually publish books of high quality. Spoiler alert; this
+book does not fall in that category.</p>
+
+<p>Before I go on, I want to give a short disclaimer though. This is by no means a
+<em>book review</em>. I have not read the whole thing cover to cover (yet), I have just
+read the first few chapters and put it away because I really disliked the way
+the author&rsquo;s style of teaching. I plan on reading the full thing at some point
+and give a <em>proper</em> review, but I want to give some kind of a heads up for
+anyone reading. So, let&rsquo;s do it!</p>
+
+<p>First off, I was quite excited to read this. I enjoy working with Python, and
+would say that it&rsquo;s probably the language I use the most. I&rsquo;m also quite
+interested in computer security, and one of my previous goals was to become a
+professional pentester. So obviously this book was quite appealing. The book is
+written by Justin Seitz, who at the time of writing writing the book worked at
+Immunity Inc with security analysis. He&rsquo;s also written another book for No
+Starch Press called <a href="https://www.nostarch.com/ghpython.htm">Gray Hat Python</a>
+(which I&rsquo;ll get arount to reading Soon™), so it all seems good! The book covers
+a range of topics, from how to set up the testing environment to how to automate
+forenic tasks, spread trojans via github, and playing around with the network.
+From just looking at it from the outside, it looks like a really nice book (it
+has a nice cover too!)</p>
+
+<p>Unfortunately, as the saying goes, you should not judge a book by it&rsquo;s cover.
+While the text itself holds up to the quality of the other No Starch books I&rsquo;ve
+read, the actual <em>content</em> of the book does not. Each section in the book
+describes a problem, like needing a quick way to send commands to a compromised
+server. The text then guides you through a solution to the problem, and this is
+where the problems start. Firstly, the solution is presented <em>before</em> the
+explanation of even the steps to take. This might seem like a small issue, and
+maybe it is for some, but I prefer to give it a go myself first, <em>before</em> I look
+at a solution. I know this might be hard with books like this, but just listing
+what the solution must do isn&rsquo;t too much to ask, is it? The second thing that
+bugged me, which is what made me put the book away, is the actual explanations
+themselves. They are really short, and don&rsquo;t explain much at all. To showcase
+this, let&rsquo;s have a look at the following example:</p>
+
+<pre><code>class Server (paramiko.ServerInterface):
+    def _init_(self):
+        self.event = threading.Event()
+    def check_channel_request(self, kind, chanid):
+        if kind == 'session':
+            return paramiko.OPEN_SUCCEEDED
+        return paramiko.OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED
+    def check_auth_password(self, username, password):
+        if (username == 'justin') and (password == 'lovesthepython'):
+            return paramiko.AUTH_SUCCESSFUL
+        return paramiko.AUTH_FAILED
+</code></pre>
+
+<p>A simple enough python class, that is used to build an SSH-server to send
+commands through to the client, which is uploaded to the victim. The
+explanation for the code is as follows:</p>
+
+<blockquote><p>just like we did earlier in the chapter, and then SSHinize it</p></blockquote>
+
+<p>This is not the first thing the book covered on SSH using the Paramiko library,
+but a class was never used. Also, none of the Paramiko flags were used earlier.
+But their names are good, so it&rsquo;s easy enough to understand the function of the
+Server-class anyway. Now, let&rsquo;s skip forward in the code:</p>
+
+<pre><code>bhSession = paramiko.Transport(client)
+bhSession.add_server_key(host_key)
+server = Server()
+try:
+    bhSession.start_server(server=server)
+except paramiko.SSHException, x:
+    print '[-] SSH negotiation failed.'
+chan = bhSession.accept(20)
+</code></pre>
+
+<p>None of this has been used before, but it&rsquo;s all pretty obvious; set <code>client</code> (
+which is an already connected socket) as the socket on which to transport the
+SSH session, add a keyfile, build a server-object and use that as the server.
+The explanation for this is</p>
+
+<blockquote><p>configure the authentication methods</p></blockquote>
+
+<p>I&rsquo;m sorry, what? I guess this is technically correct, but it doesn&rsquo;t explain
+<em>anything</em>. Sure, it&rsquo;s not that hard to understand, but still. The thing that
+really annoys me is this: <code>bhSession.start_server(server=server)</code>. <code>bhSession</code>
+is a paramiko-object of some kind, and to that objects member function
+<code>start_server()</code> we pass our homebrewed Server-class. This means that, since
+it will be used by a function in a library, the Server-class have to have some
+functions and variables that should respond to different things. These are quite
+important pieces of information if you want to build something yourself rather
+than just copy and paste from a book. Alas, if I want to learn that I have to
+consult the Paramiko documentation, because there isn&rsquo;t an explanation within
+sight in the book.</p>
+
+<p>I really don&rsquo;t mind reading documentation, but I do mind paying $34 for a book
+that supposedly should teach me something, only to be forced to read open
+documentation if I want more understanding than copying, pasting and running can
+give. Fortunately I got the book in a HumbleBundle, so I hardly payed for it.
+And maybe it gets better later in the book, but right now I don&rsquo;t have time to
+find out. As I said, this is very much a first imporession of the book and I
+will get back to it. I just really think it&rsquo;s a shame that they didn&rsquo;t make it
+twice as long (it&rsquo;s just short of 165 pages) and elaborated on the explanations
+more, so that you don&rsquo;t need to consult the documentation to understand what&rsquo;s
+going on.</p>
+
+<p>That&rsquo;s it for my rant on this book. I&rsquo;ll revisit it Sometime™ and write a real
+review. But for now this will have to do. I&rsquo;ll have a review on another book I
+recently read shortly, but until then</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Book Review: Learn You a Haskell for Great Good]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2017/01/14/review-learn-you-a-haskell/"/>
+    <updated>2017-01-14T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2017/01/14/review-learn-you-a-haskell</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been a long time coming, but now I am finally done reading
+<a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good</a>, so it is
+time for me not only to get coding, but also to review the book!</p>
+
+<p>Haskell is a language that I&rsquo;ve been eyeballing for quite some time, but I have
+hesitated to get started with it due to it being a functional programming
+language. As a guy coming from a mainly imperative background (I do most work
+in C or Python), this is quite different and without a good tutorial it seemed
+quite inaccessible. Luckily for me, Learn You a Haskell showed up on
+<a href="https://humblebundle.com">HumbleBundle</a> a while ago, so I took the opportunity
+to buy it.</p>
+
+<p>The book is aimed at people like me: people experienced in programming, but new
+to functional programming. The book guides the reader though the core concepts
+of Haskell in a conversational tone that is riddled with examples. The language
+is easy to follow, and new concepts are described clearly. The powerfulness of
+the language is shown both through descriptions in the text, but also with the
+examples. In general I would say that it&rsquo;s a really good book that is very
+worth reading.</p>
+
+<p>However, the book has one downside; its lack of exercises. As mentioned, it is
+full of examples, and they do great job at showing how things work and how
+powerful the language is when used correctly. Unfortunately there are no clear
+exercises. Some of the examples are extended through description, where the
+actual implementation of the extension is left as an exercise to the reader,
+but as someone who want to learn how to work with the language and have never
+done anything functional before it is hard to come up with exercises for
+yourself. I really do think that the book would benefit a lot from having
+explicit tasks to do yourself at the end of each chapter. As it is now, I am
+quite confident that I understand the concepts of the language after reading
+the book, but I am far from confident with coding in it. Of course I would not
+have become a Haskell wizard by reading the book even if it did have exercises,
+but I think I would&rsquo;ve been closer.</p>
+
+<p>Regardless I think that it is a really good book, and a really good
+introduction to both Haskell and functional programming, and I am looking
+forward to getting to know Haskell in a more practical way. As a final note
+I&rsquo;d like to recommend it if you&rsquo;re interested in learning Haskell. There are a
+lot of very large and crooked questionmarks surrounding the world of functional
+programming if you&rsquo;re from an imperative or object oriented background, but the
+book does a great job of straightening those into exclamation marks.</p>
+
+<p>Now, I am going to delve into the next book, which will be
+<a href="http://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf">How to Prove it</a>,
+a review of that will come when I&rsquo;m done working through it.</p>
+
+<p>Until the next time,</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Year - Higher Resolution]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution/"/>
+    <updated>2016-12-31T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s a new year, which means that it&rsquo;s time to make new year&rsquo;s resolutions that
+you&rsquo;re not going to keep. Or maybe you will! I for one will really try to keep
+mine, because I really want to make myself a better person. So what are my
+new year&rsquo;s resolutions going to be?</p>
+
+<p>First off, and I know that I&rsquo;ve said this a few times before, I am going to
+read more. For reals this time. Thing is that I have a ton of books, both
+fictional and factual, that I&rsquo;ve been eager to read. However, I have a severe
+case of &ldquo;積ん読&rdquo; or <em>tsundoku</em>. It&rsquo;s a Japanese word for &ldquo;buying books
+but not reading them&rdquo; (<a href="https://en.wikipedia.org/wiki/Tsundoku">seriously</a>).
+Now I want to stop having this.. &ldquo;condition&rdquo;, I want to start reading. Not only
+because books are expensive and I should not spend money unnecessarily, but
+also because what I do when I don&rsquo;t read is quite stupid. Usually, I just
+imgur or reddit, or play some game. Sure, gaming is good for relaxing, but so
+is learning new things. So, my plan is to spend less time browsing reddit and
+more time reading things. So, new year&rsquo;s resolution number one is that I shall
+read one book a month.</p>
+
+<p>The second one is something I am going to do together with my girlfriend. We&rsquo;re
+going to not consume any unnecessary sugar for 100 days. This means no candy,
+soda, alcohol, cookies or anything else like that for one hundred days, i.e.
+until April 9th. We&rsquo;re not going to over do it, so sugar in food products is
+OK.</p>
+
+<p>Lastly there&rsquo;s the obligatory &ldquo;get in shape&rdquo; resolution. I have these fancy
+(but ugly) Vibram Fivefinger shoes that&rsquo;s I&rsquo;ve been using too little. So I&rsquo;m
+going to take up running again, at least once a week. Also I&rsquo;m going to try to
+start lifting weights down at the gym. I&rsquo;m doing this not only to become a
+Greek god (which I obviously will become), but also to relieve some stress.</p>
+
+<p>So, that&rsquo;s my three new year&rsquo;s resolutions:</p>
+
+<ul>
+<li>Reading one book a month, be it fictional or educational</li>
+<li>No excess sugar for 100 days</li>
+<li>Start running at least once a week</li>
+</ul>
+
+
+<p>So that&rsquo;s it for this post. Sorry for deluding you into thinking I was getting
+a 4k monitor or something that cool for the new year. Hopefully I will update
+my rig during the year, and I&rsquo;ll keep you posted on that, but for now this is
+all.</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Classy With Haskell]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/18/getting-classy-with-haskell/"/>
+    <updated>2016-12-18T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/18/getting-classy-with-haskell</id>
+    <content type="html"><![CDATA[<p>I thought that the next post I was going to do would be one on higher order
+functions. In fact, I started writing one a couple of times, but it just didn&rsquo;t
+seem necessary. Why was that? Well, it all actually made sense. I had a read
+through the chapter, and the theory wan&rsquo;t that hard. Once I had also
+reimplemented the fold and scan functions recusively myself I felt that I had
+a quite solid grip on higher order functions. And man, are they powerful!</p>
+
+<p>Now I&rsquo;ve moved forward, past modules and into the end of defining my own
+data types. While that is itself quite straight forward, there are quite
+a few things that aren&rsquo;t exactly odd, but they need to be remebered, so I&rsquo;m
+jotting it down here.</p>
+
+<p>To star off, if you want to define a new data type you use the <code>data</code> keyword.
+It looks like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="kr">data</span> <span class="kt">TrafficLight</span> <span class="ow">=</span> <span class="kt">Red</span> <span class="o">|</span> <span class="kt">Yellow</span> <span class="o">|</span> <span class="kt">Green</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This will create a data type called <code>TrafficLight</code>, of which we can create the
+values <code>Red</code>, <code>Yellow</code> and <code>Green</code> using it&rsquo;s <em>value constructors</em>. While this
+is a perfectly fine class, we can&rsquo;t print it to the terminal, read it from a
+string, order it or check if it&rsquo;s values are equal at present. To fix that we
+could do the following:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="kr">data</span> <span class="kt">TrafficLight</span> <span class="ow">=</span> <span class="kt">Red</span> <span class="o">|</span> <span class="kt">Yellow</span> <span class="o">|</span> <span class="kt">Green</span> <span class="kr">deriving</span> <span class="p">(</span><span class="kt">Show</span><span class="p">,</span> <span class="kt">Read</span><span class="p">,</span> <span class="kt">Eq</span><span class="p">,</span> <span class="kt">Ord</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This allow us to do everything stated above. The <code>Eq</code> type class (we&rsquo;ll get to
+that later) allow us to equate elements. The default behaviour is that
+<code>Red == Red</code> is true, while <code>Red == Green</code> is false. The <code>Ord</code> allow us to
+order the values. The default behaviour for this type class is that the value
+constructors <em>to the left</em> are <strong>smaller</strong> than the ones on the right. I.e., in
+this example <code>Red &lt; Green</code> is true while <code>Yellow &gt; Green</code> is false, because of
+the order they&rsquo;re defined in the type definition.</p>
+
+<p>It is also possible to define a new data type using a class constructor. This
+is something that&rsquo;s been used in the type definitions of functions through out
+the book, and isn&rsquo;t that strange really. For instance, a simple binary search
+tree could be implemented like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="kr">data</span> <span class="kt">Tree</span> <span class="n">a</span> <span class="ow">=</span> <span class="kt">EmptyTree</span> <span class="o">|</span> <span class="kt">Node</span> <span class="n">a</span> <span class="p">(</span><span class="kt">Tree</span> <span class="n">a</span><span class="p">)</span> <span class="p">(</span><span class="kt">Tree</span> <span class="n">a</span><span class="p">)</span> <span class="kr">deriving</span> <span class="p">(</span><span class="kt">Ord</span><span class="p">,</span> <span class="kt">Eq</span><span class="p">,</span> <span class="kt">Show</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Using this kind of declaration, it is possible to store any data type in the
+tree, as long as it is orderable and equatable. Which makes sense, since it&rsquo;s a
+BST.</p>
+
+<p>We can also use the register syntax to add some additional context to our data
+type:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="kr">data</span> <span class="kt">Person</span> <span class="ow">=</span> <span class="p">{</span> <span class="n">firstname</span> <span class="ow">::</span> <span class="kt">String</span>
+</span><span class='line'>              <span class="p">,</span> <span class="n">lastname</span>  <span class="ow">::</span> <span class="kt">String</span>
+</span><span class='line'>              <span class="p">,</span> <span class="n">birthyear</span> <span class="ow">::</span> <span class="kt">Int</span>
+</span><span class='line'>              <span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>All this is quite straight forward, if a bit much to take in all at once. But
+it quite makes sense anyway. Now, let&rsquo;s get into the really strange things.
+Let&rsquo;s start off with instances.</p>
+
+<p>Earlier I showed that in order to make the value constructors of a class
+equatable (is that even a word? Sounds weird) you need to derive the <code>Eq</code> type
+class in your data type. This imposes some default behaviour, as described. If
+you for some reason aren&rsquo;t happy with this default behaviour you can go around
+it by making your type an <em>instance</em> of <code>Eq</code>, like this (I&rsquo;m using the
+TrafficLight type for this example):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="kr">instance</span> <span class="kt">Eq</span> <span class="kt">TrafficLight</span> <span class="kr">where</span>
+</span><span class='line'>    <span class="kt">Red</span> <span class="o">==</span> <span class="kt">Red</span> <span class="ow">=</span> <span class="kt">True</span>
+</span><span class='line'>    <span class="kt">Yellow</span> <span class="o">==</span> <span class="kt">Yellow</span> <span class="ow">=</span> <span class="kt">True</span>
+</span><span class='line'>    <span class="kt">Green</span> <span class="o">==</span> <span class="kt">Green</span> <span class="ow">=</span> <span class="kt">True</span>
+</span><span class='line'>    <span class="kr">_</span> <span class="o">==</span> <span class="kr">_</span> <span class="ow">=</span> <span class="kt">False</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This basically says that <code>Red == Red</code> is true, and so is <code>Yellow == Yellow</code> and
+<code>Green == Green</code>. All other combinations, however, are false. This overrides
+how <code>Eq</code> typically behaves (and in this case, replaces the behaviour with an
+identical behaviour). I can really see how this is useful, as it bares some
+resemblance to defining your own equality operator (or the like; this works for
+any type class) in C++.</p>
+
+<p>Next up is actual type classes, and inheritance from those. Coming from a (sort
+of) object oriented (I bloody hate object oriented programming..) background,
+this seems quite strange. A class in Haskell isn&rsquo;t like a class in C++; a bunch
+of functions and variables crammed together into one name. In Haskel, it&rsquo;s just
+a collection of type definitions for functions. In other words, it&rsquo;s kind of
+like a C++ class with no variables and only virtual functions. If you have a
+class that itself is a type constructor, then you can make the class a subclass
+of another class. For instance, the <code>Ord</code> class is a subclass of <code>Eq</code>,
+because it makes sense that any data types that are orderable are also
+equatable.</p>
+
+<p>As a grand finale of this monstrosity of a post, we have functors. Oh dear, how
+weird functors seemed at first. A type class that is meant for things that can
+be mapped. It sounded so strange at first, but once I realized how it could
+be utilized for any data type that can either be empty, or contain something,
+it was quite obvious how awesome this was. For instance, the <code>Tree</code> I
+defined earlier has the following definition:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="kr">data</span> <span class="kt">Tree</span> <span class="n">a</span> <span class="ow">=</span> <span class="kt">EmptyTree</span> <span class="o">|</span> <span class="kt">Node</span> <span class="n">a</span> <span class="p">(</span><span class="kt">Tree</span> <span class="n">a</span><span class="p">)</span> <span class="p">(</span><span class="kt">Tree</span> <span class="n">a</span><span class="p">)</span> <span class="n">derives</span> <span class="p">(</span><span class="kt">Show</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, say I want to write a function that traverses all of the tree and applies
+an arbitrary function to the values of each node. Using functors it&rsquo;s as easy
+as:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">Tree</span> <span class="kr">where</span>
+</span><span class='line'>    <span class="n">fmap</span> <span class="kr">_</span> <span class="kt">EmptyTree</span> <span class="ow">=</span> <span class="kt">EmptyTree</span>
+</span><span class='line'>    <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Node</span> <span class="n">a</span> <span class="n">b</span> <span class="n">c</span><span class="p">)</span> <span class="ow">=</span> <span class="kt">Node</span> <span class="p">(</span><span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">f</span> <span class="n">c</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s it! I tell Haskell that I want to make the Tree type an instance of the
+Functor class, I define how I want the <code>fmap</code> function to act on the tree and
+as a result I can now multiply all node values of a tree of integers like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">fmap</span> <span class="p">(</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span> <span class="n">tree</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It goes over the tree and builds a new tree. Writing this I realize that doing
+this with a normal function would actually work the exact same way, but I am
+sure that functors have some advantage over normal functions that I just don&rsquo;t
+see with my inexperienced eyes.</p>
+
+<p>So, after a long read (both for me and you) we&rsquo;re finally at the end of this
+post (and the chapters on types and classes in &ldquo;Learn you a Haskell&rdquo;). It&rsquo;s
+been quite the journey, and it has taken me a couple of days to get here, which
+makes sense considering I&rsquo;ve had to forget everything I know about classes. But
+Haskell&rsquo;s type system seems really cool, and I look forward to getting to know
+it better! But now I&rsquo;ll take a break. Until next time,</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Made a Home Screen]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/13/i-made-a-home-screen/"/>
+    <updated>2016-12-13T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/13/i-made-a-home-screen</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve just finished a small project that I wanted to share with the rest of you.
+What I&rsquo;ve done is a home screen for your browser that at least I think is
+pretty good looking (see screenshot below) and faily easy to customize. The
+page uses a number of simple JavaScripts (that could probably be improved) to
+print a nifty, randomized title on the page, as well as dynamically build links
+to the sites you frequent.</p>
+
+<p>If you think this looks nice and want to try it out, all instructions you
+should need to get it up and running to your liking is on the
+<a href="https://github.com/Psyberion/homepage">repo on github</a>, so I&rsquo;m not going to
+say more about it, but leave you with a screenshot.</p>
+
+<p>Happy hacking!</p>
+
+<p><a href="https://github.com/Psyberion/homepage"><img src="http://i.imgur.com/fP3xg5H.png" alt="Screenshot of homepage" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Like Recursive]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/11/i-like-recursive/"/>
+    <updated>2016-12-11T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/11/i-like-recursive</id>
+    <content type="html"><![CDATA[<p>Here we are again, another post about Haskell. To star off I just want to say
+that I am having a blast learning this, and that I think I am getting the
+hang of it. I&rsquo;ve gone through recursion today, which isn&rsquo;t really a new concept
+to me, but it&rsquo;s tricky to know what to do in a completely new language.
+However, I managed to write all example function from the book on my own, which
+I think is a sign that I am starting to get this. For instance, I came up with
+this solution to writing quicksort:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">quicksort</span> <span class="ow">::</span> <span class="p">(</span><span class="kt">Ord</span> <span class="n">a</span><span class="p">)</span> <span class="ow">=&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+</span><span class='line'><span class="nf">quicksort</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="kt">[]</span>
+</span><span class='line'><span class="nf">quicksort</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="ow">=</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+</span><span class='line'><span class="nf">quicksort</span> <span class="p">(</span><span class="n">x</span><span class="kt">:</span><span class="n">xs</span><span class="p">)</span> <span class="ow">=</span> <span class="n">quicksort</span> <span class="n">lower</span> <span class="o">++</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">++</span> <span class="n">quicksort</span> <span class="n">higher</span>
+</span><span class='line'>    <span class="kr">where</span> <span class="n">lower</span>  <span class="ow">=</span> <span class="p">[</span><span class="n">y</span> <span class="o">|</span> <span class="n">y</span> <span class="ow">&lt;-</span> <span class="n">xs</span><span class="p">,</span> <span class="n">y</span><span class="o">&lt;=</span><span class="n">x</span><span class="p">]</span>
+</span><span class='line'>          <span class="n">higher</span> <span class="ow">=</span> <span class="p">[</span><span class="n">z</span> <span class="o">|</span> <span class="n">z</span> <span class="ow">&lt;-</span> <span class="n">xs</span><span class="p">,</span> <span class="n">z</span> <span class="o">&gt;</span><span class="n">x</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The definition in the book was:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">quicksort</span> <span class="ow">::</span> <span class="p">(</span><span class="kt">Ord</span> <span class="n">a</span><span class="p">)</span> <span class="ow">=&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="ow">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+</span><span class='line'><span class="nf">quicksort</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="kt">[]</span>
+</span><span class='line'><span class="nf">quicksort</span> <span class="p">(</span><span class="n">x</span><span class="kt">:</span><span class="n">xs</span><span class="p">)</span> <span class="ow">=</span>
+</span><span class='line'>    <span class="kr">let</span> <span class="n">smallerOrEqual</span> <span class="ow">=</span> <span class="p">[</span><span class="n">a</span> <span class="o">|</span> <span class="n">a</span> <span class="ow">&lt;-</span> <span class="n">xs</span><span class="p">,</span> <span class="n">a</span> <span class="o">&lt;=</span> <span class="n">x</span><span class="p">]</span>
+</span><span class='line'>        <span class="n">larger</span> <span class="ow">=</span> <span class="p">[</span><span class="n">a</span> <span class="o">|</span> <span class="n">a</span> <span class="ow">&lt;-</span> <span class="n">xs</span><span class="p">,</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">x</span><span class="p">]</span>
+</span><span class='line'>    <span class="kr">in</span> <span class="n">quicksort</span> <span class="n">smallerOrEqual</span> <span class="o">++</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">++</span> <span class="n">quicksort</span> <span class="n">larger</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>So the only real differences is that I have one unnecessary case in my pattern
+matching (<code>quicksort [x] = [x]</code>) and that I use <code>where</code> instead of <code>let</code>. I&rsquo;m
+quite satisfied with that!</p>
+
+<p>The next chapter is on currying, folds and other strange things. From what I
+remember, these things all appeared very odd to me, so I think I&rsquo;ll take that
+tomorrow instead. So I guess I didn&rsquo;t really learn that much today, but it&rsquo;s
+nice to see that I am getting closer to understanding this language.</p>
+
+<p>Anyway, expect a monster update when I&rsquo;m done with the next chapter, because
+there&rsquo;ll be a lot to anchor in my mind by writing about it. Until then,</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Haskell Peculiarities]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/10/more-haskell-peculiarities/"/>
+    <updated>2016-12-10T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/10/more-haskell-peculiarities</id>
+    <content type="html"><![CDATA[<p>My mission to learn Haskell goes on, and I&rsquo;ve now  read about functions. As
+Haskell is a purley functional language, it makes sense that functions are
+quite important and well developed in the language. There are a lot of things
+I really like with the way Haskell does functions that are strange in the eyes
+of an imperative programmer, and I&rsquo;m going to jot some of it down here to try
+to reinforce my own understanding of it.</p>
+
+<p>Let&rsquo;s start with <em>guards</em>. In Haskell, a guard is basically a large if-else
+statement. The syntax is as follows:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">function</span> <span class="n">var</span>
+</span><span class='line'>    <span class="o">|</span> <span class="n">var</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">=</span> <span class="n">statement</span>
+</span><span class='line'>    <span class="o">|</span> <span class="n">var</span> <span class="o">==</span> <span class="mi">2</span> <span class="ow">=</span> <span class="n">statement</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>For instance, if I want to build a function that returns <code>True</code> if the input is
+even I could write it like this</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">even</span><span class="ow">::</span> <span class="p">(</span><span class="kt">Integral</span> <span class="n">a</span><span class="p">)</span> <span class="ow">=&gt;</span> <span class="n">a</span> <span class="ow">-&gt;</span> <span class="kt">Bool</span>
+</span><span class='line'><span class="nf">even</span> <span class="n">x</span>
+</span><span class='line'>   <span class="o">|</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">=</span> <span class="kt">True</span>
+</span><span class='line'>   <span class="o">|</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">=</span> <span class="kt">False</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This makes for code that is quite easy to read, especially when there are a lot
+of different cases to match against. Speaking of cases, there are of course
+switch-case statements in Haskell too, but just like if-statements they aren&rsquo;t
+statements but expressions. That means that the following is valid in Haskell:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">length&#39;</span> <span class="n">xs</span> <span class="ow">=</span> <span class="s">&quot;The list is &quot;</span> <span class="o">++</span> <span class="kr">case</span> <span class="n">xs</span> <span class="kr">of</span> <span class="kt">[]</span>    <span class="ow">-&gt;</span> <span class="s">&quot;empty</span>
+</span><span class='line'><span class="s">                                          [x]   -&gt; &quot;</span><span class="n">a</span> <span class="n">singleton</span><span class="s">&quot;</span>
+</span><span class='line'><span class="s">                                          (x:_) -&gt; &quot;</span><span class="n">a</span> <span class="n">long</span> <span class="n">list</span><span class="s">&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Another thing that I really like is the <code>where</code> binding. It allows you to bind
+an expression to a name in the scope of a function. That means that the <code>even</code>
+function from earlier could be rewritten like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">even</span><span class="ow">::</span> <span class="p">(</span><span class="kt">Integral</span> <span class="n">a</span><span class="p">)</span> <span class="ow">=&gt;</span> <span class="n">a</span> <span class="ow">-&gt;</span> <span class="n">bool</span>
+</span><span class='line'><span class="nf">even</span> <span class="n">x</span>
+</span><span class='line'>     <span class="o">|</span> <span class="n">m</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">=</span> <span class="kt">True</span>
+</span><span class='line'>     <span class="o">|</span> <span class="n">m</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">=</span> <span class="kt">False</span>
+</span><span class='line'>     <span class="kr">where</span> <span class="n">m</span> <span class="ow">=</span> <span class="n">x</span> <span class="p">`</span><span class="n">mod</span><span class="p">`</span> <span class="mi">2</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Finally, there&rsquo;s the <code>let</code> expression. In my opinion (this may well change as I
+get to know the language better) it seems to be most usable in list
+comprehensions, like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="p">[</span><span class="n">double</span> <span class="o">|</span> <span class="n">x</span><span class="ow">&lt;-</span><span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="mi">100</span><span class="p">]</span> <span class="p">,</span> <span class="kr">let</span> <span class="n">double</span><span class="ow">=</span><span class="n">x</span><span class="o">*</span><span class="mi">2</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Anyway, that&rsquo;s what I&rsquo;ve learnt today. Writing this I got some of the syntax
+wrong, but that&rsquo;s to expect when I&rsquo;ve just started out. I think I grasp the
+concepts though, so that&rsquo;s really nice. Next up is recursion, which should be
+a blast. But now I&rsquo;m going to sleep.</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Me a Haskell for Great Good]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
+    <updated>2016-12-09T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
+    <content type="html"><![CDATA[<p>Today I was informed roughly what I will be doing at work next semester (when I
+say &ldquo;roughly&rdquo; I mean that the suggested work load probably is way through the
+roof, and that it will need to be adjusted before the term starts), and one
+of the things I&rsquo;ll be spending my time on is research. Since I am just a
+project assistant and not a PhD student my research will be quite limited by
+time (I will only spend 80 hours on it over the entire semester), but it&rsquo;s
+something.</p>
+
+<p>What my supervisor want me to do is have a look at a parsing library for
+Haskell called <a href="https://github.com/aslatter/parsec">Parsec</a>. There&rsquo;s only one
+problem; I don&rsquo;t know Haskell. Yet. So, today I set out on my journey to learn
+my first functional programming language, and I thought I&rsquo;d let you in on the
+fun. Starting with this post, I will be posting about my progress with learning
+the (to me) new language. Maybe you&rsquo;ll be getting something out of it, maybe
+not. I&rsquo;m going to do it regardless.</p>
+
+<p>So, to start off I want to mention the book I&rsquo;ll be learning from. It&rsquo;s called
+<a href="https://www.nostarch.com/lyah.htm">Learn You a Haskell for Great Good</a>, and is
+published by <a href="https://www.nostarch.com/">No Starch Press</a>. I&rsquo;ll write a review
+of the book once I&rsquo;m done working though it.</p>
+
+<p>Now, without further adue, let&rsquo;s delve into Haskell! (Note that I&rsquo;m mostly by
+no means going to try to teach you Haskell, I&rsquo;m mostly just going to ramble on
+about things I find weird about the language)</p>
+
+<p>As a C and Python programmer, Haskell seems quite strange. It feel a lot like
+Python in the way that it is written, but some things are strange. For
+instance, the following is perfectly legitimate syntax for Haskell:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">foo</span> <span class="n">x</span> <span class="ow">=</span> <span class="p">(</span><span class="kr">if</span> <span class="n">x</span><span class="o">&gt;</span><span class="mi">100</span> <span class="kr">then</span> <span class="n">x</span> <span class="kr">else</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>First of all, this is a function declaration and not a variable assingment. But
+that&rsquo;s not the main thing that&rsquo;s bugging me about this. It&rsquo;s that the <code>if</code>
+itself <em>returns</em> a value, which I can then add <code>1</code> to. As the book expresses
+it: there is no such thing as an <code>if</code> <em>statement</em> in Haksell, there are <code>if</code>
+<em>expressions</em> instead. Very strange.</p>
+
+<p>Another thing that is qutie odd, but does make sense, is the way list items are
+accessed. Coming from imperative languages, I am used to the <code>list[index]</code>
+syntax if I want to access a list element. However, that kind of syntax
+wouldn&rsquo;t be possible in Haskell, since Haskell has no variables. Insted the
+syntax is</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span> <span class="o">!!</span> <span class="mi">3</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This would fetch <code>4</code>, which is the third item of the list. To finish off, I
+want to mention a thing that&rsquo;s really weird with Haskell, but it&rsquo;s something
+I wish all languages did: argument pattern matching. For instance, to build a
+(probably poor) summing function one could do the following:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">sum&#39;</span> <span class="p">(</span><span class="n">x</span><span class="kt">:</span><span class="n">xs</span><span class="p">)</span> <span class="ow">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">sum&#39;</span> <span class="n">xs</span>
+</span><span class='line'><span class="nf">sum&#39;</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="mi">0</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This basically means that the function <code>sum'</code> takes a list, and puts the first
+element in it&rsquo;s own variable. It then adds that to the recursive call to the
+function itself. Once the list is empty (the <code>sum' []</code>), <code>0</code> is returned. No
+<code>if</code> expressions, nothing. Just matching the input with an empty list.
+Bloody brilliant!</p>
+
+<p>Anyway, this post is already way longer than it should, so I&rsquo;m going to sign
+off now.</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Advent of Code 2016]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/06/advent-of-code-2016/"/>
+    <updated>2016-12-06T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/06/advent-of-code-2016</id>
+    <content type="html"><![CDATA[<p>I know, I know. I am terrible at this blogging thing. I will try to post more
+frequently in the future, and I actually have a plan on how to do that. But
+that&rsquo;s for another post. Today I want to talk about winter!</p>
+
+<p>Winter is by far my favorite time of year; you get to drink hot cocoa, wear
+cozy clothes, and you can go outside wihtout dying from the heat. It&rsquo;s the
+bee&rsquo;s knees! But what would winter be without a good advent calendar?</p>
+
+<p>I am of course talking about <a href="http://adventofcode.com">Advent of Code</a>. It&rsquo;s
+a great project to keep your hacker spirit alive over the holidays. Last year
+I tried to follow, and I did for a few days before I lost track of it, but this
+year I&rsquo;m going to finish. So far I&rsquo;ve finished all the tasks, and I have
+learned a couple of things along the way (how to do multithreading i Python
+for example). If you haven&rsquo;t already checked it out, you should click the
+link above right now and join the fun!</p>
+
+<p>That&rsquo;s pretty much all I wanted to say. If you&rsquo;re interested, all my solutions
+are available on <a href="https://github.com/Psyberion/adventofcode2016">github</a>, so
+go check that out!</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Review: The Linux Commandline* by **William E. Shotts, Jr.**]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review/"/>
+    <updated>2016-08-15T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/linux-commandline-review</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s finally time for me to post my first book review! As mentioned I&rsquo;ve wanted
+to do this for quite some time, both to get some more posting here on the blog
+done and to give me an incentive to actually read the books I buy. So here it
+is, the first book review on this blog!</p>
+
+<p>The book I&rsquo;ve (actually) read is
+<a href="https://www.nostarch.com/tlcl"><em>The Linux Commandline</em></a> by <strong>William E. Shotts,
+Jr.</strong>, published by <a href="https://www.nostarch.com/">No Starch Press</a>. The book is
+aimed at people who have just installed Linux and is clueless about where to go
+from there. As such I am quite a bit outside of the target audience, but despite
+this I found the book to be a very good read (I mean, I finished it&hellip;).</p>
+
+<p><em>The Linux Commandline</em> is divided into four parts: Learning the shell;
+Configuration and the Environment; Common Tasks and Essential Tools; and Writing
+Shell Scripts. Just looking at this it is clear that the book covers a great
+many subjects in the world of the Linux commandline. As I said it is aimed at
+complete Linux newbies, and as such it begins at a very basic level. In the very
+first chapter the concept of a <em>shell</em> is explained, along with things such as
+the fact that the shell tells you that no command was found if you try to
+execute random letters. Once that is dealt with the book works it&rsquo;s way from
+commands like <code>cd</code> and <code>ls</code> to more complex commands like <code>sed</code> and how to write
+regular expressions for <code>sed</code>. It covers pipes, redirection, searching with
+<code>find</code> and touches on editing with my personal favorite editor Vim. When all
+these topics are covered, the author shows how to glue it all together using
+<code>if</code>-statements, <code>for</code>-loops and shell functions to build complete shell
+scripts.</p>
+
+<p>It&rsquo;s obvious that the book covers a lot, but the big question is whether or not
+it does it well. To that my answer is yes. As mentioned I am far from the target
+audience with 10 years of working with Linux in my luggage. Despite this I
+actually learned a thing or two from the book. A large part of the book could be
+skimmed, such as descriptions of what <code>ls -l</code> and <code>ls -a</code> do, but some chapters
+were completely new such as how to print files to paper via the CLI. Apart from
+the content being very fleshed out it is also well written in a style that is
+easy to read and learn from. Descriptions are clear and the vast majority of all
+commands covered are also used in an example, so that it is easy for the reader
+to follow along and try things out.</p>
+
+<p>To conclude this is a book that according to me is clearly worth the $39.95. I
+only own it as an e-book, but I am tempted to buy a paperback as well to have a
+physical copy. It is well written, clearly describes how to efficiently work
+with the shell on a basic to intermediate level, and I think that if everyone
+who tried Linux would take the time to work through this their Linux experience
+would be a lot better.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I've Had It With No Man's Sky]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms/"/>
+    <updated>2016-08-15T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/08/15/had-it-with-nms</id>
+    <content type="html"><![CDATA[<p>As probably nobody with even the slightest interest in gaming has missed, the
+hype of the year has finally come out: No Man&rsquo;s Sky. The game where there is an
+infinite, procedurally generated universe to discover and explore, creatures
+created not by careful design but by artifical evolution to marvel at, alien
+cultures to encounter and interact with! Over at
+<a href="https://www.reddit.com/r/NoMansSkyTheGame">/r/NoMansSkyTheGame</a> people have
+torn their hair in anticipation of this game. And I must admit, I was quite
+excited about it as well. Becuase it sounds pretty cool, doesn&rsquo;t it? With all
+that exploration to do, all those discoveries to be made.</p>
+
+<p>Now I&rsquo;ve tried. I really have. I&rsquo;ve spent ten hours over the weekend trying to
+get into it, but I just can&rsquo;t. The game is horrendous. I&rsquo;ve had it. It&rsquo;s not
+just that there&rsquo;s nothing to do in the game, it&rsquo;s also that everything is
+exactly the same and nothing makes sense! For instance I visited a quite
+chilly planet, so to speak. The temperature was at -30 to -60 centrigrades.
+Despite this there were liquid water! Fancy that, no ice! When I then fly over
+to another planet in the same solar system I notice something interesting; the
+exact same plants as I found on another planet <em>in another solar system</em> lives
+there. Not something similar, the <em>exact</em> same but with a (presumably)
+different name. Not to mention the creatures created by the artificial
+evolution.
+<a href="https://twitter.com/Britbongreturns/status/765190830894317568">This</a> post
+by <a href="https://twitter.com/Britbongreturns">@Britbongreturns</a> sums it up quite
+nicely, so I&rsquo;ll leave it at that.</p>
+
+<p>Before I conclude this post, let&rsquo;s go over a few of the selling points on the
+game&rsquo;s <a href="http://store.steampowered.com/app/275850/#app_reviews_hash">Steam page</a>.</p>
+
+<ol>
+<li><p>&ldquo;<em>a galaxy to explore, filled with unique planets and lifeforms, and constant
+ danger and action</em>&rdquo;</p>
+
+<p>Well this is just a downright lie: The planets may be procedurally
+generated, and therefore unique, but apparently reusing every resource
+there is in the game isn&rsquo;t covered by this. Also, if there is so much
+danger and action, how come I haven&rsquo;t experienced neither danger nor
+action?</p></li>
+<li><p>&ldquo;<em>Fly smoothly from deep space to planetary surfaces, with no loading
+ screens, and no limits.</em>&rdquo;</p>
+
+<p>That is actually true! There are no loading screens! Instead there is the
+most terrible texture popping I have ever seen! Not only does it pop in
+textures as you&rsquo;re closing up to them, but it &ldquo;unpops&rdquo; them as well; if you
+have mined out a huge pillar of e.g. gold then you&rsquo;ll still see it at a
+distance! Terrible!</p></li>
+<li><p>&ldquo;<em>At the centre of the galaxy lies a irresistible pulse which draws you on a
+ journey towards it</em>&rdquo;</p>
+
+<p>Huh, the more you know. Apart from the exposition given right here I haven&rsquo;t
+been given any incentive so far for going to the center of the galaxy.
+Weird.</p></li>
+</ol>
+
+
+<p>To conclude this rant I&rsquo;d like to say that I didn&rsquo;t want a 60€ game with
+horrible &ldquo;evolution&rdquo; in it. I already own a game like that: Spore! So now I&rsquo;m
+done with this disappointment. I&rsquo;m going back to buying small, unknown indie
+games via <a href="https://www.humblebundle.com/">HumbleBundle</a>, at least I usually
+enjoy at least they&rsquo;re enjoyable for the most part.</p>
+
+<p>/rant</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World 2.0]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0/"/>
+    <updated>2016-08-10T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/08/10/hello_world_2.0</id>
+    <content type="html"><![CDATA[<p>There we are. I have finally gotten around to rebuilding my blog. I&rsquo;ve been
+mearning to do that for a couple of months, but there&rsquo;s been a lot going on
+lately so I haven&rsquo;t had the time. Until now. I must say that I&rsquo;m quite
+satisfied how it turned out. There are still a couple of things I want to
+add to it, like a commenting feature, but I&rsquo;ll get to that Later<TM>.</p>
+
+<p>Now, I know I&rsquo;ve been worse at posting here than a cat is at barking, but
+I&rsquo;m hoping to change that because I&rsquo;ve got a lot going on! First things first,
+I&rsquo;m planning to work my way though all the books I buy for decoration, I mean
+never get around to reading. What&rsquo;s more is that I&rsquo;m going to review them here
+too! That means that I&rsquo;ll both start reading <em>and</em> posting more! Win-win!</p>
+
+<p>Apart from reviewing printed teachings (and the odd piece of fiction maybe)
+I also have a couple of hardware projects coming up which I&rsquo;m going to share
+with you guys. So hopefully there&rsquo;ll be a lot going on here on the blog in
+the future!</p>
+
+<p>Right now I have to go to sleep though, so I&rsquo;ll see you next time!</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Having a Blast With the RGB Shades]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/12/31/having-a-blast-with-the-rgb-shades/"/>
+    <updated>2015-12-31T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/12/31/having-a-blast-with-the-rgb-shades</id>
+    <content type="html"><![CDATA[<p>The past few weeks I&rsquo;ve been talking with a guy who found my
+video of my first effects for the Shades interesting. By being
+curious and questioning he sparked my interest in the shades again,
+and I&rsquo;ve been quite busy lately making tutorials and developing
+code for the shades. With this post I wanted to share my latest
+videos of effects and tutorials. I hope you&rsquo;ll enjoy!</p>
+
+<p>I also, before bombarding you with youtube videos, want to say
+that I have a larger project going on for the Shades. I&rsquo;ll be
+unveiling it when I feel that it&rsquo;s polished enough, but I can
+say that I am already quite satisfied with the results I&rsquo;ve gotten.
+I&rsquo;m not sure what I want to do with it, but I guess I&rsquo;ll find that out.</p>
+
+<p>Anyway, that&rsquo;s all I had to say. So until next time, enjoy the videos
+and happy hacking!</p>
+
+<h2>RGB Shades effects - Matrix and EKG</h2>
+
+<p><a href="https://www.youtube.com/watch?v=QKdAtJbWDMc" title="RGB Shades effects - Matrix and EKG"><img src="http://i.imgur.com/z2AQ5w3.png" alt="Matrix" /></a></p>
+
+<h2>I wonder how to&hellip; Scroll shapes with the RGB Shades</h2>
+
+<p><a href="https://www.youtube.com/watch?v=Ezm3to9LIE8" title="I wonder how to... Scroll shapes with the RGB Shades"><img src="http://i.imgur.com/Ginppz8.png" alt="Scroll" /></a></p>
+
+<h2>I wonder how to&hellip; Scroll advanced shapes with the RGB Shades</h2>
+
+<p><a href="https://www.youtube.com/watch?v=IN2I0QsI9gU" title="I wonder how to... Scroll advanced shapes with the RGB Shades"><img src="http://i.imgur.com/OUNbNvw.png" alt="ScrollAdvanced" /></a></p>
+
+<h2>I wonder how to&hellip; Make basic animations with the RGB Shades</h2>
+
+<p><a href="https://www.youtube.com/watch?v=Z2rospks8MI" title="I wonder how to... Make basic animations with the RGB Shades"><img src="http://i.imgur.com/ArbZjtI.png" alt="Animate" /></a></p>
+
+<h2>I wonder how to&hellip; Add a splash of color to your animations</h2>
+
+<p><a href="https://www.youtube.com/watch?v=ICUm4YINVk4" title="I wonder how to... Add a splash of color to your animations"><img src="http://i.imgur.com/29wLVBI.png" alt="Color" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Ricing]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing/"/>
+    <updated>2015-11-22T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/11/22/first-ricing</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been a while, and since I have something to share I
+thought this might be a good time to pick up this blogging
+business again.</p>
+
+<p>I have started with Linux ricing, i.e. doing &ldquo;unecessary
+modifications&rdquo; to my Linux system. I&rsquo;ve only been at it
+for little more than a day, but I must say that I quite
+enjoy it. There&rsquo;s a long way to go before I get to one
+of the increadible ricings displayed over at
+<a href="http://reddit.com/r/unixporn">r/unixporn</a>, which is a
+subreddit devoted to UNIX ricing. But I would say that
+my current rice is at least a decent start.</p>
+
+<p><img src="http://i.imgur.com/dxNRCjU.png" alt="rice" /></p>
+
+<p>I will keep up the good work, and hope to one day
+reach a wizardly look on my Debian system!</p>
+
+<p>If anyone is interested in trying my rice out,
+or have a look at the dotfiles, they&rsquo;re all
+<a href="https://github.com/Psyberion/ricedotfiles">available here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pump Up the SWAG]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/05/31/pump-up-the-swag/"/>
+    <updated>2015-05-31T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/05/31/pump-up-the-swag</id>
+    <content type="html"><![CDATA[<p>They are here. The long wait has been ended. After a couple of months, I now sit here as a
+proud owner of <a href="http://www.macetech.com/">Macetech</a>&rsquo;s brilliant invention
+the <a href="http://macetech.com/store/index.php?main_page=product_info&amp;cPath=14&amp;products_id=59&amp;zenid=121ac6e4b163befd0309e0ecf8399002">RGB-shades</a>.
+The shades is a piece of wearable electronics which consists of a controller and an LED-matrix
+in the shape of a pair of shutter shades. They use the same microcontroller as an Arduino Pro, and
+can as such be programmed like one.</p>
+
+<p>I have not spent too much time programming them so far, but I can tell you that they are awesome.
+I do not regret buying this one second, and I will enjoy hacking them. I plan on building a small
+circuit to make them follow the beat of the music at least, and hopefully I can come up with
+some other cool extension to them as well.</p>
+
+<p><a href="https://youtu.be/1OGp4D2f118">Meanwhile, enjoy my small &ldquo;demo&rdquo; of the patterns I&rsquo;ve programmed so far.</a></p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Real Tools Are Costly]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/05/19/real-tools-are-costly/"/>
+    <updated>2015-05-19T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/05/19/real-tools-are-costly</id>
+    <content type="html"><![CDATA[<p>So, I&rsquo;ve gotten my &ldquo;metal files&rdquo; from China now. I tried filing down one of the metal brush hairs I&rsquo;ve found which I want to use for material when making lockpicks. However, the files were rubbish. Sure, they are technically metal files as they are made from metal, but they are not build to work on metal. When I tried shaping a pick for myself the file I was trying out was filed down itself. I am a bit dissappointed, but I didn&rsquo;t really expect anything else considering the files are from China and cost about 1€ for 10pc. The moral of the story is that good tools are expensive, and that you should not order them from eBay but buy them from a hardware store. Oh well, it was worth a shot, better luck next time etc.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spring Is Lockpicking My Door]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/04/29/spring-is-lockpicking-my-door/"/>
+    <updated>2015-04-29T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/04/29/spring-is-lockpicking-my-door</id>
+    <content type="html"><![CDATA[<p>Spring is here, and for a beginner lockpicker this is great news!
+Why is it so? Because the streets are being cleaned. That means that machines
+with large with large steel (spring steel even, I believe) brushes are roaming
+the streets. This is good because all of a sudden the streets aren&rsquo;t littered
+with just grovel, twigs and dust, they are also littered with (spring) steel
+brush &ldquo;hairs&rdquo; which happen to be the perfect size to make your own lockpicking
+tools. Unfortunately, I&rsquo;ve only found three, but I will keep my eyes open.</p>
+
+<p>The plan now is to get myself some metal files. I&rsquo;ve found really cheap ones at
+eBay, the Lord and Saviour, and I plan to buy these. As they&rsquo;re shipped from China
+it might take a while for them to come to Sweden, but I guess I&rsquo;ll have to be patient.
+I plan to clean up the &ldquo;hairs&rdquo; while I wait, and also try making a tension tool, which
+really just requires a vice (which I already own).</p>
+
+<p>So that&rsquo;s pretty much it for now. I&rsquo;ll write another post when I have made the tension
+tool and tried that out. Until then!</p>
 
 <p>Happy Hacking!</p>
 ]]></content>

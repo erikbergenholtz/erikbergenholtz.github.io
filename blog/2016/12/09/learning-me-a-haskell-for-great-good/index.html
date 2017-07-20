@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Learning Me a Haskell for Great Good - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Today I was informed roughly what I will be doing at work next semester (when I
+say &ldquo;roughly&rdquo; I mean that the suggested work load &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="$ghname.github.io/$ghname">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Learning Me a Haskell for Great Good</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-12-09T23:00:00+01:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>11:00 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Today I was informed roughly what I will be doing at work next semester (when I
+say &ldquo;roughly&rdquo; I mean that the suggested work load probably is way through the
+roof, and that it will need to be adjusted before the term starts), and one
+of the things I&rsquo;ll be spending my time on is research. Since I am just a
+project assistant and not a PhD student my research will be quite limited by
+time (I will only spend 80 hours on it over the entire semester), but it&rsquo;s
+something.</p>
+
+<p>What my supervisor want me to do is have a look at a parsing library for
+Haskell called <a href="https://github.com/aslatter/parsec">Parsec</a>. There&rsquo;s only one
+problem; I don&rsquo;t know Haskell. Yet. So, today I set out on my journey to learn
+my first functional programming language, and I thought I&rsquo;d let you in on the
+fun. Starting with this post, I will be posting about my progress with learning
+the (to me) new language. Maybe you&rsquo;ll be getting something out of it, maybe
+not. I&rsquo;m going to do it regardless.</p>
+
+<p>So, to start off I want to mention the book I&rsquo;ll be learning from. It&rsquo;s called
+<a href="https://www.nostarch.com/lyah.htm">Learn You a Haskell for Great Good</a>, and is
+published by <a href="https://www.nostarch.com/">No Starch Press</a>. I&rsquo;ll write a review
+of the book once I&rsquo;m done working though it.</p>
+
+<p>Now, without further adue, let&rsquo;s delve into Haskell! (Note that I&rsquo;m mostly by
+no means going to try to teach you Haskell, I&rsquo;m mostly just going to ramble on
+about things I find weird about the language)</p>
+
+<p>As a C and Python programmer, Haskell seems quite strange. It feel a lot like
+Python in the way that it is written, but some things are strange. For
+instance, the following is perfectly legitimate syntax for Haskell:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">foo</span> <span class="n">x</span> <span class="ow">=</span> <span class="p">(</span><span class="kr">if</span> <span class="n">x</span><span class="o">&gt;</span><span class="mi">100</span> <span class="kr">then</span> <span class="n">x</span> <span class="kr">else</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>First of all, this is a function declaration and not a variable assingment. But
+that&rsquo;s not the main thing that&rsquo;s bugging me about this. It&rsquo;s that the <code>if</code>
+itself <em>returns</em> a value, which I can then add <code>1</code> to. As the book expresses
+it: there is no such thing as an <code>if</code> <em>statement</em> in Haksell, there are <code>if</code>
+<em>expressions</em> instead. Very strange.</p>
+
+<p>Another thing that is qutie odd, but does make sense, is the way list items are
+accessed. Coming from imperative languages, I am used to the <code>list[index]</code>
+syntax if I want to access a list element. However, that kind of syntax
+wouldn&rsquo;t be possible in Haskell, since Haskell has no variables. Insted the
+syntax is</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span> <span class="o">!!</span> <span class="mi">3</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This would fetch <code>4</code>, which is the third item of the list. To finish off, I
+want to mention a thing that&rsquo;s really weird with Haskell, but it&rsquo;s something
+I wish all languages did: argument pattern matching. For instance, to build a
+(probably poor) summing function one could do the following:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='haskell'><span class='line'><span class="nf">sum&#39;</span> <span class="p">(</span><span class="n">x</span><span class="kt">:</span><span class="n">xs</span><span class="p">)</span> <span class="ow">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">sum&#39;</span> <span class="n">xs</span>
+</span><span class='line'><span class="nf">sum&#39;</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="mi">0</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This basically means that the function <code>sum'</code> takes a list, and puts the first
+element in it&rsquo;s own variable. It then adds that to the recursive call to the
+function itself. Once the list is empty (the <code>sum' []</code>), <code>0</code> is returned. No
+<code>if</code> expressions, nothing. Just matching the input with an empty list.
+Bloody brilliant!</p>
+
+<p>Anyway, this post is already way longer than it should, so I&rsquo;m going to sign
+off now.</p>
+
+<p>Happy hacking!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2016-12-09T23:00:00+01:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>11:00 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/books/'>books</a>, <a class='category' href='/blog/categories/haskell/'>haskell</a>, <a class='category' href='/blog/categories/programming/'>programming</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good/" data-via="" data-counturl="http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/12/06/advent-of-code-2016/" title="Previous Post: Advent of Code 2016">&laquo; Advent of Code 2016</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2016/12/10/more-haskell-peculiarities/" title="Next Post: More Haskell Peculiarities">More Haskell Peculiarities &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/">Book Review - Ansible: From Beginner to Pro</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/18/hello-world-v3-dot-0/">Hello World! v3.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/">My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/10/initial-impressions-bhp/">Initial Impressions: Black Hat Python</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/01/14/review-learn-you-a-haskell/">Book Review: Learn You a Haskell for Great Good</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

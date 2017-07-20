@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Initial Impressions: Black Hat Python - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="The other day I dug my teeth into a new piece of literature:
+Black Hat Python: Python Programming for Hackers and Pentesters
+by No Starch Press. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://$ghname.github.io/$ghname/blog/2017/07/10/initial-impressions-bhp/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="$ghname.github.io/$ghname">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Initial Impressions: Black Hat Python</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-07-10T00:00:00+02:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The other day I dug my teeth into a new piece of literature:
+<a href="https://www.nostarch.com/blackhatpython">Black Hat Python: Python Programming for Hackers and Pentesters</a>
+by <a href="https://www.nostarch.com/">No Starch Press</a>. Anyone who&rsquo;s spent more then
+five minutes on this site probably knows that No Starch is my favorite publisher
+and that I think they usually publish books of high quality. Spoiler alert; this
+book does not fall in that category.</p>
+
+<p>Before I go on, I want to give a short disclaimer though. This is by no means a
+<em>book review</em>. I have not read the whole thing cover to cover (yet), I have just
+read the first few chapters and put it away because I really disliked the way
+the author&rsquo;s style of teaching. I plan on reading the full thing at some point
+and give a <em>proper</em> review, but I want to give some kind of a heads up for
+anyone reading. So, let&rsquo;s do it!</p>
+
+<p>First off, I was quite excited to read this. I enjoy working with Python, and
+would say that it&rsquo;s probably the language I use the most. I&rsquo;m also quite
+interested in computer security, and one of my previous goals was to become a
+professional pentester. So obviously this book was quite appealing. The book is
+written by Justin Seitz, who at the time of writing writing the book worked at
+Immunity Inc with security analysis. He&rsquo;s also written another book for No
+Starch Press called <a href="https://www.nostarch.com/ghpython.htm">Gray Hat Python</a>
+(which I&rsquo;ll get arount to reading Soon™), so it all seems good! The book covers
+a range of topics, from how to set up the testing environment to how to automate
+forenic tasks, spread trojans via github, and playing around with the network.
+From just looking at it from the outside, it looks like a really nice book (it
+has a nice cover too!)</p>
+
+<p>Unfortunately, as the saying goes, you should not judge a book by it&rsquo;s cover.
+While the text itself holds up to the quality of the other No Starch books I&rsquo;ve
+read, the actual <em>content</em> of the book does not. Each section in the book
+describes a problem, like needing a quick way to send commands to a compromised
+server. The text then guides you through a solution to the problem, and this is
+where the problems start. Firstly, the solution is presented <em>before</em> the
+explanation of even the steps to take. This might seem like a small issue, and
+maybe it is for some, but I prefer to give it a go myself first, <em>before</em> I look
+at a solution. I know this might be hard with books like this, but just listing
+what the solution must do isn&rsquo;t too much to ask, is it? The second thing that
+bugged me, which is what made me put the book away, is the actual explanations
+themselves. They are really short, and don&rsquo;t explain much at all. To showcase
+this, let&rsquo;s have a look at the following example:</p>
+
+<pre><code>class Server (paramiko.ServerInterface):
+    def _init_(self):
+        self.event = threading.Event()
+    def check_channel_request(self, kind, chanid):
+        if kind == 'session':
+            return paramiko.OPEN_SUCCEEDED
+        return paramiko.OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED
+    def check_auth_password(self, username, password):
+        if (username == 'justin') and (password == 'lovesthepython'):
+            return paramiko.AUTH_SUCCESSFUL
+        return paramiko.AUTH_FAILED
+</code></pre>
+
+<p>A simple enough python class, that is used to build an SSH-server to send
+commands through to the client, which is uploaded to the victim. The
+explanation for the code is as follows:</p>
+
+<blockquote><p>just like we did earlier in the chapter, and then SSHinize it</p></blockquote>
+
+<p>This is not the first thing the book covered on SSH using the Paramiko library,
+but a class was never used. Also, none of the Paramiko flags were used earlier.
+But their names are good, so it&rsquo;s easy enough to understand the function of the
+Server-class anyway. Now, let&rsquo;s skip forward in the code:</p>
+
+<pre><code>bhSession = paramiko.Transport(client)
+bhSession.add_server_key(host_key)
+server = Server()
+try:
+    bhSession.start_server(server=server)
+except paramiko.SSHException, x:
+    print '[-] SSH negotiation failed.'
+chan = bhSession.accept(20)
+</code></pre>
+
+<p>None of this has been used before, but it&rsquo;s all pretty obvious; set <code>client</code> (
+which is an already connected socket) as the socket on which to transport the
+SSH session, add a keyfile, build a server-object and use that as the server.
+The explanation for this is</p>
+
+<blockquote><p>configure the authentication methods</p></blockquote>
+
+<p>I&rsquo;m sorry, what? I guess this is technically correct, but it doesn&rsquo;t explain
+<em>anything</em>. Sure, it&rsquo;s not that hard to understand, but still. The thing that
+really annoys me is this: <code>bhSession.start_server(server=server)</code>. <code>bhSession</code>
+is a paramiko-object of some kind, and to that objects member function
+<code>start_server()</code> we pass our homebrewed Server-class. This means that, since
+it will be used by a function in a library, the Server-class have to have some
+functions and variables that should respond to different things. These are quite
+important pieces of information if you want to build something yourself rather
+than just copy and paste from a book. Alas, if I want to learn that I have to
+consult the Paramiko documentation, because there isn&rsquo;t an explanation within
+sight in the book.</p>
+
+<p>I really don&rsquo;t mind reading documentation, but I do mind paying $34 for a book
+that supposedly should teach me something, only to be forced to read open
+documentation if I want more understanding than copying, pasting and running can
+give. Fortunately I got the book in a HumbleBundle, so I hardly payed for it.
+And maybe it gets better later in the book, but right now I don&rsquo;t have time to
+find out. As I said, this is very much a first imporession of the book and I
+will get back to it. I just really think it&rsquo;s a shame that they didn&rsquo;t make it
+twice as long (it&rsquo;s just short of 165 pages) and elaborated on the explanations
+more, so that you don&rsquo;t need to consult the documentation to understand what&rsquo;s
+going on.</p>
+
+<p>That&rsquo;s it for my rant on this book. I&rsquo;ll revisit it Sometime™ and write a real
+review. But for now this will have to do. I&rsquo;ll have a review on another book I
+recently read shortly, but until then</p>
+
+<p>Happy Hacking!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-07-10T00:00:00+02:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>12:00 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/books/'>books</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://$ghname.github.io/$ghname/blog/2017/07/10/initial-impressions-bhp/" data-via="" data-counturl="http://$ghname.github.io/$ghname/blog/2017/07/10/initial-impressions-bhp/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/01/14/review-learn-you-a-haskell/" title="Previous Post: Book review: Learn You a Haskell for Great Good">&laquo; Book review: Learn You a Haskell for Great Good</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/" title="Next Post: My thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook">My thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/">Book Review - Ansible: From Beginner to Pro</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/18/hello-world-v3-dot-0/">Hello World! v3.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/">My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/10/initial-impressions-bhp/">Initial Impressions: Black Hat Python</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/01/14/review-learn-you-a-haskell/">Book Review: Learn You a Haskell for Great Good</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tags: Haskell | My Octopress Blog]]></title>
+  <link href="http://$ghname.github.io/$ghname/blog/categories/haskell/atom.xml" rel="self"/>
+  <link href="http://$ghname.github.io/$ghname/"/>
+  <updated>2017-07-20T11:09:58+02:00</updated>
+  <id>http://$ghname.github.io/$ghname/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Book Review: Learn You a Haskell for Great Good]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2017/01/14/review-learn-you-a-haskell/"/>
+    <updated>2017-01-14T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2017/01/14/review-learn-you-a-haskell</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been a long time coming, but now I am finally done reading
+<a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good</a>, so it is
+time for me not only to get coding, but also to review the book!</p>
+
+<p>Haskell is a language that I&rsquo;ve been eyeballing for quite some time, but I have
+hesitated to get started with it due to it being a functional programming
+language. As a guy coming from a mainly imperative background (I do most work
+in C or Python), this is quite different and without a good tutorial it seemed
+quite inaccessible. Luckily for me, Learn You a Haskell showed up on
+<a href="https://humblebundle.com">HumbleBundle</a> a while ago, so I took the opportunity
+to buy it.</p>
+
+<p>The book is aimed at people like me: people experienced in programming, but new
+to functional programming. The book guides the reader though the core concepts
+of Haskell in a conversational tone that is riddled with examples. The language
+is easy to follow, and new concepts are described clearly. The powerfulness of
+the language is shown both through descriptions in the text, but also with the
+examples. In general I would say that it&rsquo;s a really good book that is very
+worth reading.</p>
+
+<p>However, the book has one downside; its lack of exercises. As mentioned, it is
+full of examples, and they do great job at showing how things work and how
+powerful the language is when used correctly. Unfortunately there are no clear
+exercises. Some of the examples are extended through description, where the
+actual implementation of the extension is left as an exercise to the reader,
+but as someone who want to learn how to work with the language and have never
+done anything functional before it is hard to come up with exercises for
+yourself. I really do think that the book would benefit a lot from having
+explicit tasks to do yourself at the end of each chapter. As it is now, I am
+quite confident that I understand the concepts of the language after reading
+the book, but I am far from confident with coding in it. Of course I would not
+have become a Haskell wizard by reading the book even if it did have exercises,
+but I think I would&rsquo;ve been closer.</p>
+
+<p>Regardless I think that it is a really good book, and a really good
+introduction to both Haskell and functional programming, and I am looking
+forward to getting to know Haskell in a more practical way. As a final note
+I&rsquo;d like to recommend it if you&rsquo;re interested in learning Haskell. There are a
+lot of very large and crooked questionmarks surrounding the world of functional
+programming if you&rsquo;re from an imperative or object oriented background, but the
+book does a great job of straightening those into exclamation marks.</p>
+
+<p>Now, I am going to delve into the next book, which will be
+<a href="http://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf">How to Prove it</a>,
+a review of that will come when I&rsquo;m done working through it.</p>
+
+<p>Until the next time,</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Classy With Haskell]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/18/getting-classy-with-haskell/"/>
+    <updated>2016-12-18T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/18/getting-classy-with-haskell</id>
+    <content type="html"><![CDATA[<p>I thought that the next post I was going to do would be one on higher order
+functions. In fact, I started writing one a couple of times, but it just didn&rsquo;t
+seem necessary. Why was that? Well, it all actually made sense. I had a read
+through the chapter, and the theory wan&rsquo;t that hard. Once I had also
+reimplemented the fold and scan functions recusively myself I felt that I had
+a quite solid grip on higher order functions. And man, are they powerful!</p>
+
+<p>Now I&rsquo;ve moved forward, past modules and into the end of defining my own
+data types. While that is itself quite straight forward, there are quite
+a few things that aren&rsquo;t exactly odd, but they need to be remebered, so I&rsquo;m
+jotting it down here.</p>
+
+<p>To star off, if you want to define a new data type you use the <code>data</code> keyword.
+It looks like this:</p>
+
+<pre><code class="haskell">data TrafficLight = Red | Yellow | Green
+</code></pre>
+
+<p>This will create a data type called <code>TrafficLight</code>, of which we can create the
+values <code>Red</code>, <code>Yellow</code> and <code>Green</code> using it&rsquo;s <em>value constructors</em>. While this
+is a perfectly fine class, we can&rsquo;t print it to the terminal, read it from a
+string, order it or check if it&rsquo;s values are equal at present. To fix that we
+could do the following:</p>
+
+<pre><code class="haskell">data TrafficLight = Red | Yellow | Green deriving (Show, Read, Eq, Ord)
+</code></pre>
+
+<p>This allow us to do everything stated above. The <code>Eq</code> type class (we&rsquo;ll get to
+that later) allow us to equate elements. The default behaviour is that
+<code>Red == Red</code> is true, while <code>Red == Green</code> is false. The <code>Ord</code> allow us to
+order the values. The default behaviour for this type class is that the value
+constructors <em>to the left</em> are <strong>smaller</strong> than the ones on the right. I.e., in
+this example <code>Red &lt; Green</code> is true while <code>Yellow &gt; Green</code> is false, because of
+the order they&rsquo;re defined in the type definition.</p>
+
+<p>It is also possible to define a new data type using a class constructor. This
+is something that&rsquo;s been used in the type definitions of functions through out
+the book, and isn&rsquo;t that strange really. For instance, a simple binary search
+tree could be implemented like this:</p>
+
+<pre><code class="haskell">data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Ord, Eq, Show)
+</code></pre>
+
+<p>Using this kind of declaration, it is possible to store any data type in the
+tree, as long as it is orderable and equatable. Which makes sense, since it&rsquo;s a
+BST.</p>
+
+<p>We can also use the register syntax to add some additional context to our data
+type:</p>
+
+<pre><code class="haskell">data Person = { firstname :: String
+              , lastname  :: String
+              , birthyear :: Int
+              }
+</code></pre>
+
+<p>All this is quite straight forward, if a bit much to take in all at once. But
+it quite makes sense anyway. Now, let&rsquo;s get into the really strange things.
+Let&rsquo;s start off with instances.</p>
+
+<p>Earlier I showed that in order to make the value constructors of a class
+equatable (is that even a word? Sounds weird) you need to derive the <code>Eq</code> type
+class in your data type. This imposes some default behaviour, as described. If
+you for some reason aren&rsquo;t happy with this default behaviour you can go around
+it by making your type an <em>instance</em> of <code>Eq</code>, like this (I&rsquo;m using the
+TrafficLight type for this example):</p>
+
+<pre><code class="haskell">instance Eq TrafficLight where
+    Red == Red = True
+    Yellow == Yellow = True
+    Green == Green = True
+    _ == _ = False
+</code></pre>
+
+<p>This basically says that <code>Red == Red</code> is true, and so is <code>Yellow == Yellow</code> and
+<code>Green == Green</code>. All other combinations, however, are false. This overrides
+how <code>Eq</code> typically behaves (and in this case, replaces the behaviour with an
+identical behaviour). I can really see how this is useful, as it bares some
+resemblance to defining your own equality operator (or the like; this works for
+any type class) in C++.</p>
+
+<p>Next up is actual type classes, and inheritance from those. Coming from a (sort
+of) object oriented (I bloody hate object oriented programming..) background,
+this seems quite strange. A class in Haskell isn&rsquo;t like a class in C++; a bunch
+of functions and variables crammed together into one name. In Haskel, it&rsquo;s just
+a collection of type definitions for functions. In other words, it&rsquo;s kind of
+like a C++ class with no variables and only virtual functions. If you have a
+class that itself is a type constructor, then you can make the class a subclass
+of another class. For instance, the <code>Ord</code> class is a subclass of <code>Eq</code>,
+because it makes sense that any data types that are orderable are also
+equatable.</p>
+
+<p>As a grand finale of this monstrosity of a post, we have functors. Oh dear, how
+weird functors seemed at first. A type class that is meant for things that can
+be mapped. It sounded so strange at first, but once I realized how it could
+be utilized for any data type that can either be empty, or contain something,
+it was quite obvious how awesome this was. For instance, the <code>Tree</code> I
+defined earlier has the following definition:</p>
+
+<pre><code class="haskell">data Tree a = EmptyTree | Node a (Tree a) (Tree a) derives (Show)
+</code></pre>
+
+<p>Now, say I want to write a function that traverses all of the tree and applies
+an arbitrary function to the values of each node. Using functors it&rsquo;s as easy
+as:</p>
+
+<pre><code class="haskell">instance Functor Tree where
+    fmap _ EmptyTree = EmptyTree
+    fmap f (Node a b c) = Node (f a) (fmap f b) (fmap f c)
+</code></pre>
+
+<p>That&rsquo;s it! I tell Haskell that I want to make the Tree type an instance of the
+Functor class, I define how I want the <code>fmap</code> function to act on the tree and
+as a result I can now multiply all node values of a tree of integers like this:</p>
+
+<pre><code class="haskell">fmap (*2) tree
+</code></pre>
+
+<p>It goes over the tree and builds a new tree. Writing this I realize that doing
+this with a normal function would actually work the exact same way, but I am
+sure that functors have some advantage over normal functions that I just don&rsquo;t
+see with my inexperienced eyes.</p>
+
+<p>So, after a long read (both for me and you) we&rsquo;re finally at the end of this
+post (and the chapters on types and classes in &ldquo;Learn you a Haskell&rdquo;). It&rsquo;s
+been quite the journey, and it has taken me a couple of days to get here, which
+makes sense considering I&rsquo;ve had to forget everything I know about classes. But
+Haskell&rsquo;s type system seems really cool, and I look forward to getting to know
+it better! But now I&rsquo;ll take a break. Until next time,</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Like Recursive]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/11/i-like-recursive/"/>
+    <updated>2016-12-11T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/11/i-like-recursive</id>
+    <content type="html"><![CDATA[<p>Here we are again, another post about Haskell. To star off I just want to say
+that I am having a blast learning this, and that I think I am getting the
+hang of it. I&rsquo;ve gone through recursion today, which isn&rsquo;t really a new concept
+to me, but it&rsquo;s tricky to know what to do in a completely new language.
+However, I managed to write all example function from the book on my own, which
+I think is a sign that I am starting to get this. For instance, I came up with
+this solution to writing quicksort:</p>
+
+<pre><code class="haskell">quicksort :: (Ord a) =&gt; [a] -&gt; [a]
+quicksort [] = []
+quicksort [x] = [x]
+quicksort (x:xs) = quicksort lower ++ [x] ++ quicksort higher
+    where lower  = [y | y &lt;- xs, y&lt;=x]
+          higher = [z | z &lt;- xs, z &gt;x]
+</code></pre>
+
+<p>The definition in the book was:</p>
+
+<pre><code class="haskell">quicksort :: (Ord a) =&gt; [a] -&gt; [a]
+quicksort [] = []
+quicksort (x:xs) =
+    let smallerOrEqual = [a | a &lt;- xs, a &lt;= x]
+        larger = [a | a &lt;- xs, a &gt; x]
+    in quicksort smallerOrEqual ++ [x] ++ quicksort larger
+</code></pre>
+
+<p>So the only real differences is that I have one unnecessary case in my pattern
+matching (<code>quicksort [x] = [x]</code>) and that I use <code>where</code> instead of <code>let</code>. I&rsquo;m
+quite satisfied with that!</p>
+
+<p>The next chapter is on currying, folds and other strange things. From what I
+remember, these things all appeared very odd to me, so I think I&rsquo;ll take that
+tomorrow instead. So I guess I didn&rsquo;t really learn that much today, but it&rsquo;s
+nice to see that I am getting closer to understanding this language.</p>
+
+<p>Anyway, expect a monster update when I&rsquo;m done with the next chapter, because
+there&rsquo;ll be a lot to anchor in my mind by writing about it. Until then,</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Haskell Peculiarities]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/10/more-haskell-peculiarities/"/>
+    <updated>2016-12-10T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/10/more-haskell-peculiarities</id>
+    <content type="html"><![CDATA[<p>My mission to learn Haskell goes on, and I&rsquo;ve now  read about functions. As
+Haskell is a purley functional language, it makes sense that functions are
+quite important and well developed in the language. There are a lot of things
+I really like with the way Haskell does functions that are strange in the eyes
+of an imperative programmer, and I&rsquo;m going to jot some of it down here to try
+to reinforce my own understanding of it.</p>
+
+<p>Let&rsquo;s start with <em>guards</em>. In Haskell, a guard is basically a large if-else
+statement. The syntax is as follows:</p>
+
+<pre><code class="haskell">function var
+    | var == 1 = statement
+    | var == 2 = statement
+</code></pre>
+
+<p>For instance, if I want to build a function that returns <code>True</code> if the input is
+even I could write it like this</p>
+
+<pre><code class="haskell">even:: (Integral a) =&gt; a -&gt; Bool
+even x
+   | x `mod` 2 == 0 = True
+   | x `mod` 2 == 1 = False
+</code></pre>
+
+<p>This makes for code that is quite easy to read, especially when there are a lot
+of different cases to match against. Speaking of cases, there are of course
+switch-case statements in Haskell too, but just like if-statements they aren&rsquo;t
+statements but expressions. That means that the following is valid in Haskell:</p>
+
+<pre><code class="haskell">length' xs = "The list is " ++ case xs of []    -&gt; "empty
+                                          [x]   -&gt; "a singleton"
+                                          (x:_) -&gt; "a long list"
+</code></pre>
+
+<p>Another thing that I really like is the <code>where</code> binding. It allows you to bind
+an expression to a name in the scope of a function. That means that the <code>even</code>
+function from earlier could be rewritten like this:</p>
+
+<pre><code class="haskell">even:: (Integral a) =&gt; a -&gt; bool
+even x
+     | m == 0 = True
+     | m == 1 = False
+     where m = x `mod` 2
+</code></pre>
+
+<p>Finally, there&rsquo;s the <code>let</code> expression. In my opinion (this may well change as I
+get to know the language better) it seems to be most usable in list
+comprehensions, like this:</p>
+
+<pre><code class="haskell">[double | x&lt;-[1..100] , let double=x*2]
+</code></pre>
+
+<p>Anyway, that&rsquo;s what I&rsquo;ve learnt today. Writing this I got some of the syntax
+wrong, but that&rsquo;s to expect when I&rsquo;ve just started out. I think I grasp the
+concepts though, so that&rsquo;s really nice. Next up is recursion, which should be
+a blast. But now I&rsquo;m going to sleep.</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Me a Haskell for Great Good]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
+    <updated>2016-12-09T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
+    <content type="html"><![CDATA[<p>Today I was informed roughly what I will be doing at work next semester (when I
+say &ldquo;roughly&rdquo; I mean that the suggested work load probably is way through the
+roof, and that it will need to be adjusted before the term starts), and one
+of the things I&rsquo;ll be spending my time on is research. Since I am just a
+project assistant and not a PhD student my research will be quite limited by
+time (I will only spend 80 hours on it over the entire semester), but it&rsquo;s
+something.</p>
+
+<p>What my supervisor want me to do is have a look at a parsing library for
+Haskell called <a href="https://github.com/aslatter/parsec">Parsec</a>. There&rsquo;s only one
+problem; I don&rsquo;t know Haskell. Yet. So, today I set out on my journey to learn
+my first functional programming language, and I thought I&rsquo;d let you in on the
+fun. Starting with this post, I will be posting about my progress with learning
+the (to me) new language. Maybe you&rsquo;ll be getting something out of it, maybe
+not. I&rsquo;m going to do it regardless.</p>
+
+<p>So, to start off I want to mention the book I&rsquo;ll be learning from. It&rsquo;s called
+<a href="https://www.nostarch.com/lyah.htm">Learn You a Haskell for Great Good</a>, and is
+published by <a href="https://www.nostarch.com/">No Starch Press</a>. I&rsquo;ll write a review
+of the book once I&rsquo;m done working though it.</p>
+
+<p>Now, without further adue, let&rsquo;s delve into Haskell! (Note that I&rsquo;m mostly by
+no means going to try to teach you Haskell, I&rsquo;m mostly just going to ramble on
+about things I find weird about the language)</p>
+
+<p>As a C and Python programmer, Haskell seems quite strange. It feel a lot like
+Python in the way that it is written, but some things are strange. For
+instance, the following is perfectly legitimate syntax for Haskell:</p>
+
+<pre><code class="haskell">foo x = (if x&gt;100 then x else x*2)+1
+</code></pre>
+
+<p>First of all, this is a function declaration and not a variable assingment. But
+that&rsquo;s not the main thing that&rsquo;s bugging me about this. It&rsquo;s that the <code>if</code>
+itself <em>returns</em> a value, which I can then add <code>1</code> to. As the book expresses
+it: there is no such thing as an <code>if</code> <em>statement</em> in Haksell, there are <code>if</code>
+<em>expressions</em> instead. Very strange.</p>
+
+<p>Another thing that is qutie odd, but does make sense, is the way list items are
+accessed. Coming from imperative languages, I am used to the <code>list[index]</code>
+syntax if I want to access a list element. However, that kind of syntax
+wouldn&rsquo;t be possible in Haskell, since Haskell has no variables. Insted the
+syntax is</p>
+
+<pre><code class="haskell">[1, 2, 3, 4, 5] !! 3
+</code></pre>
+
+<p>This would fetch <code>4</code>, which is the third item of the list. To finish off, I
+want to mention a thing that&rsquo;s really weird with Haskell, but it&rsquo;s something
+I wish all languages did: argument pattern matching. For instance, to build a
+(probably poor) summing function one could do the following:</p>
+
+<pre><code class="haskell">sum' (x:xs) = x + sum' xs
+sum' [] = 0
+</code></pre>
+
+<p>This basically means that the function <code>sum'</code> takes a list, and puts the first
+element in it&rsquo;s own variable. It then adds that to the recursive call to the
+function itself. Once the list is empty (the <code>sum' []</code>), <code>0</code> is returned. No
+<code>if</code> expressions, nothing. Just matching the input with an empty list.
+Bloody brilliant!</p>
+
+<p>Anyway, this post is already way longer than it should, so I&rsquo;m going to sign
+off now.</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+</feed>

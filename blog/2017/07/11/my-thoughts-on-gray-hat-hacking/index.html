@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Here we are again, I&rsquo;ve actually read another book. That makes four this year,
+out of which three have been on some form of computer related &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="$ghname.github.io/$ghname">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-07-11T00:00:00+02:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Here we are again, I&rsquo;ve actually read another book. That makes four this year,
+out of which three have been on some form of computer related topic. So my
+New Year&rsquo;s resolution to read twelve books this year is actually looking like
+it&rsquo;s doable.</p>
+
+<p>But enough beating around be bush, if you&rsquo;re reading this it&rsquo;s because you want
+to know what I think of <a href="http://pages.cs.wisc.edu/~ace/media/gray-hat-hacking.pdf">Gray Hat Hacking: The Ethical Hacker&rsquo;s Handbook</a>,
+so here&rsquo;s what I think of it: I&rsquo;m not sure. I think that I may be a poor judge,
+because I was expecting more than I got. See, this book is quite praised in
+hacker circles, at least as I remember it from the days when I used to hang out
+in hacker forums. It is one of <em>the</em> books you should read if you want to get
+into the world of hacking. So knowing this I obviously expected miracles, more
+or less, when I started reading. Unfortunately, that is not what <em>I</em> got.</p>
+
+<p>Before we go any further, I want to point out a few things. Firstly, I have not
+read this cover to cover. I&rsquo;ve read the better part of it, but I&rsquo;ve skipped
+quite some text that I didn&rsquo;t have a need for right now. This mostly involves
+fluff like how to use specific tools, what it means to be an <em>Ethical Hacker</em>.
+Secondly, since I have an education in computer security where I have actually
+had this book as course literature (I didn&rsquo;t read it at the time though), I knew
+a lot of these things before. This is part of the reason why I didn&rsquo;t get the
+miracle I was expecting. With that out of the way, let&rsquo;s get into the meat of'er!</p>
+
+<p>The book quite hefty at 672 pages. It covers <em>a lot</em> of topics, ranging from how
+to report found vulnerabilities to basic programming (I&rsquo;m coming back to this
+later) to quite advanced tricks to get around protection schemes. This is why I
+believe that it&rsquo;s considered such a good book to read if you want to enter the
+world of hacking; it does give an introduction to a great many things. However,
+some of these fields are covered so briefly that they might as well have left
+them out. This includes SQL and XSS injections, that are only really touched
+upon. Other topics, buffer overflows in particular, are elaborated on. The
+explanations of these topics are well composed, with working(ish) examples,
+complete with code, explanations and references. This allow you to follow along
+for the most part, which is great! As opposed to Black Hat Python, where the
+code examples comes first and the explanation afterwards, here the explanation
+of the vulnerability comes first and the exploit is then iteratively
+constructed, showing all steps along the way. The only real problem I have with
+this is that their type setting for the code segment is quite bad, and sometimes
+separate lines are printed on the same line. This is really a minor complaint
+though.</p>
+
+<p>One thing that is not the books fault, but decreases the value of it none the
+less, is that it is a book and it&rsquo;s written in 2011. This means that some of the
+things brought up in it is no longer possible, or no longer relevant. For
+instance, the book walked throught the process of injecting shellcode via the
+<code>.dtors</code> section of a program (I&rsquo;m not explaining that further, not in this
+post at least). That section is replaces with <code>.fini_array</code> since GCC 4.7, which
+works differently and makes the covered attack impossible. There&rsquo;s likely a
+similar attack that exploits the new format, but for obvious reasons the book
+doesn&rsquo;t cover it. There are a number of such instances, but as mentioned it&rsquo;s
+not the fault of the authors but rather the ever-changing nature of the field.</p>
+
+<p>Another thing that I find strange about the book is it&rsquo;s pacing. It&rsquo;s covering
+fairly advanced attacks and how to construct your own shellcode, while at the
+same time covering basic programming. This section is really quite short and as
+I&rsquo;m quite adept at programming I only skimmed it, but I could see that it was on
+the level of &ldquo;every C program needs a function called <code>main()</code>&rdquo;. In other words,
+that part of the text was aimed at someone who has never seen a line of code.
+This is odd to me, as security is no basic topic. Sure, there are a ton of
+script kiddies who run around on the interwebs thinking they&rsquo;re 1337 hax0rz
+because the figured out how to download LOIC (or whatever is the latest and
+greatest DDoS tool now-a-days), but this is a book that aims to educate security
+professionals. Demanding a certain amount of previous knowledge of how C,
+memory and such works would not be too much to ask in my opinion. Especially
+when, as I said, shellcode construction is covered. This involves writing
+(short) C programs that do what you want, compiling them and removing any
+unnecessary ASM that the compiler added, only to then assemble and extract the
+opcodes. In other words, it&rsquo;s nothing you&rsquo;d be able to do confidently if you
+don&rsquo;t know C before you start reading.</p>
+
+<p>Apart from this I like the book. I didn&rsquo;t get much out of it, but that is
+because I already knew most of it. The parts I didn&rsquo;t know where quite
+interesting to read about, and as I said it covers the topics well. Because of
+this I&rsquo;d agree with the statement that this is one of <em>the books</em> to read if you
+want to get going with <em>ethical</em> hacking. Do yourself a favour and wait until
+you&rsquo;re at least somewhat proficient in C and x86 assembler before you pick up
+the book though, as you might have a hard time understanding some of the
+examples otherwise.</p>
+
+<p>That&rsquo;s it for now, I hope you enjoyed this.. reviewish. Until next time,</p>
+
+<p>Happy Hacking!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-07-11T00:00:00+02:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>12:00 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/books/'>books</a>, <a class='category' href='/blog/categories/security/'>security</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/" data-via="" data-counturl="http://$ghname.github.io/$ghname/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/07/10/initial-impressions-bhp/" title="Previous Post: Initial impressions: Black Hat Python">&laquo; Initial impressions: Black Hat Python</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2017/07/18/hello-world-v3-dot-0/" title="Next Post: Hello World! v3.0">Hello World! v3.0 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/">Book Review - Ansible: From Beginner to Pro</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/18/hello-world-v3-dot-0/">Hello World! v3.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/">My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/07/10/initial-impressions-bhp/">Initial Impressions: Black Hat Python</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/01/14/review-learn-you-a-haskell/">Book Review: Learn You a Haskell for Great Good</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

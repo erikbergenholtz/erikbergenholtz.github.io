@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tags: Miscellaneous | My Octopress Blog]]></title>
+  <link href="http://$ghname.github.io/$ghname/blog/categories/miscellaneous/atom.xml" rel="self"/>
+  <link href="http://$ghname.github.io/$ghname/"/>
+  <updated>2017-07-20T11:09:58+02:00</updated>
+  <id>http://$ghname.github.io/$ghname/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[New Year - Higher Resolution]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution/"/>
+    <updated>2016-12-31T23:00:00+01:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2016/12/31/new-year-higher-resolution</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s a new year, which means that it&rsquo;s time to make new year&rsquo;s resolutions that
+you&rsquo;re not going to keep. Or maybe you will! I for one will really try to keep
+mine, because I really want to make myself a better person. So what are my
+new year&rsquo;s resolutions going to be?</p>
+
+<p>First off, and I know that I&rsquo;ve said this a few times before, I am going to
+read more. For reals this time. Thing is that I have a ton of books, both
+fictional and factual, that I&rsquo;ve been eager to read. However, I have a severe
+case of &ldquo;積ん読&rdquo; or <em>tsundoku</em>. It&rsquo;s a Japanese word for &ldquo;buying books
+but not reading them&rdquo; (<a href="https://en.wikipedia.org/wiki/Tsundoku">seriously</a>).
+Now I want to stop having this.. &ldquo;condition&rdquo;, I want to start reading. Not only
+because books are expensive and I should not spend money unnecessarily, but
+also because what I do when I don&rsquo;t read is quite stupid. Usually, I just
+imgur or reddit, or play some game. Sure, gaming is good for relaxing, but so
+is learning new things. So, my plan is to spend less time browsing reddit and
+more time reading things. So, new year&rsquo;s resolution number one is that I shall
+read one book a month.</p>
+
+<p>The second one is something I am going to do together with my girlfriend. We&rsquo;re
+going to not consume any unnecessary sugar for 100 days. This means no candy,
+soda, alcohol, cookies or anything else like that for one hundred days, i.e.
+until April 9th. We&rsquo;re not going to over do it, so sugar in food products is
+OK.</p>
+
+<p>Lastly there&rsquo;s the obligatory &ldquo;get in shape&rdquo; resolution. I have these fancy
+(but ugly) Vibram Fivefinger shoes that&rsquo;s I&rsquo;ve been using too little. So I&rsquo;m
+going to take up running again, at least once a week. Also I&rsquo;m going to try to
+start lifting weights down at the gym. I&rsquo;m doing this not only to become a
+Greek god (which I obviously will become), but also to relieve some stress.</p>
+
+<p>So, that&rsquo;s my three new year&rsquo;s resolutions:</p>
+
+<ul>
+<li>Reading one book a month, be it fictional or educational</li>
+<li>No excess sugar for 100 days</li>
+<li>Start running at least once a week</li>
+</ul>
+
+
+<p>So that&rsquo;s it for this post. Sorry for deluding you into thinking I was getting
+a 4k monitor or something that cool for the new year. Hopefully I will update
+my rig during the year, and I&rsquo;ll keep you posted on that, but for now this is
+all.</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+</feed>

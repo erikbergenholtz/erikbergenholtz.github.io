@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tags: Lock-picking | My Octopress Blog]]></title>
+  <link href="http://$ghname.github.io/$ghname/blog/categories/lock-picking/atom.xml" rel="self"/>
+  <link href="http://$ghname.github.io/$ghname/"/>
+  <updated>2017-07-20T11:09:58+02:00</updated>
+  <id>http://$ghname.github.io/$ghname/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Real Tools Are Costly]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/05/19/real-tools-are-costly/"/>
+    <updated>2015-05-19T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/05/19/real-tools-are-costly</id>
+    <content type="html"><![CDATA[<p>So, I&rsquo;ve gotten my &ldquo;metal files&rdquo; from China now. I tried filing down one of the metal brush hairs I&rsquo;ve found which I want to use for material when making lockpicks. However, the files were rubbish. Sure, they are technically metal files as they are made from metal, but they are not build to work on metal. When I tried shaping a pick for myself the file I was trying out was filed down itself. I am a bit dissappointed, but I didn&rsquo;t really expect anything else considering the files are from China and cost about 1€ for 10pc. The moral of the story is that good tools are expensive, and that you should not order them from eBay but buy them from a hardware store. Oh well, it was worth a shot, better luck next time etc.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spring Is Lockpicking My Door]]></title>
+    <link href="http://$ghname.github.io/$ghname/blog/2015/04/29/spring-is-lockpicking-my-door/"/>
+    <updated>2015-04-29T00:00:00+02:00</updated>
+    <id>http://$ghname.github.io/$ghname/blog/2015/04/29/spring-is-lockpicking-my-door</id>
+    <content type="html"><![CDATA[<p>Spring is here, and for a beginner lockpicker this is great news!
+Why is it so? Because the streets are being cleaned. That means that machines
+with large with large steel (spring steel even, I believe) brushes are roaming
+the streets. This is good because all of a sudden the streets aren&rsquo;t littered
+with just grovel, twigs and dust, they are also littered with (spring) steel
+brush &ldquo;hairs&rdquo; which happen to be the perfect size to make your own lockpicking
+tools. Unfortunately, I&rsquo;ve only found three, but I will keep my eyes open.</p>
+
+<p>The plan now is to get myself some metal files. I&rsquo;ve found really cheap ones at
+eBay, the Lord and Saviour, and I plan to buy these. As they&rsquo;re shipped from China
+it might take a while for them to come to Sweden, but I guess I&rsquo;ll have to be patient.
+I plan to clean up the &ldquo;hairs&rdquo; while I wait, and also try making a tension tool, which
+really just requires a vice (which I already own).</p>
+
+<p>So that&rsquo;s pretty much it for now. I&rsquo;ll write another post when I have made the tension
+tool and tried that out. Until then!</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+</feed>

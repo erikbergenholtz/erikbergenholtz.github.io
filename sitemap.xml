@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://erikbergenholtz.github.io/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/</loc>
+<loc>http://%24ghname.github.io/$ghname/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/</loc>
 <lastmod>2017-07-20T01:41:33+02:00</lastmod>
 </url>
 <url>
-<loc>http://erikbergenholtz.github.io/blog/2017/07/18/hello-world-v3-dot-0/</loc>
+<loc>http://%24ghname.github.io/$ghname/blog/2017/07/18/hello-world-v3-dot-0/</loc>
 <lastmod>2017-07-18T15:42:24+02:00</lastmod>
 </url>
 <url>
-<loc>http://erikbergenholtz.github.io/blog/archives/</loc>
+<loc>http://%24ghname.github.io/$ghname/blog/archives/</loc>
 </url>
 <url>
-<loc>http://erikbergenholtz.github.io/</loc>
+<loc>http://%24ghname.github.io/$ghname/</loc>
 </url>
 <url>
-<loc>http://erikbergenholtz.github.io/blog/categories/misc/</loc>
+<loc>http://%24ghname.github.io/$ghname/blog/categories/misc/</loc>
 </url>
 <url>
-<loc>http://erikbergenholtz.github.io/blog/categories/books/</loc>
+<loc>http://%24ghname.github.io/$ghname/blog/categories/books/</loc>
 </url>
 </urlset>

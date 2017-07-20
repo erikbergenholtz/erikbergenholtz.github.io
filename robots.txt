@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://erikbergenholtz.github.io/sitemap.xml 
+Sitemap: http://$ghname.github.io/$ghname/sitemap.xml 

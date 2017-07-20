@@ -370,18 +370,30 @@ bugged me, which is what made me put the book away, is the actual explanations
 themselves. They are really short, and don&rsquo;t explain much at all. To showcase
 this, let&rsquo;s have a look at the following example:</p>
 
-<pre><code>class Server (paramiko.ServerInterface):
-    def _init_(self):
-        self.event = threading.Event()
-    def check_channel_request(self, kind, chanid):
-        if kind == 'session':
-            return paramiko.OPEN_SUCCEEDED
-        return paramiko.OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED
-    def check_auth_password(self, username, password):
-        if (username == 'justin') and (password == 'lovesthepython'):
-            return paramiko.AUTH_SUCCESSFUL
-        return paramiko.AUTH_FAILED
-</code></pre>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">class</span> <span class="nc">Server</span> <span class="p">(</span><span class="n">paramiko</span><span class="o">.</span><span class="n">ServerInterface</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">_init_</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span class='line'>        <span class="bp">self</span><span class="o">.</span><span class="n">event</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Event</span><span class="p">()</span>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">check_channel_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">kind</span><span class="p">,</span> <span class="n">chanid</span><span class="p">):</span>
+</span><span class='line'>        <span class="k">if</span> <span class="n">kind</span> <span class="o">==</span> <span class="s">&#39;session&#39;</span><span class="p">:</span>
+</span><span class='line'>            <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">OPEN_SUCCEEDED</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED</span>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">check_auth_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">username</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
+</span><span class='line'>        <span class="k">if</span> <span class="p">(</span><span class="n">username</span> <span class="o">==</span> <span class="s">&#39;justin&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">password</span> <span class="o">==</span> <span class="s">&#39;lovesthepython&#39;</span><span class="p">):</span>
+</span><span class='line'>            <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">AUTH_SUCCESSFUL</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">AUTH_FAILED</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>A simple enough python class, that is used to build an SSH-server to send
 commands through to the client, which is uploaded to the victim. The
@@ -394,15 +406,24 @@ but a class was never used. Also, none of the Paramiko flags were used earlier.
 But their names are good, so it&rsquo;s easy enough to understand the function of the
 Server-class anyway. Now, let&rsquo;s skip forward in the code:</p>
 
-<pre><code>bhSession = paramiko.Transport(client)
-bhSession.add_server_key(host_key)
-server = Server()
-try:
-    bhSession.start_server(server=server)
-except paramiko.SSHException, x:
-    print '[-] SSH negotiation failed.'
-chan = bhSession.accept(20)
-</code></pre>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">bhSession</span> <span class="o">=</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">Transport</span><span class="p">(</span><span class="n">client</span><span class="p">)</span>
+</span><span class='line'><span class="n">bhSession</span><span class="o">.</span><span class="n">add_server_key</span><span class="p">(</span><span class="n">host_key</span><span class="p">)</span>
+</span><span class='line'><span class="n">server</span> <span class="o">=</span> <span class="n">Server</span><span class="p">()</span>
+</span><span class='line'><span class="k">try</span><span class="p">:</span>
+</span><span class='line'>    <span class="n">bhSession</span><span class="o">.</span><span class="n">start_server</span><span class="p">(</span><span class="n">server</span><span class="o">=</span><span class="n">server</span><span class="p">)</span>
+</span><span class='line'><span class="k">except</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">SSHException</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span>
+</span><span class='line'>    <span class="k">print</span> <span class="s">&#39;[-] SSH negotiation failed.&#39;</span>
+</span><span class='line'><span class="n">chan</span> <span class="o">=</span> <span class="n">bhSession</span><span class="o">.</span><span class="n">accept</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>None of this has been used before, but it&rsquo;s all pretty obvious; set <code>client</code> (
 which is an already connected socket) as the socket on which to transport the

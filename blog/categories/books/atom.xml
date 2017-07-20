@@ -4,7 +4,7 @@
   <title><![CDATA[Tags: Books | Erik Bergenholtz' blog]]></title>
   <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/books/atom.xml" rel="self"/>
   <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-20T11:17:55+02:00</updated>
+  <updated>2017-07-20T11:20:39+02:00</updated>
   <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -210,7 +210,7 @@ bugged me, which is what made me put the book away, is the actual explanations
 themselves. They are really short, and don&rsquo;t explain much at all. To showcase
 this, let&rsquo;s have a look at the following example:</p>
 
-<pre><code>class Server (paramiko.ServerInterface):
+<pre><code class="python">class Server (paramiko.ServerInterface):
     def _init_(self):
         self.event = threading.Event()
     def check_channel_request(self, kind, chanid):
@@ -234,7 +234,7 @@ but a class was never used. Also, none of the Paramiko flags were used earlier.
 But their names are good, so it&rsquo;s easy enough to understand the function of the
 Server-class anyway. Now, let&rsquo;s skip forward in the code:</p>
 
-<pre><code>bhSession = paramiko.Transport(client)
+<pre><code class="python">bhSession = paramiko.Transport(client)
 bhSession.add_server_key(host_key)
 server = Server()
 try:

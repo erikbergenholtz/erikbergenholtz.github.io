@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tags: Rgb-shades | Erik Bergenholtz' blog]]></title>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/rgb-shades/atom.xml" rel="self"/>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-30T14:45:21+02:00</updated>
-  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
+  <link href="http://blog.erikbergenholtz.se/blog/categories/rgb-shades/atom.xml" rel="self"/>
+  <link href="http://blog.erikbergenholtz.se/"/>
+  <updated>2017-07-30T17:27:00+02:00</updated>
+  <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Having a Blast With the RGB Shades]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/12/31/having-a-blast-with-the-rgb-shades/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2015/12/31/having-a-blast-with-the-rgb-shades/"/>
     <updated>2015-12-31T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/12/31/having-a-blast-with-the-rgb-shades</id>
+    <id>http://blog.erikbergenholtz.se/blog/2015/12/31/having-a-blast-with-the-rgb-shades</id>
     <content type="html"><![CDATA[<p>The past few weeks I&rsquo;ve been talking with a guy who found my
 video of my first effects for the Shades interesting. By being
 curious and questioning he sparked my interest in the shades again,
@@ -58,9 +58,9 @@ and happy hacking!</p>
   
   <entry>
     <title type="html"><![CDATA[Pump Up the SWAG]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/31/pump-up-the-swag/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2015/05/31/pump-up-the-swag/"/>
     <updated>2015-05-31T00:00:00+02:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/31/pump-up-the-swag</id>
+    <id>http://blog.erikbergenholtz.se/blog/2015/05/31/pump-up-the-swag</id>
     <content type="html"><![CDATA[<p>They are here. The long wait has been ended. After a couple of months, I now sit here as a
 proud owner of <a href="http://www.macetech.com/">Macetech</a>&rsquo;s brilliant invention
 the <a href="http://macetech.com/store/index.php?main_page=product_info&amp;cPath=14&amp;products_id=59&amp;zenid=121ac6e4b163befd0309e0ecf8399002">RGB-shades</a>.

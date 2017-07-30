@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tags: Linux | Erik Bergenholtz' blog]]></title>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/linux/atom.xml" rel="self"/>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-30T14:45:21+02:00</updated>
-  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
+  <link href="http://blog.erikbergenholtz.se/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://blog.erikbergenholtz.se/"/>
+  <updated>2017-07-30T17:27:00+02:00</updated>
+  <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Review: The Linux Commandline by William E. Shotts, Jr.]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/linux-commandline-review/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2016/08/15/linux-commandline-review/"/>
     <updated>2016-08-15T00:00:00+02:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/08/15/linux-commandline-review</id>
+    <id>http://blog.erikbergenholtz.se/blog/2016/08/15/linux-commandline-review</id>
     <content type="html"><![CDATA[<p>It&rsquo;s finally time for me to post my first book review! As mentioned I&rsquo;ve wanted
 to do this for quite some time, both to get some more posting here on the blog
 done and to give me an incentive to actually read the books I buy. So here it
@@ -67,9 +67,9 @@ would be a lot better.</p>
   
   <entry>
     <title type="html"><![CDATA[First Ricing]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2015/11/22/first-ricing/"/>
     <updated>2015-11-22T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing</id>
+    <id>http://blog.erikbergenholtz.se/blog/2015/11/22/first-ricing</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a while, and since I have something to share I
 thought this might be a good time to pick up this blogging
 business again.</p>

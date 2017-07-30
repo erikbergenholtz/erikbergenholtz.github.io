@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tags: Lock-picking | Erik Bergenholtz' blog]]></title>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/lock-picking/atom.xml" rel="self"/>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-30T14:45:21+02:00</updated>
-  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
+  <link href="http://blog.erikbergenholtz.se/blog/categories/lock-picking/atom.xml" rel="self"/>
+  <link href="http://blog.erikbergenholtz.se/"/>
+  <updated>2017-07-30T17:27:00+02:00</updated>
+  <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Real Tools Are Costly]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/19/real-tools-are-costly/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2015/05/19/real-tools-are-costly/"/>
     <updated>2015-05-19T00:00:00+02:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/19/real-tools-are-costly</id>
+    <id>http://blog.erikbergenholtz.se/blog/2015/05/19/real-tools-are-costly</id>
     <content type="html"><![CDATA[<p>So, I&rsquo;ve gotten my &ldquo;metal files&rdquo; from China now. I tried filing down one of the metal brush hairs I&rsquo;ve found which I want to use for material when making lockpicks. However, the files were rubbish. Sure, they are technically metal files as they are made from metal, but they are not build to work on metal. When I tried shaping a pick for myself the file I was trying out was filed down itself. I am a bit dissappointed, but I didn&rsquo;t really expect anything else considering the files are from China and cost about 1€ for 10pc. The moral of the story is that good tools are expensive, and that you should not order them from eBay but buy them from a hardware store. Oh well, it was worth a shot, better luck next time etc.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Spring Is Lockpicking My Door]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/29/spring-is-lockpicking-my-door/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2015/04/29/spring-is-lockpicking-my-door/"/>
     <updated>2015-04-29T00:00:00+02:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/29/spring-is-lockpicking-my-door</id>
+    <id>http://blog.erikbergenholtz.se/blog/2015/04/29/spring-is-lockpicking-my-door</id>
     <content type="html"><![CDATA[<p>Spring is here, and for a beginner lockpicker this is great news!
 Why is it so? Because the streets are being cleaned. That means that machines
 with large with large steel (spring steel even, I believe) brushes are roaming

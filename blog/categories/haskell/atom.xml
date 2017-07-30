@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tags: Haskell | Erik Bergenholtz' blog]]></title>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/haskell/atom.xml" rel="self"/>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-30T14:45:21+02:00</updated>
-  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
+  <link href="http://blog.erikbergenholtz.se/blog/categories/haskell/atom.xml" rel="self"/>
+  <link href="http://blog.erikbergenholtz.se/"/>
+  <updated>2017-07-30T17:27:00+02:00</updated>
+  <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Book Review: Learn You a Haskell for Great Good]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/01/14/review-learn-you-a-haskell/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2017/01/14/review-learn-you-a-haskell/"/>
     <updated>2017-01-14T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/01/14/review-learn-you-a-haskell</id>
+    <id>http://blog.erikbergenholtz.se/blog/2017/01/14/review-learn-you-a-haskell</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a long time coming, but now I am finally done reading
 <a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good</a>, so it is
 time for me not only to get coding, but also to review the book!</p>
@@ -72,9 +72,9 @@ a review of that will come when I&rsquo;m done working through it.</p>
   
   <entry>
     <title type="html"><![CDATA[Getting Classy With Haskell]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/18/getting-classy-with-haskell/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2016/12/18/getting-classy-with-haskell/"/>
     <updated>2016-12-18T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/18/getting-classy-with-haskell</id>
+    <id>http://blog.erikbergenholtz.se/blog/2016/12/18/getting-classy-with-haskell</id>
     <content type="html"><![CDATA[<p>I thought that the next post I was going to do would be one on higher order
 functions. In fact, I started writing one a couple of times, but it just didn&rsquo;t
 seem necessary. Why was that? Well, it all actually made sense. I had a read
@@ -211,9 +211,9 @@ it better! But now I&rsquo;ll take a break. Until next time,</p>
   
   <entry>
     <title type="html"><![CDATA[I Like Recursive]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/11/i-like-recursive/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2016/12/11/i-like-recursive/"/>
     <updated>2016-12-11T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/11/i-like-recursive</id>
+    <id>http://blog.erikbergenholtz.se/blog/2016/12/11/i-like-recursive</id>
     <content type="html"><![CDATA[<p>Here we are again, another post about Haskell. To star off I just want to say
 that I am having a blast learning this, and that I think I am getting the
 hang of it. I&rsquo;ve gone through recursion today, which isn&rsquo;t really a new concept
@@ -258,9 +258,9 @@ there&rsquo;ll be a lot to anchor in my mind by writing about it. Until then,</p
   
   <entry>
     <title type="html"><![CDATA[More Haskell Peculiarities]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/10/more-haskell-peculiarities/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2016/12/10/more-haskell-peculiarities/"/>
     <updated>2016-12-10T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/10/more-haskell-peculiarities</id>
+    <id>http://blog.erikbergenholtz.se/blog/2016/12/10/more-haskell-peculiarities</id>
     <content type="html"><![CDATA[<p>My mission to learn Haskell goes on, and I&rsquo;ve now  read about functions. As
 Haskell is a purley functional language, it makes sense that functions are
 quite important and well developed in the language. There are a lot of things
@@ -324,9 +324,9 @@ a blast. But now I&rsquo;m going to sleep.</p>
   
   <entry>
     <title type="html"><![CDATA[Learning Me a Haskell for Great Good]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
     <updated>2016-12-09T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
+    <id>http://blog.erikbergenholtz.se/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
     <content type="html"><![CDATA[<p>Today I was informed roughly what I will be doing at work next semester (when I
 say &ldquo;roughly&rdquo; I mean that the suggested work load probably is way through the
 roof, and that it will need to be adjusted before the term starts), and one

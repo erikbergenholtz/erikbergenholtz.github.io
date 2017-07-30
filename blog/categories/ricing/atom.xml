@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tags: Ricing | Erik Bergenholtz' blog]]></title>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/ricing/atom.xml" rel="self"/>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-30T14:45:21+02:00</updated>
-  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
+  <link href="http://blog.erikbergenholtz.se/blog/categories/ricing/atom.xml" rel="self"/>
+  <link href="http://blog.erikbergenholtz.se/"/>
+  <updated>2017-07-30T17:27:00+02:00</updated>
+  <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I Made a Home Screen]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/13/i-made-a-home-screen/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2016/12/13/i-made-a-home-screen/"/>
     <updated>2016-12-13T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2016/12/13/i-made-a-home-screen</id>
+    <id>http://blog.erikbergenholtz.se/blog/2016/12/13/i-made-a-home-screen</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve just finished a small project that I wanted to share with the rest of you.
 What I&rsquo;ve done is a home screen for your browser that at least I think is
 pretty good looking (see screenshot below) and faily easy to customize. The
@@ -38,9 +38,9 @@ say more about it, but leave you with a screenshot.</p>
   
   <entry>
     <title type="html"><![CDATA[First Ricing]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2015/11/22/first-ricing/"/>
     <updated>2015-11-22T23:00:00+01:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/11/22/first-ricing</id>
+    <id>http://blog.erikbergenholtz.se/blog/2015/11/22/first-ricing</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a while, and since I have something to share I
 thought this might be a good time to pick up this blogging
 business again.</p>

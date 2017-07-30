@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tags: Security | Erik Bergenholtz' blog]]></title>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/categories/security/atom.xml" rel="self"/>
-  <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-30T14:45:21+02:00</updated>
-  <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
+  <link href="http://blog.erikbergenholtz.se/blog/categories/security/atom.xml" rel="self"/>
+  <link href="http://blog.erikbergenholtz.se/"/>
+  <updated>2017-07-30T17:27:00+02:00</updated>
+  <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"/>
+    <link href="http://blog.erikbergenholtz.se/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"/>
     <updated>2017-07-11T00:00:00+02:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/11/my-thoughts-on-gray-hat-hacking</id>
+    <id>http://blog.erikbergenholtz.se/blog/2017/07/11/my-thoughts-on-gray-hat-hacking</id>
     <content type="html"><![CDATA[<p>Here we are again, I&rsquo;ve actually read another book. That makes four this year,
 out of which three have been on some form of computer related topic. So my
 New Year&rsquo;s resolution to read twelve books this year is actually looking like

@@ -4,7 +4,7 @@
   <title><![CDATA[Erik Bergenholtz' blog]]></title>
   <link href="http://erikbergenholtz.github.io/erikbergenholtz/atom.xml" rel="self"/>
   <link href="http://erikbergenholtz.github.io/erikbergenholtz/"/>
-  <updated>2017-07-20T12:34:27+02:00</updated>
+  <updated>2017-07-30T14:21:42+02:00</updated>
   <id>http://erikbergenholtz.github.io/erikbergenholtz/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Book Review: Exploding the Phone by Phil Lapsley]]></title>
+    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/30/book-review-exploding-the-phone-by-phil-lapsley/"/>
+    <updated>2017-07-30T12:47:44+02:00</updated>
+    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2017/07/30/book-review-exploding-the-phone-by-phil-lapsley</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://www.groveatlantic.com/bigcovers/9780802120618.jpg" width="150" height="250" title="Cover" >
+There we are. I have finally managed to make it through Phil Lapsely&rsquo;s book
+<a href="http://explodingthephone.com/"><em>Exploding the Phone</em></a>. Despite taking me 2.5
+years to get through (because I&rsquo;ve put it away for months at a time several
+times, and started over reading it an equal amount of times) I did enjoy
+reading it. The book, which is some 330 pages long, covers the adventures of
+the <em>phone phreaks</em>, i.e. the individuals who used their wits out outsmart the
+telephone system back in the day (50-70s). They were the telephone system&rsquo;s
+equivalent to today&rsquo;s computer hackers, and to a large extent they set the
+stage for the computer hackers themselves.</p>
+
+<p>The book starts off way back in the late 1800s when when the Bell Telephone
+Company was created, to it&rsquo;s demise in 1983. Most of the events in the book
+happened in the 50-70s, however. The book lets us follow the advent and
+evolution of phreaking, and get to know big names in the game such as Bill
+Acker, Joe Engerssia and John Draper. Their adventures were quite awesome, in
+the old sense of the word. If you want to know about what the things they
+actually did you&rsquo;ll have to pick up the book; I am not going to spoil it here.</p>
+
+<p>I would assume that most people who pick this book up are somewhat like me:
+interested in technical things and probably security to some extent too. In
+such case, I&rsquo;m sure they&rsquo;d be interested in how things actually worked. What
+were the vulnerabilities that enabled the phreaking, and why did they work?
+These are things made me want the book, and after reading it I am by no means
+disappointed. The book is filled with enough technical detail that it&rsquo;s easy
+to understand how and why the attacks worked, but it&rsquo;s not enough to push the
+story about the phreaks out of the way. All in all, I think that it gives the
+right amount of coverage.</p>
+
+<p>Despite having a lot of technical information, the book is quite easy to read.
+The language isn&rsquo;t too advanced, and everything is clearly explained. It is,
+however, a bit messy chronologically. Because it follows a lot of stories
+revolving around a lot of people, it isn&rsquo;t written in an entirely chronological
+order. On the grand scale of things it is, but it&rsquo;s not uncommon that the
+author goes on a lengthy tangent in the middle of a story. It&rsquo;s not done
+needlessly or poorly, as the transitions feel natural and the tangents provide
+information that&rsquo;s necessary to understand what is going on. However, it does
+mess up the time line a bit, so keeping track of who lives where and who did
+what in which order is a bit tricky. It doesn&rsquo;t take away much from the
+experience though.</p>
+
+<p>So what&rsquo;s the verdict? It&rsquo;s clearly positive, I would highly recommend reading
+the book. It&rsquo;s interesting and gives a lot of insight into the history of
+today&rsquo;s hacker culture. Despite it taking me 2.5 years to get through the book,
+I don&rsquo;t think it took too many hours to read once I actually sat down with it.
+For me, it was a very worthwhile read and I&rsquo;d happily read more books like
+it.</p>
+
+<p>That concludes my review, and with that I&rsquo;m up to 6 books read this year. That
+means that I&rsquo;m just one month behind where I should be, according to my new
+year&rsquo;s resolution of reading one book a month. I best get to it then, so until
+next time</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Book Review - Ansible: From Beginner to Pro]]></title>
@@ -1137,32 +1199,6 @@ some other cool extension to them as well.</p>
     <updated>2015-05-19T00:00:00+02:00</updated>
     <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/05/19/real-tools-are-costly</id>
     <content type="html"><![CDATA[<p>So, I&rsquo;ve gotten my &ldquo;metal files&rdquo; from China now. I tried filing down one of the metal brush hairs I&rsquo;ve found which I want to use for material when making lockpicks. However, the files were rubbish. Sure, they are technically metal files as they are made from metal, but they are not build to work on metal. When I tried shaping a pick for myself the file I was trying out was filed down itself. I am a bit dissappointed, but I didn&rsquo;t really expect anything else considering the files are from China and cost about 1€ for 10pc. The moral of the story is that good tools are expensive, and that you should not order them from eBay but buy them from a hardware store. Oh well, it was worth a shot, better luck next time etc.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spring Is Lockpicking My Door]]></title>
-    <link href="http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/29/spring-is-lockpicking-my-door/"/>
-    <updated>2015-04-29T00:00:00+02:00</updated>
-    <id>http://erikbergenholtz.github.io/erikbergenholtz/blog/2015/04/29/spring-is-lockpicking-my-door</id>
-    <content type="html"><![CDATA[<p>Spring is here, and for a beginner lockpicker this is great news!
-Why is it so? Because the streets are being cleaned. That means that machines
-with large with large steel (spring steel even, I believe) brushes are roaming
-the streets. This is good because all of a sudden the streets aren&rsquo;t littered
-with just grovel, twigs and dust, they are also littered with (spring) steel
-brush &ldquo;hairs&rdquo; which happen to be the perfect size to make your own lockpicking
-tools. Unfortunately, I&rsquo;ve only found three, but I will keep my eyes open.</p>
-
-<p>The plan now is to get myself some metal files. I&rsquo;ve found really cheap ones at
-eBay, the Lord and Saviour, and I plan to buy these. As they&rsquo;re shipped from China
-it might take a while for them to come to Sweden, but I guess I&rsquo;ll have to be patient.
-I plan to clean up the &ldquo;hairs&rdquo; while I wait, and also try making a tension tool, which
-really just requires a vice (which I already own).</p>
-
-<p>So that&rsquo;s pretty much it for now. I&rsquo;ll write another post when I have made the tension
-tool and tried that out. Until then!</p>
-
-<p>Happy Hacking!</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Erik Bergenholtz' blog]]></title>
   <link href="http://blog.erikbergenholtz.se/atom.xml" rel="self"/>
   <link href="http://blog.erikbergenholtz.se/"/>
-  <updated>2017-08-13T17:59:03+02:00</updated>
+  <updated>2017-08-31T17:29:31+02:00</updated>
   <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[One Haskell a Day - Quicksort]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2017/08/31/one-haskell-a-day-quicksort/"/>
+    <updated>2017-08-31T17:13:50+02:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2017/08/31/one-haskell-a-day-quicksort</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Teaspresso]]></title>
@@ -1255,29 +1264,6 @@ reach a wizardly look on my Debian system!</p>
 <p>If anyone is interested in trying my rice out,
 or have a look at the dotfiles, they&rsquo;re all
 <a href="https://github.com/Psyberion/ricedotfiles">available here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pump Up the SWAG]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2015/05/31/pump-up-the-swag/"/>
-    <updated>2015-05-31T00:00:00+02:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2015/05/31/pump-up-the-swag</id>
-    <content type="html"><![CDATA[<p>They are here. The long wait has been ended. After a couple of months, I now sit here as a
-proud owner of <a href="http://www.macetech.com/">Macetech</a>&rsquo;s brilliant invention
-the <a href="http://macetech.com/store/index.php?main_page=product_info&amp;cPath=14&amp;products_id=59&amp;zenid=121ac6e4b163befd0309e0ecf8399002">RGB-shades</a>.
-The shades is a piece of wearable electronics which consists of a controller and an LED-matrix
-in the shape of a pair of shutter shades. They use the same microcontroller as an Arduino Pro, and
-can as such be programmed like one.</p>
-
-<p>I have not spent too much time programming them so far, but I can tell you that they are awesome.
-I do not regret buying this one second, and I will enjoy hacking them. I plan on building a small
-circuit to make them follow the beat of the music at least, and hopefully I can come up with
-some other cool extension to them as well.</p>
-
-<p><a href="https://youtu.be/1OGp4D2f118">Meanwhile, enjoy my small &ldquo;demo&rdquo; of the patterns I&rsquo;ve programmed so far.</a></p>
-
-<p>Happy Hacking!</p>
 ]]></content>
   </entry>
   

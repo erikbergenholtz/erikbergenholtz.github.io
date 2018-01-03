@@ -4,7 +4,7 @@
   <title><![CDATA[Erik Bergenholtz' blog]]></title>
   <link href="http://blog.erikbergenholtz.se/atom.xml" rel="self"/>
   <link href="http://blog.erikbergenholtz.se/"/>
-  <updated>2017-08-31T17:29:31+02:00</updated>
+  <updated>2018-01-03T21:17:37+01:00</updated>
   <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -14,11 +14,135 @@
 
   
   <entry>
-    <title type="html"><![CDATA[One Haskell a Day - Quicksort]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2017/08/31/one-haskell-a-day-quicksort/"/>
-    <updated>2017-08-31T17:13:50+02:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2017/08/31/one-haskell-a-day-quicksort</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Bucket List of 2018]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2018/01/03/bucket-list-of-2018/"/>
+    <updated>2018-01-03T00:00:00+01:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2018/01/03/bucket-list-of-2018</id>
+    <content type="html"><![CDATA[<p>A new year has started, and as such it&rsquo;s time to once again summarize the past
+year and make grand new year&rsquo;s resolutions that you won&rsquo;t keep yourself
+accountable for. However, this year I decided that I&rsquo;d do something slightly
+more concrete than just telling myself &ldquo;I&rsquo;m gonna be healthy and get swole&rdquo;. So
+I went ahead and made a bucket list, consisting of things that I want to get
+done in the year to come. My plan is to revisit and revise it each month,
+adding new things as they pop up and crossing out things that I have done.
+However, I am not going to remove anything unless I can justify it with a very
+good reason (like sickness for training goals, for instace). But first, let&rsquo;s
+very quickly revisit last year.</p>
+
+<p>In <a href="http://blog.erikbergenholtz.se/blog/2016/12/31/new-year-higher-resolution/">my post last year</a>
+I vowed to read more books. Specifically, I wanted to read one book a month. I
+also wanted to eat no excessive sugar for 100 days, and start running once a
+week. I didn&rsquo;t do the last two things. Like at all. I think I went out running
+a few times, but then I stopped. I forgot about the sugar thing about as soon
+as I&rsquo;d posted about it. Oops. The reading, on the other hand, went quite well.
+I&rsquo;ve read <em>A Cloclwork Orange</em>,
+<a href="http://blog.erikbergenholtz.se/blog/2017/01/14/review-learn-you-a-haskell/"><em>Learn you a Haskell for Great Good</em></a>,
+<em>Hacking: The Art of Exploitation</em>,
+<a href="http://blog.erikbergenholtz.se/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/"><em>Grey Hat Hacking: The Ethical Hacker&rsquo;s Handbook</em></a>,
+<a href="http://blog.erikbergenholtz.se/blog/2017/07/20/book-review-ansible-from-beginner-to-pro/"><em>Ansible: From Beginner to Pro</em></a>,
+<a href="http://blog.erikbergenholtz.se/blog/2017/07/30/book-review-exploding-the-phone-by-phil-lapsley/"><em>Exploding the Phone</em></a>,
+and <em>The Hellbound Heart</em>. It&rsquo;s not the twelve books I wanted to read, but it
+is seven, which is seven more than I read the year before that. Frankly, I am
+quite satisfied with this.</p>
+
+<p>So, without further ado, here&rsquo;s the bucketlist for 2018:</p>
+
+<ul>
+<li>Books
+
+<ul>
+<li>Fiction
+
+<ul>
+<li>The Graveyard Book</li>
+<li>Dune</li>
+<li>Tinker Tailor Solider Spy</li>
+<li>House of Leaves</li>
+<li>The King in Yellow</li>
+<li>1984</li>
+</ul>
+</li>
+<li>Non-fiction
+
+<ul>
+<li>Introduction to Algorithms</li>
+<li>Violent Python</li>
+<li>Art of Intrusion</li>
+<li>Art of Deception</li>
+<li>Web Application Hacker&rsquo;s Handbook</li>
+<li>Practical Malware Analysis</li>
+<li>Get Started in German</li>
+<li>Konsten att få Metala Superkrafter</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Movies
+
+<ul>
+<li>Dune</li>
+<li>Brazil</li>
+<li>Fear and Loathing in Las Vegas</li>
+<li>Django Unchained</li>
+<li>The Hateful Eight</li>
+<li>Crouching Tiger Hidden Dragon: Sword of Destiny</li>
+<li>Soylent Green</li>
+</ul>
+</li>
+<li>Games
+
+<ul>
+<li>Mario Odyssey</li>
+<li>Legend of Zelda: Breath of the Wild</li>
+<li>DOOM</li>
+<li>Cuphead</li>
+<li>Dishonored 2</li>
+</ul>
+</li>
+<li>Work
+
+<ul>
+<li>Nail Advanced Algorithms</li>
+<li>Two publications</li>
+</ul>
+</li>
+<li>Health and fitness
+
+<ul>
+<li>Start working out</li>
+<li>Try Aikido</li>
+<li>Start eating Keto</li>
+<li>Quit nailbiting</li>
+</ul>
+</li>
+<li>Other
+
+<ul>
+<li>Start practicing violin/viola regularly</li>
+<li>Fix home network</li>
+<li>Fix battlestation</li>
+<li>Git gud at hacking</li>
+<li>Finish German course on Duolingo</li>
+<li>Finish <em>Get Started in German</em></li>
+<li>Get more into tea and coffee</li>
+<li>Start posting here regularly, preferably about sciency stuff</li>
+</ul>
+</li>
+</ul>
+
+
+<p>There it is! The huge list of stuff I want to get done this year. My goals for
+the coming month is to finish reading <em>The Graveyard Book</em>, because I&rsquo;m halfway
+through it, and to finish playing <em>Mario Odyssey</em> for the same reason. We have
+started eating keto already, but I&rsquo;m not ticking that off until it&rsquo;s clear that
+we&rsquo;re sticking to it. I&rsquo;m also going to try Aikido, hopefully.</p>
+
+<p>Anyway, I&rsquo;m not going to bore you with my quest to become a better human
+anymore, and move on to actually <em>being</em> one. In about three weeks, this list
+will be revisited and revised!</p>
+
+<p>Until then,<br/>
+Happy Hacking!</p>
 ]]></content>
   </entry>
   

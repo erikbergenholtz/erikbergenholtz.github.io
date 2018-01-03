@@ -4,7 +4,7 @@
   <title><![CDATA[Tags: Programming | Erik Bergenholtz' blog]]></title>
   <link href="http://blog.erikbergenholtz.se/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://blog.erikbergenholtz.se/"/>
-  <updated>2017-08-31T17:29:31+02:00</updated>
+  <updated>2018-01-03T21:17:37+01:00</updated>
   <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[One Haskell a Day - Quicksort]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2017/08/31/one-haskell-a-day-quicksort/"/>
-    <updated>2017-08-31T17:13:50+02:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2017/08/31/one-haskell-a-day-quicksort</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Getting Classy With Haskell]]></title>
@@ -292,6 +283,80 @@ comprehensions, like this:</p>
 wrong, but that&rsquo;s to expect when I&rsquo;ve just started out. I think I grasp the
 concepts though, so that&rsquo;s really nice. Next up is recursion, which should be
 a blast. But now I&rsquo;m going to sleep.</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Me a Haskell for Great Good]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
+    <updated>2016-12-09T23:00:00+01:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
+    <content type="html"><![CDATA[<p>Today I was informed roughly what I will be doing at work next semester (when I
+say &ldquo;roughly&rdquo; I mean that the suggested work load probably is way through the
+roof, and that it will need to be adjusted before the term starts), and one
+of the things I&rsquo;ll be spending my time on is research. Since I am just a
+project assistant and not a PhD student my research will be quite limited by
+time (I will only spend 80 hours on it over the entire semester), but it&rsquo;s
+something.</p>
+
+<p>What my supervisor want me to do is have a look at a parsing library for
+Haskell called <a href="https://github.com/aslatter/parsec">Parsec</a>. There&rsquo;s only one
+problem; I don&rsquo;t know Haskell. Yet. So, today I set out on my journey to learn
+my first functional programming language, and I thought I&rsquo;d let you in on the
+fun. Starting with this post, I will be posting about my progress with learning
+the (to me) new language. Maybe you&rsquo;ll be getting something out of it, maybe
+not. I&rsquo;m going to do it regardless.</p>
+
+<p>So, to start off I want to mention the book I&rsquo;ll be learning from. It&rsquo;s called
+<a href="https://www.nostarch.com/lyah.htm">Learn You a Haskell for Great Good</a>, and is
+published by <a href="https://www.nostarch.com/">No Starch Press</a>. I&rsquo;ll write a review
+of the book once I&rsquo;m done working though it.</p>
+
+<p>Now, without further adue, let&rsquo;s delve into Haskell! (Note that I&rsquo;m mostly by
+no means going to try to teach you Haskell, I&rsquo;m mostly just going to ramble on
+about things I find weird about the language)</p>
+
+<p>As a C and Python programmer, Haskell seems quite strange. It feel a lot like
+Python in the way that it is written, but some things are strange. For
+instance, the following is perfectly legitimate syntax for Haskell:</p>
+
+<pre><code class="haskell">foo x = (if x&gt;100 then x else x*2)+1
+</code></pre>
+
+<p>First of all, this is a function declaration and not a variable assingment. But
+that&rsquo;s not the main thing that&rsquo;s bugging me about this. It&rsquo;s that the <code>if</code>
+itself <em>returns</em> a value, which I can then add <code>1</code> to. As the book expresses
+it: there is no such thing as an <code>if</code> <em>statement</em> in Haksell, there are <code>if</code>
+<em>expressions</em> instead. Very strange.</p>
+
+<p>Another thing that is qutie odd, but does make sense, is the way list items are
+accessed. Coming from imperative languages, I am used to the <code>list[index]</code>
+syntax if I want to access a list element. However, that kind of syntax
+wouldn&rsquo;t be possible in Haskell, since Haskell has no variables. Insted the
+syntax is</p>
+
+<pre><code class="haskell">[1, 2, 3, 4, 5] !! 3
+</code></pre>
+
+<p>This would fetch <code>4</code>, which is the third item of the list. To finish off, I
+want to mention a thing that&rsquo;s really weird with Haskell, but it&rsquo;s something
+I wish all languages did: argument pattern matching. For instance, to build a
+(probably poor) summing function one could do the following:</p>
+
+<pre><code class="haskell">sum' (x:xs) = x + sum' xs
+sum' [] = 0
+</code></pre>
+
+<p>This basically means that the function <code>sum'</code> takes a list, and puts the first
+element in it&rsquo;s own variable. It then adds that to the recursive call to the
+function itself. Once the list is empty (the <code>sum' []</code>), <code>0</code> is returned. No
+<code>if</code> expressions, nothing. Just matching the input with an empty list.
+Bloody brilliant!</p>
+
+<p>Anyway, this post is already way longer than it should, so I&rsquo;m going to sign
+off now.</p>
 
 <p>Happy hacking!</p>
 ]]></content>

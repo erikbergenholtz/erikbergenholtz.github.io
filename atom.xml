@@ -4,7 +4,7 @@
   <title><![CDATA[Erik Bergenholtz' blog]]></title>
   <link href="http://blog.erikbergenholtz.se/atom.xml" rel="self"/>
   <link href="http://blog.erikbergenholtz.se/"/>
-  <updated>2018-01-03T21:17:37+01:00</updated>
+  <updated>2018-02-03T23:09:20+01:00</updated>
   <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -14,9 +14,136 @@
 
   
   <entry>
+    <title type="html"><![CDATA[2018 Bucket List - January Progress]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2018/02/03/2018-bucket-list-january-progress/"/>
+    <updated>2018-02-03T22:49:50+01:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2018/02/03/2018-bucket-list-january-progress</id>
+    <content type="html"><![CDATA[<p>There we are. The first month of 2018 has passed, and so it is time for me to
+revisit the <a href="http://blog.erikbergenholtz.se/blog/2018/01/03/bucket-list-of-2018/">bucket list</a>
+I made back in the beginning of the year. So the big question is what&rsquo;s happened
+during this month? Unfortunately, not as much as I wished would happen. But
+that&rsquo;s alright, because we&rsquo;ve got another 11 months to go before all these
+things are supposed to be ticked off.</p>
+
+<p>What has happeden though is that I have finished reading <em>The Grabeyard Book</em>, I
+have finished <em>Mario Odyssey</em> (or, well, the main part of the game anyway, I
+know there&rsquo;s more content to unlock by slaving away with collecting star shaped
+power moons, but I&rsquo;m not going to count that), and I&rsquo;ve started eating a
+ketogenic diet successfully. No carbs for a month now (almost).</p>
+
+<p>So that&rsquo;s what I&rsquo;ve done. What&rsquo;s up next then? Well, I&rsquo;ve started to read
+<em>Konsten att få Metala Superkrafter</em>, which is a selfhelp book that supposedly
+should help you boost memory, reading speed, creativity, etc. I&rsquo;m slightly
+skeptical, but I know that the author is legit, and since all of the skills that
+will supposedly be boosted are good things for a PhD student to boost, I thought
+I might as well give it a go. I also hope to finish the German course on
+Duolingo until the end of February. To do that I need to finish roughly 3
+lessons a day for the whole month. I&rsquo;ll do my best, but it might be a bit much;
+I tend to get frustrated with Duolingo because of it&rsquo;s poor design. Finally, I
+plan to fix the home network quite soon. I only need to buy some equipment.</p>
+
+<p>Finally, are there any new points to the list? Of course there are! Firstly,
+<em>Subnautica</em> is added to the list of games I want to finish (which shouldn&rsquo;t be
+too hard to pull off, considering that&rsquo;s what I&rsquo;m playing right now). Secondly
+I&rsquo;m adding <em>Bioshock - Rapture</em> to the list of fiction I want to read, simply
+because I loved the Bioshock games and want to experience more of what Rapture
+has to offer. Other than that, nothing springs to mind at the moment. So that
+leaves us with the list below. And with that, I am going to finish this post.</p>
+
+<p>Happy hacking!</p>
+
+<ul>
+<li>Books
+
+<ul>
+<li>Fiction
+
+<ul>
+<li><del>The Graveyard Book</del></li>
+<li>Dune</li>
+<li>Tinker Tailor Solider Spy</li>
+<li>House of Leaves</li>
+<li>The King in Yellow</li>
+<li>1984</li>
+<li>Bioshock - Rapture</li>
+</ul>
+</li>
+<li>Non-fiction
+
+<ul>
+<li>Introduction to Algorithms</li>
+<li>Violent Python</li>
+<li>Art of Intrusion</li>
+<li>Art of Deception</li>
+<li>Web Application Hacker&rsquo;s Handbook</li>
+<li>Practical Malware Analysis</li>
+<li>Get Started in German</li>
+<li>Konsten att få Metala Superkrafter</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Movies
+
+<ul>
+<li>Dune</li>
+<li>Brazil</li>
+<li>Fear and Loathing in Las Vegas</li>
+<li>Django Unchained</li>
+<li>The Hateful Eight</li>
+<li>Crouching Tiger Hidden Dragon: Sword of Destiny</li>
+<li>Soylent Green</li>
+</ul>
+</li>
+<li>Games
+
+<ul>
+<li><del>Mario Odyssey</del></li>
+<li>Subnautica</li>
+<li>Legend of Zelda: Breath of the Wild</li>
+<li>DOOM</li>
+<li>Cuphead</li>
+<li>Dishonored 2</li>
+</ul>
+</li>
+<li>Work
+
+<ul>
+<li>Nail Advanced Algorithms</li>
+<li>Two publications</li>
+</ul>
+</li>
+<li>Health and fitness
+
+<ul>
+<li>Start working out</li>
+<li>Try Aikido</li>
+<li><del>Start eating Keto</del></li>
+<li>Quit nailbiting</li>
+</ul>
+</li>
+<li>Other
+
+<ul>
+<li>Start practicing violin/viola regularly</li>
+<li>Fix home network</li>
+<li>Fix battlestation</li>
+<li>Git gud at hacking</li>
+<li>Finish German course on Duolingo</li>
+<li>Finish <em>Get Started in German</em></li>
+<li>Get more into tea and coffee</li>
+<li>Start posting here regularly, preferably about sciency stuff</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Bucket List of 2018]]></title>
     <link href="http://blog.erikbergenholtz.se/blog/2018/01/03/bucket-list-of-2018/"/>
-    <updated>2018-01-03T00:00:00+01:00</updated>
+    <updated>2018-01-03T19:45:38+01:00</updated>
     <id>http://blog.erikbergenholtz.se/blog/2018/01/03/bucket-list-of-2018</id>
     <content type="html"><![CDATA[<p>A new year has started, and as such it&rsquo;s time to once again summarize the past
 year and make grand new year&rsquo;s resolutions that you won&rsquo;t keep yourself
@@ -1359,35 +1486,6 @@ and happy hacking!</p>
 <h2>I wonder how to&hellip; Add a splash of color to your animations</h2>
 
 <p><a href="https://www.youtube.com/watch?v=ICUm4YINVk4" title="I wonder how to... Add a splash of color to your animations"><img src="http://i.imgur.com/29wLVBI.png" alt="Color" /></a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Ricing]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2015/11/22/first-ricing/"/>
-    <updated>2015-11-22T23:00:00+01:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2015/11/22/first-ricing</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s been a while, and since I have something to share I
-thought this might be a good time to pick up this blogging
-business again.</p>
-
-<p>I have started with Linux ricing, i.e. doing &ldquo;unecessary
-modifications&rdquo; to my Linux system. I&rsquo;ve only been at it
-for little more than a day, but I must say that I quite
-enjoy it. There&rsquo;s a long way to go before I get to one
-of the increadible ricings displayed over at
-<a href="http://reddit.com/r/unixporn">r/unixporn</a>, which is a
-subreddit devoted to UNIX ricing. But I would say that
-my current rice is at least a decent start.</p>
-
-<p><img src="http://i.imgur.com/dxNRCjU.png" alt="rice" /></p>
-
-<p>I will keep up the good work, and hope to one day
-reach a wizardly look on my Debian system!</p>
-
-<p>If anyone is interested in trying my rice out,
-or have a look at the dotfiles, they&rsquo;re all
-<a href="https://github.com/Psyberion/ricedotfiles">available here</a>.</p>
 ]]></content>
   </entry>
   

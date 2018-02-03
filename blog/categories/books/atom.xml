@@ -4,7 +4,7 @@
   <title><![CDATA[Tags: Books | Erik Bergenholtz' blog]]></title>
   <link href="http://blog.erikbergenholtz.se/blog/categories/books/atom.xml" rel="self"/>
   <link href="http://blog.erikbergenholtz.se/"/>
-  <updated>2018-02-03T23:09:20+01:00</updated>
+  <updated>2018-02-03T23:25:01+01:00</updated>
   <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -12,6 +12,192 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Book Review: Hacking - the Art of Exploitation]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2018/02/03/book-review-hacking-the-art-of-exploitation/"/>
+    <updated>2018-02-03T23:19:55+01:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2018/02/03/book-review-hacking-the-art-of-exploitation</id>
+    <content type="html"><![CDATA[<p><em>This review was supposed to be published some months ago (in July last year,
+to be specific), but wasn&rsquo;t because I put it in a folder where I&rsquo;d be sure to
+find it again and then, of course, didn&rsquo;t. So if there&rsquo;s anything in there that
+doesn&rsquo;t make sense in the context of having read the book now, rather than
+during last year&rsquo;s vacation, it&rsquo;s because I did read it during last year&rsquo;s
+vacation. Regardless, I stand by my opinion on the book, so here&rsquo;s the review.</em></p>
+
+<p>Here it is. My review of <em><a href="https://www.nostarch.com/hacking2.htm">Hacking - The Art of Exploitation</a></em>
+by Jon Erickson, published by <a href="https://www.nostarch.com">No Starch Press</a> (of
+course). It&rsquo;s a book I first learned about many a year ago when I first got
+interested for real in computer security, so somewhere around seven years ago.
+Like <em>Gray Hat Hacking</em>, this is one of <em>the</em> books to read as an asipring
+hacker according to the hacker community (at least it was back then). I bought
+a copy of the book 2013, and it&rsquo;s been gathering dust on my bookshelf since. But
+now, finally, I&rsquo;ve read it. So what are we waiting for, let&rsquo;s jump right in!</p>
+
+<p>Unlike <em>Gray Hat Hacking</em>, which tries to be an introduction to many fields of
+security, <em>The Art of Exploitation</em> tries to be an introduction to one aspect of
+security, namely writing exploits. As a result, it goes further into depth in
+this one subject than <em>Gray Hat Hacking</em> does in any subject, including
+programming. A fundamental part of writing exploits is to understand how
+computers work at a low level, and <em>The Art of Exploitation</em> aims to teach you
+just that. Because of this, the first 100 pages of the book covers C programming
+and some general x86 assymbly. I&rsquo;m aware that I gave <em>Gray Hat Hacking</em> a bit
+of a bashing for covering programming, because I believe that you should know
+programming before getting into hacking, but here it&rsquo;s much more in depth and
+well explained. <em>Gray Hat Hacking</em> stopped at showing off if-statements and
+for-loops, while <em>Art of Exploitation</em> goes all the way to dynamic memory,
+function pointers, structs and file access. It also shows some of the basics of
+GDB, end explains the stack, the heap and the different memory segments that are
+used in a program. All in all, I believe that if you read the first chapter
+carefully, do some exercises and write some programs yourself, you&rsquo;d be pretty
+confident with C afterwards. Granted, you&rsquo;ll have to put down time to actually
+learn how to write programs from a specification of course, but at least you
+would know how to write the code once the structure of it is determined.</p>
+
+<p>The rest of the book is more or less dedicated to exploiting. The second chapter
+shows how a number of exploits like buffer overflows and fromat string exploits
+work, and it does so by example. Accompanying the book is a LiveCD with an
+Ubuntu installation containing all the tools and code used in the book. All
+examples are walked through, step by step, and clearly show how to find the
+vulnerability in the given program, how to construct the exploit and how to
+execute it. The chapter following this takes this to the next level by adding
+networking to the mix. It starts off by talking about networks in general,
+explaining the OSI model layer by layer, and then moves on to some network
+programming using both the <code>socket()</code> interface in C, as well as more abstract
+libraries like <code>libnet</code> and <code>libpcap</code>. It finally explains how to write tools
+for things like DoS attacks, ARP spoofing and TCP/IP hijacking. Once networking
+is covered, the book moves on to showing how to write your own shellcode, as up
+to this point all the shellcode has been predesigned to do the right thing. It
+goes through how to use syscalls to do what you want, how to open up shells,
+bind shells to network connections, and how to optimize the shellcode. Next,
+countermeasures are covered as well as ways around these countermeasures.
+Finally, a brief and high level introduction to cryprology is given, which shows
+off how to break RC4 (the cryptographic function used by WEP) among other
+things.</p>
+
+<p>Needless to say, the book does cover a lot of things, but it&rsquo;s still quite
+focused. Most of the exploits that are shown are based on the idea of injecting
+code into a running program, and redirecting the execution of the program to the
+injected code. Because of this, and the fact that all the exploits are written
+by the reader and not just executed by a prebuilt tool, the book doesn&rsquo;t feel
+too spread out and also manages to convey understanding on the subjects, rather
+than being a glorified manpage. Apart from this, the text is also quite
+approachable, which makes it easy to take in the information. The examples are
+worked through step by step, showing all the steps along the way, and the steps
+are clearly explained. Many of the programs being exploited are quite trivial
+and have blindingly obvious flaws, but the point of the book is not to become a
+1337 h4xXx0R^ that can <a href="https://youtu.be/Bmz67ErIRa4">hack the Gibson</a>, but to
+get the reader into the mindset of a hacker and to know what kinds of flaws to
+look for when trying to find exploits in real life software. This is something
+it does a great job with.</p>
+
+<p>One thing you might&rsquo;ve noticed is that I mentioned that all the code is readily
+available on the supplied LiveCD, but I didn&rsquo;t complain about it like I did with
+<em>Black Hat Python</em>. This might seem hypocritical, but I have my reasons for
+thinking it&rsquo;s okay with this book. Firtly, most of the things that the book
+actually tries to teach you are concepts that can&rsquo;t really be put into code.
+Sure, you can just read the book, see all the examples in GDB that are shown in
+the book, and then pat yourself on the back for becoming a hacker. But if you
+want to actually try running any of the exploits to see them in action, you&rsquo;ll
+have to do some work yourself as memory addresses changes. Moreover, most of
+the supplied code is either shellcode that you need prebuilt until the fourth
+chapter of book, or programs that you&rsquo;ll try to exploit. Writing these yourself
+if of course very good exercise, but for someone like me who knows programming
+quite well and just want to learn how to write exploit, having to write the
+500 line web server myself would just be a distraction. Having the code
+available, ready to be compiled, lets you focus on what the book actually is
+about. Another redeeming factor is that the book actually explains what&rsquo;s being
+attempted <em>before</em> showing the code in the book, so you can give it a go first.
+Because of these things, I appreciate the code being available.</p>
+
+<p>So, to wrap this up, did I learn something, and who would I recommend this to?
+The answer to the first question is undoubtably &ldquo;yes&rdquo;, I learned quite a bit.
+I knew of most attacks since before, but reading this gave me a better
+understanding of why they work, and how. I also learned that I need to get
+better at assembler, because optimizing shellcode for both size and to remove
+NULL-bytes can be a bit tricky. In other words, expect a review on an ASM book
+some time in the future. The answer to the second question is a bit more tricky.
+On the one hand I think this is a book that, in part at least, would benefit
+everyone who does software development at some level. On the other hand it might
+be a bit too in-depth if your only goal is to understand how the exploits work
+on a high level to know what to avoid doing. Because of this, I think I&rsquo;m going
+to settle for the answer that anyone who is interested in security should read
+this book, everyone else might want to skim some of it but maybe not read the
+whole thing cover to cover. Also, I do think that because of the thorough
+introduction to programming in the beginning, as long as you&rsquo;re taking the time
+to work through everything and not just use the prebuilt code, people of any
+level should be able to follow reasonably well. I do still think you should have
+a firm grasp of how computers work <em>before</em> you delve into security though.</p>
+
+<p>That being said, I am now off to do.. other things. I&rsquo;m thinking of picking up
+<em>Web application Hacker&rsquo;s Handbook</em> and work through that, or try to find a nice
+VM with juicy vulnerabilities to practice on. Regardless, I&rsquo;ll see you later!</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Book Review: Exploding the Phone by Phil Lapsley]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2017/07/30/book-review-exploding-the-phone-by-phil-lapsley/"/>
+    <updated>2017-07-30T12:47:44+02:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2017/07/30/book-review-exploding-the-phone-by-phil-lapsley</id>
+    <content type="html"><![CDATA[<p><img class="right <a" src="href="http://www.groveatlantic.com/bigcovers/9780802120618.jpg">http://www.groveatlantic.com/bigcovers/9780802120618.jpg</a>" width="150" height="250" title="Cover" >
+There we are. I have finally managed to make it through Phil Lapsely&rsquo;s book
+<a href="http://explodingthephone.com/"><em>Exploding the Phone</em></a>. Despite taking me 2.5
+years to get through (because I&rsquo;ve put it away for months at a time several
+times, and started over reading it an equal amount of times) I did enjoy
+reading it. The book, which is some 330 pages long, covers the adventures of
+the <em>phone phreaks</em>, i.e. the individuals who used their wits out outsmart the
+telephone system back in the day (50-70s). They were the telephone system&rsquo;s
+equivalent to today&rsquo;s computer hackers, and to a large extent they set the
+stage for the computer hackers themselves.</p>
+
+<p>The book starts off way back in the late 1800s when when the Bell Telephone
+Company was created, to it&rsquo;s demise in 1983. Most of the events in the book
+happened in the 50-70s, however. The book lets us follow the advent and
+evolution of phreaking, and get to know big names in the game such as Bill
+Acker, Joe Engerssia and John Draper. Their adventures were quite awesome, in
+the old sense of the word. If you want to know about what the things they
+actually did you&rsquo;ll have to pick up the book; I am not going to spoil it here.</p>
+
+<p>I would assume that most people who pick this book up are somewhat like me:
+interested in technical things and probably security to some extent too. In
+such case, I&rsquo;m sure they&rsquo;d be interested in how things actually worked. What
+were the vulnerabilities that enabled the phreaking, and why did they work?
+These are things made me want the book, and after reading it I am by no means
+disappointed. The book is filled with enough technical detail that it&rsquo;s easy
+to understand how and why the attacks worked, but it&rsquo;s not enough to push the
+story about the phreaks out of the way. All in all, I think that it gives the
+right amount of coverage.</p>
+
+<p>Despite having a lot of technical information, the book is quite easy to read.
+The language isn&rsquo;t too advanced, and everything is clearly explained. It is,
+however, a bit messy chronologically. Because it follows a lot of stories
+revolving around a lot of people, it isn&rsquo;t written in an entirely chronological
+order. On the grand scale of things it is, but it&rsquo;s not uncommon that the
+author goes on a lengthy tangent in the middle of a story. It&rsquo;s not done
+needlessly or poorly, as the transitions feel natural and the tangents provide
+information that&rsquo;s necessary to understand what is going on. However, it does
+mess up the time line a bit, so keeping track of who lives where and who did
+what in which order is a bit tricky. It doesn&rsquo;t take away much from the
+experience though.</p>
+
+<p>So what&rsquo;s the verdict? It&rsquo;s clearly positive, I would highly recommend reading
+the book. It&rsquo;s interesting and gives a lot of insight into the history of
+today&rsquo;s hacker culture. Despite it taking me 2.5 years to get through the book,
+I don&rsquo;t think it took too many hours to read once I actually sat down with it.
+For me, it was a very worthwhile read and I&rsquo;d happily read more books like
+it.</p>
+
+<p>That concludes my review, and with that I&rsquo;m up to 6 books read this year. That
+means that I&rsquo;m just one month behind where I should be, according to my new
+year&rsquo;s resolution of reading one book a month. I best get to it then, so until
+next time</p>
+
+<p>Happy Hacking!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Book Review - Ansible: From Beginner to Pro]]></title>
@@ -279,137 +465,6 @@ review. But for now this will have to do. I&rsquo;ll have a review on another bo
 recently read shortly, but until then</p>
 
 <p>Happy Hacking!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Book Review: Learn You a Haskell for Great Good]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2017/01/14/review-learn-you-a-haskell/"/>
-    <updated>2017-01-14T23:00:00+01:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2017/01/14/review-learn-you-a-haskell</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s been a long time coming, but now I am finally done reading
-<a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good</a>, so it is
-time for me not only to get coding, but also to review the book!</p>
-
-<p>Haskell is a language that I&rsquo;ve been eyeballing for quite some time, but I have
-hesitated to get started with it due to it being a functional programming
-language. As a guy coming from a mainly imperative background (I do most work
-in C or Python), this is quite different and without a good tutorial it seemed
-quite inaccessible. Luckily for me, Learn You a Haskell showed up on
-<a href="https://humblebundle.com">HumbleBundle</a> a while ago, so I took the opportunity
-to buy it.</p>
-
-<p>The book is aimed at people like me: people experienced in programming, but new
-to functional programming. The book guides the reader though the core concepts
-of Haskell in a conversational tone that is riddled with examples. The language
-is easy to follow, and new concepts are described clearly. The powerfulness of
-the language is shown both through descriptions in the text, but also with the
-examples. In general I would say that it&rsquo;s a really good book that is very
-worth reading.</p>
-
-<p>However, the book has one downside; its lack of exercises. As mentioned, it is
-full of examples, and they do great job at showing how things work and how
-powerful the language is when used correctly. Unfortunately there are no clear
-exercises. Some of the examples are extended through description, where the
-actual implementation of the extension is left as an exercise to the reader,
-but as someone who want to learn how to work with the language and have never
-done anything functional before it is hard to come up with exercises for
-yourself. I really do think that the book would benefit a lot from having
-explicit tasks to do yourself at the end of each chapter. As it is now, I am
-quite confident that I understand the concepts of the language after reading
-the book, but I am far from confident with coding in it. Of course I would not
-have become a Haskell wizard by reading the book even if it did have exercises,
-but I think I would&rsquo;ve been closer.</p>
-
-<p>Regardless I think that it is a really good book, and a really good
-introduction to both Haskell and functional programming, and I am looking
-forward to getting to know Haskell in a more practical way. As a final note
-I&rsquo;d like to recommend it if you&rsquo;re interested in learning Haskell. There are a
-lot of very large and crooked questionmarks surrounding the world of functional
-programming if you&rsquo;re from an imperative or object oriented background, but the
-book does a great job of straightening those into exclamation marks.</p>
-
-<p>Now, I am going to delve into the next book, which will be
-<a href="http://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf">How to Prove it</a>,
-a review of that will come when I&rsquo;m done working through it.</p>
-
-<p>Until the next time,</p>
-
-<p>Happy hacking!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Learning Me a Haskell for Great Good]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2016/12/09/learning-me-a-haskell-for-great-good/"/>
-    <updated>2016-12-09T23:00:00+01:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2016/12/09/learning-me-a-haskell-for-great-good</id>
-    <content type="html"><![CDATA[<p>Today I was informed roughly what I will be doing at work next semester (when I
-say &ldquo;roughly&rdquo; I mean that the suggested work load probably is way through the
-roof, and that it will need to be adjusted before the term starts), and one
-of the things I&rsquo;ll be spending my time on is research. Since I am just a
-project assistant and not a PhD student my research will be quite limited by
-time (I will only spend 80 hours on it over the entire semester), but it&rsquo;s
-something.</p>
-
-<p>What my supervisor want me to do is have a look at a parsing library for
-Haskell called <a href="https://github.com/aslatter/parsec">Parsec</a>. There&rsquo;s only one
-problem; I don&rsquo;t know Haskell. Yet. So, today I set out on my journey to learn
-my first functional programming language, and I thought I&rsquo;d let you in on the
-fun. Starting with this post, I will be posting about my progress with learning
-the (to me) new language. Maybe you&rsquo;ll be getting something out of it, maybe
-not. I&rsquo;m going to do it regardless.</p>
-
-<p>So, to start off I want to mention the book I&rsquo;ll be learning from. It&rsquo;s called
-<a href="https://www.nostarch.com/lyah.htm">Learn You a Haskell for Great Good</a>, and is
-published by <a href="https://www.nostarch.com/">No Starch Press</a>. I&rsquo;ll write a review
-of the book once I&rsquo;m done working though it.</p>
-
-<p>Now, without further adue, let&rsquo;s delve into Haskell! (Note that I&rsquo;m mostly by
-no means going to try to teach you Haskell, I&rsquo;m mostly just going to ramble on
-about things I find weird about the language)</p>
-
-<p>As a C and Python programmer, Haskell seems quite strange. It feel a lot like
-Python in the way that it is written, but some things are strange. For
-instance, the following is perfectly legitimate syntax for Haskell:</p>
-
-<pre><code class="haskell">foo x = (if x&gt;100 then x else x*2)+1
-</code></pre>
-
-<p>First of all, this is a function declaration and not a variable assingment. But
-that&rsquo;s not the main thing that&rsquo;s bugging me about this. It&rsquo;s that the <code>if</code>
-itself <em>returns</em> a value, which I can then add <code>1</code> to. As the book expresses
-it: there is no such thing as an <code>if</code> <em>statement</em> in Haksell, there are <code>if</code>
-<em>expressions</em> instead. Very strange.</p>
-
-<p>Another thing that is qutie odd, but does make sense, is the way list items are
-accessed. Coming from imperative languages, I am used to the <code>list[index]</code>
-syntax if I want to access a list element. However, that kind of syntax
-wouldn&rsquo;t be possible in Haskell, since Haskell has no variables. Insted the
-syntax is</p>
-
-<pre><code class="haskell">[1, 2, 3, 4, 5] !! 3
-</code></pre>
-
-<p>This would fetch <code>4</code>, which is the third item of the list. To finish off, I
-want to mention a thing that&rsquo;s really weird with Haskell, but it&rsquo;s something
-I wish all languages did: argument pattern matching. For instance, to build a
-(probably poor) summing function one could do the following:</p>
-
-<pre><code class="haskell">sum' (x:xs) = x + sum' xs
-sum' [] = 0
-</code></pre>
-
-<p>This basically means that the function <code>sum'</code> takes a list, and puts the first
-element in it&rsquo;s own variable. It then adds that to the recursive call to the
-function itself. Once the list is empty (the <code>sum' []</code>), <code>0</code> is returned. No
-<code>if</code> expressions, nothing. Just matching the input with an empty list.
-Bloody brilliant!</p>
-
-<p>Anyway, this post is already way longer than it should, so I&rsquo;m going to sign
-off now.</p>
-
-<p>Happy hacking!</p>
 ]]></content>
   </entry>
   

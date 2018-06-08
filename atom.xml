@@ -4,7 +4,7 @@
   <title><![CDATA[Erik Bergenholtz' blog]]></title>
   <link href="http://blog.erikbergenholtz.se/atom.xml" rel="self"/>
   <link href="http://blog.erikbergenholtz.se/"/>
-  <updated>2018-02-26T23:12:37+01:00</updated>
+  <updated>2018-06-08T22:59:11+02:00</updated>
   <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -12,6 +12,131 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2018 Bucket List - June Progress]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2018/06/08/2018-bucket-list-june-progress/"/>
+    <updated>2018-06-08T22:46:44+02:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2018/06/08/2018-bucket-list-june-progress</id>
+    <content type="html"><![CDATA[<p>I know, I know. I was supposed to update this thing once a month. But being a
+PhD student is hectic. Who would&rsquo;ve guessed? I also realized in March that since
+I more or less don&rsquo;t ever put anything here, my entire blog would be just this
+list being reposted over and over. So I decided to reduce the frequency a bit.
+As long as I actually do follow up on these things, right?</p>
+
+<p>Anyhow, I&rsquo;ve done a lot since the last update. I&rsquo;ve finished a bunch of games
+(that weren&rsquo;t on the list, of course), I&rsquo;ve <em>almost</em> stopped biting my nails
+(I did actually stop for a couple of weeks, but then I got a small wound and I
+was back at it..). I have read about one third (I think) of <em>Tinker Tailor
+Solider Spy</em>. And, most importantly, I&rsquo;m about to submit my first paper. So I&rsquo;ve
+got a lot going on.</p>
+
+<p>But I <em>have</em> actually finished a couple of things as well. I&rsquo;ve fixed my home
+network, so there aren&rsquo;t ethernet cables snaking their way over the floor
+anymore. I&rsquo;ve read most of <em>Introduction to Algorithms</em>, which I&rsquo;m going to
+count as done because I realized while reading it that it&rsquo;s not a cover-to-cover
+kind of book. I&rsquo;ve also nailed the Advanced Algorithms course I took. Good
+stuff! So I haven&rsquo;t been lazy just because I haven&rsquo;t reposted this list,
+alright?</p>
+
+<p>Before I sign off here I&rsquo;d just like to say that I have a couple of posts
+planned actually, and I hope to finish them over vacation. They&rsquo;re going to be a
+bit more technical than the stuff I&rsquo;ve posted so far. And with a bit I mean &ldquo;a
+lot&rdquo;. Like fiddling around with raw sockets in C technical. But that&rsquo;s for
+later, hopefully during the summer. For now, this is all.</p>
+
+<p>Happy hacking!</p>
+
+<ul>
+<li>Books
+
+<ul>
+<li>Fiction
+
+<ul>
+<li><del>The Graveyard Book</del></li>
+<li>Dune</li>
+<li>Tinker Tailor Solider Spy</li>
+<li>House of Leaves</li>
+<li>The King in Yellow</li>
+<li>1984</li>
+<li>Bioshock - Rapture</li>
+</ul>
+</li>
+<li>Non-fiction
+
+<ul>
+<li><del>Introduction to Algorithms</del></li>
+<li>Violent Python</li>
+<li>Art of Intrusion</li>
+<li>Art of Deception</li>
+<li>Web Application Hacker&rsquo;s Handbook</li>
+<li>Practical Malware Analysis</li>
+<li>Get Started in German</li>
+<li>Konsten att få Metala Superkrafter</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Movies
+
+<ul>
+<li>Dune</li>
+<li>Brazil</li>
+<li>Fear and Loathing in Las Vegas</li>
+<li>Django Unchained</li>
+<li>The Hateful Eight</li>
+<li>Crouching Tiger Hidden Dragon: Sword of Destiny</li>
+<li>Soylent Green</li>
+</ul>
+</li>
+<li>Games
+
+<ul>
+<li><del>Mario Odyssey</del></li>
+<li><del>Subnautica</del></li>
+<li>Legend of Zelda: Breath of the Wild</li>
+<li>DOOM</li>
+<li>Cuphead</li>
+<li>Dishonored 2</li>
+</ul>
+</li>
+<li>Work
+
+<ul>
+<li><del>Nail Advanced Algorithms</del></li>
+<li>Two publications</li>
+</ul>
+</li>
+<li>Health and fitness
+
+<ul>
+<li>Start working out</li>
+<li>Try Aikido</li>
+<li><del>Start eating Keto</del></li>
+<li>Quit nailbiting</li>
+</ul>
+</li>
+<li>Other
+
+<ul>
+<li>Start practicing violin/viola regularly</li>
+<li><del>Fix home network</del></li>
+<li>Fix battlestation</li>
+<li>Git gud at hacking</li>
+<li>Finish German course on Duolingo</li>
+<li>Finish <em>Get Started in German</em></li>
+<li>Get more into tea and coffee</li>
+<li>Learn about brewing</li>
+<li>Learn about fermenting</li>
+<li>Get better at cooking</li>
+<li>Start posting here regularly, preferably about sciency stuff</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2018 Bucket List - February Progress]]></title>
@@ -376,6 +501,422 @@ leaves us with the list below. And with that, I am going to finish this post.</p
 </li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Socket Programming: IPv6 Extension Headers]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2018/01/11/socket-programming-ipv6-extension-headers/"/>
+    <updated>2018-01-11T19:04:09+01:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2018/01/11/socket-programming-ipv6-extension-headers</id>
+    <content type="html"><![CDATA[<p>Recently in my research I had to deal with the IPv6 extension headers. In
+particular I had to deal with the Hop-By-Hop header. Unfortunately, the process
+of actually setting the option and getting it on the wire is not trivial, and
+the documentation is so-so. Because of this I thought I&rsquo;d give explaining the
+process a go. But firstly, let&rsquo;s discuss the header itself.</p>
+
+<h2>IPv6 Extension Headers</h2>
+
+<p>The two extensions headers that are covered by this method are the Hob-by-Hop
+options header and the destination options header.</p>
+
+<figure class='code'><figcaption><span>IPv6 extension header</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+</span><span class='line'>|  Next Header  |  Hdr Ext Len  |                               |
+</span><span class='line'>+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+                               +
+</span><span class='line'>|                                                               |
+</span><span class='line'>.                                                               .
+</span><span class='line'>.                            Options                            .
+</span><span class='line'>.                                                               .
+</span><span class='line'>|                                                               |
+</span><span class='line'>+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The headers looks like above. The first field is a 8-bit field that tells us
+what the next header after the current one is. Following that is another 8-bit
+field which tells us how long the current field is in units of <em>8 bytes</em>. It
+should be noted, however, that this length does <em>not</em> include the first 8 bytes.
+In other words, if the header is 8 bytes long the length field will hold the
+value 0, while if the header is 16 bytes long it will hold the value 1.</p>
+
+<p>After these two fields comes the actual options. They follow the below format,
+and must be a multiple of 8 bytes long. If they&rsquo;re too short they&rsquo;re padded to
+an acceptable lenght.</p>
+
+<figure class='code'><figcaption><span>Extension option fields</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- - - - - - - - -
+</span><span class='line'>|  Option Type  |  Opt Data Len |  Option Data
+</span><span class='line'>+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- - - - - - - - -
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The first field tells us the type of the option. The most significant bits of
+this value determines how the packet is treated, according to the following
+table:</p>
+
+<figure class='code'><figcaption><span>MSB meaning</span><a href='https://tools.ietf.org/html/rfc2460'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>+-------------------------------------------------------------------------+
+</span><span class='line'>| MSB | Description                                                       |
+</span><span class='line'>+-----+-------------------------------------------------------------------+
+</span><span class='line'>| 00  | Skip this option and keep processing the header                   |
+</span><span class='line'>+-----+-------------------------------------------------------------------+
+</span><span class='line'>| 01  | Discard the packet                                                |
+</span><span class='line'>+-----+-------------------------------------------------------------------+
+</span><span class='line'>| 10  | Drop the packet and return an IMCP parameter probelm packet,      |
+</span><span class='line'>|     | regardless of whether or not the destination address is multicast |
+</span><span class='line'>+-----+-------------------------------------------------------------------+
+</span><span class='line'>| 11  | Drop the packet and return an ICMP parameter problem packet, but  |
+</span><span class='line'>|     | *only* if the destination address is not multicast                |
+</span><span class='line'>+-----+-------------------------------------------------------------------+
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The thrid most significant bit tells us if the option can change in en-route
+(<code>1</code>) or not (<code>0</code>). The option length field says how many bytes long the option
+is.</p>
+
+<p>For the purposes of this guide, that is all you need to know. As you can see
+from the MSB meaning table, these options aren&rsquo;t extremely useful if you follow
+the RFC, as they all either tells the receiver to ignore the option or drop the
+packet, but they might become useful in the future. Who knows.</p>
+
+<h2>Adding the extension headers to packets</h2>
+
+<p>And now we&rsquo;re reached the reason you&rsquo;re here; how do we actually make our
+packets that we put on the wire have these options? Unless you want to manually
+build the whole packet yourself, by hand (which is of course possible), the way
+to do it is to use <code>struct cmsghdr</code>. These structs, which hold message control
+data, are used by <code>struct msghdr</code> when using <code>sendmsg(...)</code> to send packets.
+Since building packets by hand is a bit awkward and messy, this approach is what
+we&rsquo;ll do. So let&rsquo;s get to it!</p>
+
+<p>The very first step is to create a socket, regardless of method, so let&rsquo;s start
+with that. I am going to create a raw socket that can then be used to issue
+ICMP messages. To create this socket we do the following:</p>
+
+<figure class='code'><figcaption><span>Create raw socket</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#include &lt;stdlib.h&gt;</span>
+</span><span class='line'><span class="cp">#include &lt;stdio.h&gt;</span>
+</span><span class='line'><span class="cp">#include &lt;errno.h&gt;</span>
+</span><span class='line'><span class="cp">#include &lt;string.h&gt;</span>
+</span><span class='line'><span class="cp">#include &lt;sys/socket.h&gt;</span>
+</span><span class='line'><span class="cp">#include &lt;arpa/inet.h&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">void</span> <span class="nf">fatal</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">msg</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>   <span class="n">fprintf</span><span class="p">(</span><span class="n">stderr</span><span class="p">,</span> <span class="s">&quot;%s</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">);</span>
+</span><span class='line'>   <span class="n">exit</span><span class="p">(</span><span class="n">EXIT_FAILURE</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="p">...</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="n">sockfd</span><span class="p">;</span>
+</span><span class='line'><span class="k">if</span><span class="p">((</span><span class="n">sockfd</span> <span class="o">=</span> <span class="n">socket</span><span class="p">(</span><span class="n">AF_INET6</span><span class="p">,</span> <span class="n">SOCK_RAW</span><span class="p">,</span> <span class="n">IPPROTO_ICMPV6</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This creates a raw IPv6 socket that is meant to send ICMPv6 messages. If
+something goes wrong, and error message is printed to <code>stderr</code> and the program
+is shut down.</p>
+
+<p>Now that we have our socket we&rsquo;re ready to start looking at how to send this.
+As mentioned we&rsquo;re going to use <code>sendmsg(...)</code> for this, so let&rsquo;s start by
+examining the function prototype for this:</p>
+
+<figure class='code'><figcaption><span>Function prototype for sendmsg(...)</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="kt">size_t</span> <span class="nf">sendmsg</span><span class="p">(</span><span class="kt">int</span> <span class="n">sockfd</span><span class="p">,</span> <span class="k">const</span> <span class="k">struct</span> <span class="n">msghdr</span> <span class="o">*</span><span class="n">msg</span><span class="p">,</span> <span class="kt">int</span> <span class="n">flags</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The function first takes a socket, of course, followed by a <code>struct msghdr *</code>
+and some flags. The socket is already created, and we&rsquo;re not going to bother
+with flags right now, so the value of that is 0. The thing that&rsquo;s interesting
+here is the <code>struct msghdr</code>, as this structure will hold all the information
+about the packet that the kernel needs to know, like destination. This is also
+how we&rsquo;re going to pass the hop-by-hop header! It looks like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="k">struct</span> <span class="n">msghdr</span>
+</span><span class='line'>  <span class="p">{</span>
+</span><span class='line'>    <span class="kt">void</span> <span class="o">*</span><span class="n">msg_name</span><span class="p">;</span>
+</span><span class='line'>    <span class="kt">socklen_t</span> <span class="n">msg_namelen</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">struct</span> <span class="n">iovec</span> <span class="o">*</span><span class="n">msg_iov</span><span class="p">;</span>
+</span><span class='line'>    <span class="kt">size_t</span> <span class="n">msg_iovlen</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="kt">void</span> <span class="o">*</span><span class="n">msg_control</span><span class="p">;</span>
+</span><span class='line'>    <span class="kt">size_t</span> <span class="n">msg_controllen</span><span class="p">;</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">msg_flags</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The first fields, <code>msg_name</code> and <code>msg_namelen</code>, are meant for the destination
+address and the length of it. The next two are the I/O-vectors, or buffers
+containing input. The <code>msg_control</code> and <code>msg_controllen</code> fields are the truly
+interesting here, since these are where we&rsquo;ll put our <code>struct cmsghdr</code> and its
+length once we&rsquo;ve build that. But let&rsquo;s build what we can, while we&rsquo;re already
+looking at this. Firstly, let&rsquo;s set the IO buffers and flags, since those are
+trivial.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#define BUFLEN 0xffff</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">....</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">char</span> <span class="n">sendbuf</span><span class="p">[</span><span class="n">BUFLEN</span><span class="p">];</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">struct</span> <span class="n">iovec</span> <span class="n">iov</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span>
+</span><span class='line'><span class="n">iov</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">iov_base</span> <span class="o">=</span> <span class="n">sendbuf</span><span class="p">;</span>
+</span><span class='line'><span class="n">iov</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">iov_len</span> <span class="o">=</span> <span class="n">BUFLEN</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">struct</span> <span class="n">msghdr</span> <span class="n">msg</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">};</span>
+</span><span class='line'><span class="n">msg</span><span class="p">.</span><span class="n">msg_iov</span> <span class="o">=</span> <span class="n">iov</span><span class="p">;</span>
+</span><span class='line'><span class="n">msg</span><span class="p">.</span><span class="n">msg_iovlen</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+</span><span class='line'><span class="n">msg</span><span class="p">.</span><span class="n">msg_flags</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This piece of code creates a 65545 byte input buffer, stores it in an <code>struct
+iov</code> and stores that in the <code>struct msghdr</code>. The reason the variable <code>iov</code> is
+declared as an array with two elements is that we&rsquo;re gonna need that for the
+options later. The next step is to set the <code>msg_name</code> and <code>msg_namelen</code> fields.
+To do this we create an <code>struct sockaddr_in6</code> object and set the value of the
+IP address using the <code>inet_pton(...)</code> function. We then set the <code>struct msghdr</code>
+fields to point to this variable:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="p">...</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">struct</span> <span class="n">sockaddr_in6</span> <span class="o">*</span><span class="n">dst</span> <span class="o">=</span> <span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="n">sockaddr_in6</span><span class="p">));</span>
+</span><span class='line'><span class="n">inet_pton</span><span class="p">(</span><span class="n">AF_INET6</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">address</span><span class="o">&gt;</span><span class="p">,</span> <span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">dst</span><span class="o">-&gt;</span><span class="n">sin6_addr</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">...</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">msg</span><span class="p">.</span><span class="n">msg_name</span> <span class="o">=</span> <span class="n">dst</span><span class="p">;</span>
+</span><span class='line'><span class="n">msg</span><span class="p">.</span><span class="n">msg_namelen</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="k">struct</span> <span class="n">sockaddr_in6</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Exchange the <code>&lt;address&gt;</code> above with a string containing the destination address
+of your packets, and you&rsquo;re good to go. Up to this point we&rsquo;ve covered most of
+the preparations that are necessary to make this work. The final step, before
+actually sending the packet, is to set the extension headers. The process is a
+bit messy, to say the least, but I think that we&rsquo;ll be able to pull through.</p>
+
+<p>Setting the extension header uses <code>struct cmsghdr</code>. The struct is declared as
+follows:</p>
+
+<figure class='code'><figcaption><span>Declaration of "struct cmsghdr"</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="k">struct</span> <span class="n">cmsghdr</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>  <span class="kt">size_t</span> <span class="n">cmsg_len</span><span class="p">;</span>
+</span><span class='line'>  <span class="kt">int</span> <span class="n">cmsg_level</span><span class="p">;</span>
+</span><span class='line'>  <span class="kt">int</span> <span class="n">cmsg_type</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The <code>cmsg_len</code> field contains the length of the data <em>plus</em> the length of the
+header. <code>cmsg_level</code> holds the originating protocol, e.g. <code>IPPROTO_IPV6</code> in our
+case. <code>cmsg_type</code> holds the message type. Since we&rsquo;re adding a hop-by-hop
+header the value here will be <code>IPV6_HOPOPTS</code>. Now, it may seem like setting
+these values is all we need to do to get this up and running, but it&rsquo;s quite a
+bit trickier than that. This is because the struct stores the data <em>after</em> the
+struct itself, so we need to initialize it carefully. For what we want to do we
+need four functions and three macro functions. Let&rsquo;s start with the macros.</p>
+
+<p><code>CMSG_LEN(len)</code> returns the length of the header and data, with any necessary
+alignment taken into account. This is the value of the <code>cmsg_len</code> field. The
+second macro is <code>CMSG_DATA(cmsg)</code>, which returns a pointer to the actual
+ancillary data. Finally, the <code>CMSG_SPACE(len)</code> macro simply returns the
+size in bytes of the ancillary data and a payload of the specified length. We
+will use this to allocate space for the header.</p>
+
+<p>The four functions we need to use are <code>inet6_opt_init(...)</code>,
+<code>inet6_opt_append(...)</code>, <code>inet6_opt_set_val(...)</code> and <code>inet6_opt_finish(...)</code>.
+They&rsquo;re a bit complicated, so we&rsquo;re going to go though them one by one.</p>
+
+<p><code>inet6_opt_init(void *extbuf, socklen_t extlen)</code> is quite simple. It returns
+the size of an empty header. If <code>extbuf</code> points to valid memory it also
+initializes the header&rsquo;s length field. This function <em>has to be called</em> before
+any of the other functions can be called.</p>
+
+<p><code>inet6_opt_append(void *extbuf, socklen_t extlen, int offset, uint8_t type,
+socklen_t len, uint8_t align, void **databufp)</code> has two jobs. If <code>extbuf</code> is
+<code>NULL</code> the function returns how long the header <em>would&rsquo;ve been</em> if an option
+was actually appended.  If <code>extbuf</code> is not <code>NULL</code>, on the other hand, it will
+append the option, return the length as previously described <em>and</em> return a
+pointer to the data through the <code>databufp</code> argument. <code>len</code> and <code>align</code> describe
+the length of the option, as well as the required alignment. <code>len</code> is specified
+as the number of <em>octets</em> of data. <code>align</code> cannot be exceed <code>len</code> and must have
+the value <code>1</code>, <code>2</code>, <code>4</code> or <code>8</code>, which represent 0, 16, 32 or 64 bits of
+alignment respectively. <code>offset</code> should be the returned value of either
+<code>inet6_opt_init</code> or a previous call to <code>inet6_opt_append</code>.</p>
+
+<p><code>inet6_opt_set_val(void *databuf, int offset, void *val, socklen_t vallen)</code>
+takes a pointer to the intended data, i.e. <code>databuf</code> from the last function,
+and simply writes whatever&rsquo;s stored in <code>val</code> to that position. As with the last
+function, <code>offset</code> should be the returned value of the last <code>inet6_opt_append</code>
+call.</p>
+
+<p><code>inet6_opt_finish(void *extbuf, socklen_t extlen, offset)</code> calculates any final
+padding needed to make the header a multiple of eight octets long. <code>offset</code> is,
+as usual, the result of running <code>inet6_opt_init</code> or <code>inet6_opt_append</code>,
+whichever comes last. When <code>extbuf</code> is not <code>NULL</code> the padding isn&rsquo;t just
+calulated, but also added to the header.</p>
+
+<p>So now that we know what all these things do, it&rsquo;s just a matter of applying
+this. What should be noted, though, is that in order for us to know how large
+our <code>struct cmsghdr</code> has to be to accomodate the header we must first do a
+&ldquo;dryrun&rdquo; of the setting up. In other words, run all the functions above once
+with <code>extbuf</code> set to <code>NULL</code>, then allocate memory for the struct and <em>then</em> run
+all functions <em>again</em> with real values. In the end this is what it turns into:</p>
+
+<figure class='code'><figcaption><span>Building the cmsghdr struct</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="k">struct</span> <span class="n">cmsghdr</span> <span class="o">*</span><span class="n">cmsg</span><span class="p">;</span>
+</span><span class='line'><span class="kt">void</span> <span class="o">*</span><span class="n">hopbuf</span><span class="p">;</span>
+</span><span class='line'><span class="kt">socklen_t</span> <span class="n">hoplen</span><span class="p">;</span>
+</span><span class='line'><span class="kt">void</span> <span class="o">*</span><span class="n">databuf</span><span class="p">;</span>
+</span><span class='line'><span class="kt">int</span> <span class="n">curlen</span><span class="p">;</span>
+</span><span class='line'><span class="kt">uint8_t</span> <span class="n">val</span> <span class="o">=</span> <span class="mh">0x80</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// Dryrun to find out size of headers</span>
+</span><span class='line'><span class="k">if</span><span class="p">((</span><span class="n">curlen</span> <span class="o">=</span> <span class="n">inet6_opt_init</span><span class="p">(</span><span class="nb">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span><span class='line'><span class="k">if</span><span class="p">((</span><span class="n">curlen</span> <span class="o">=</span> <span class="n">inet6_opt_append</span><span class="p">(</span><span class="nb">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">curlen</span><span class="p">,</span> <span class="mh">0x80</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span><span class='line'><span class="k">if</span><span class="p">((</span><span class="n">curlen</span> <span class="o">=</span> <span class="n">inet6_opt_finish</span><span class="p">(</span><span class="nb">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">curlen</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span><span class='line'><span class="n">hoplen</span> <span class="o">=</span> <span class="n">curlen</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// Allocate memory and set known options</span>
+</span><span class='line'><span class="n">cmsg</span> <span class="o">=</span> <span class="p">(</span><span class="k">struct</span> <span class="n">cmsghdr</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="n">CMSG_SPACE</span><span class="p">(</span><span class="n">hoplen</span><span class="p">));</span>
+</span><span class='line'><span class="n">cmsg</span><span class="o">-&gt;</span><span class="n">cmsg_len</span> <span class="o">=</span> <span class="n">CMSG_LEN</span><span class="p">(</span><span class="n">hoplen</span><span class="p">);</span>
+</span><span class='line'><span class="n">cmsg</span><span class="o">-&gt;</span><span class="n">cmsg_level</span> <span class="o">=</span> <span class="n">IPPROTO_IPV6</span><span class="p">;</span>
+</span><span class='line'><span class="n">cmsg</span><span class="o">-&gt;</span><span class="n">cmsg_type</span> <span class="o">=</span> <span class="n">IPV6_HOPOPTS</span><span class="p">;</span>
+</span><span class='line'><span class="n">hopbuf</span> <span class="o">=</span> <span class="n">CMSG_DATA</span><span class="p">(</span><span class="n">cmsg</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// Build actual header</span>
+</span><span class='line'><span class="k">if</span><span class="p">((</span><span class="n">curlen</span> <span class="o">=</span> <span class="n">inet6_opt_init</span><span class="p">(</span><span class="n">hopbuf</span><span class="p">,</span> <span class="n">hoplen</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span><span class='line'><span class="k">if</span><span class="p">((</span><span class="n">curlen</span> <span class="o">=</span> <span class="n">inet6_opt_append</span><span class="p">(</span><span class="n">hopbuf</span><span class="p">,</span> <span class="n">hoplen</span><span class="p">,</span> <span class="n">curlen</span><span class="p">,</span> <span class="mh">0x80</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">databuf</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span><span class='line'><span class="k">if</span><span class="p">(</span><span class="n">inet6_opt_set_val</span><span class="p">(</span><span class="n">databuf</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">val</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">val</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span><span class='line'><span class="k">if</span><span class="p">((</span><span class="n">curlen</span> <span class="o">=</span> <span class="n">inet6_opt_finish</span><span class="p">(</span><span class="n">hopbuf</span><span class="p">,</span> <span class="n">hoplen</span><span class="p">,</span> <span class="n">curlen</span><span class="p">))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</span><span class='line'>   <span class="n">fatal</span><span class="p">(</span><span class="n">strerror</span><span class="p">(</span><span class="n">errno</span><span class="p">));</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The last step now</p>
 ]]></content>
   </entry>
   
@@ -1533,127 +2074,6 @@ are available on <a href="https://github.com/Psyberion/adventofcode2016">github<
 go check that out!</p>
 
 <p>Happy hacking!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Review: The Linux Commandline by William E. Shotts, Jr.]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2016/08/15/linux-commandline-review/"/>
-    <updated>2016-08-15T00:00:00+02:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2016/08/15/linux-commandline-review</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s finally time for me to post my first book review! As mentioned I&rsquo;ve wanted
-to do this for quite some time, both to get some more posting here on the blog
-done and to give me an incentive to actually read the books I buy. So here it
-is, the first book review on this blog!</p>
-
-<p>The book I&rsquo;ve (actually) read is
-<a href="https://www.nostarch.com/tlcl"><em>The Linux Commandline</em></a> by <strong>William E. Shotts,
-Jr.</strong>, published by <a href="https://www.nostarch.com/">No Starch Press</a>. The book is
-aimed at people who have just installed Linux and is clueless about where to go
-from there. As such I am quite a bit outside of the target audience, but despite
-this I found the book to be a very good read (I mean, I finished it&hellip;).</p>
-
-<p><em>The Linux Commandline</em> is divided into four parts: Learning the shell;
-Configuration and the Environment; Common Tasks and Essential Tools; and Writing
-Shell Scripts. Just looking at this it is clear that the book covers a great
-many subjects in the world of the Linux commandline. As I said it is aimed at
-complete Linux newbies, and as such it begins at a very basic level. In the very
-first chapter the concept of a <em>shell</em> is explained, along with things such as
-the fact that the shell tells you that no command was found if you try to
-execute random letters. Once that is dealt with the book works it&rsquo;s way from
-commands like <code>cd</code> and <code>ls</code> to more complex commands like <code>sed</code> and how to write
-regular expressions for <code>sed</code>. It covers pipes, redirection, searching with
-<code>find</code> and touches on editing with my personal favorite editor Vim. When all
-these topics are covered, the author shows how to glue it all together using
-<code>if</code>-statements, <code>for</code>-loops and shell functions to build complete shell
-scripts.</p>
-
-<p>It&rsquo;s obvious that the book covers a lot, but the big question is whether or not
-it does it well. To that my answer is yes. As mentioned I am far from the target
-audience with 10 years of working with Linux in my luggage. Despite this I
-actually learned a thing or two from the book. A large part of the book could be
-skimmed, such as descriptions of what <code>ls -l</code> and <code>ls -a</code> do, but some chapters
-were completely new such as how to print files to paper via the CLI. Apart from
-the content being very fleshed out it is also well written in a style that is
-easy to read and learn from. Descriptions are clear and the vast majority of all
-commands covered are also used in an example, so that it is easy for the reader
-to follow along and try things out.</p>
-
-<p>To conclude this is a book that according to me is clearly worth the $39.95. I
-only own it as an e-book, but I am tempted to buy a paperback as well to have a
-physical copy. It is well written, clearly describes how to efficiently work
-with the shell on a basic to intermediate level, and I think that if everyone
-who tried Linux would take the time to work through this their Linux experience
-would be a lot better.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I've Had It With No Man's Sky]]></title>
-    <link href="http://blog.erikbergenholtz.se/blog/2016/08/15/had-it-with-nms/"/>
-    <updated>2016-08-15T00:00:00+02:00</updated>
-    <id>http://blog.erikbergenholtz.se/blog/2016/08/15/had-it-with-nms</id>
-    <content type="html"><![CDATA[<p>As probably nobody with even the slightest interest in gaming has missed, the
-hype of the year has finally come out: No Man&rsquo;s Sky. The game where there is an
-infinite, procedurally generated universe to discover and explore, creatures
-created not by careful design but by artifical evolution to marvel at, alien
-cultures to encounter and interact with! Over at
-<a href="https://www.reddit.com/r/NoMansSkyTheGame">/r/NoMansSkyTheGame</a> people have
-torn their hair in anticipation of this game. And I must admit, I was quite
-excited about it as well. Becuase it sounds pretty cool, doesn&rsquo;t it? With all
-that exploration to do, all those discoveries to be made.</p>
-
-<p>Now I&rsquo;ve tried. I really have. I&rsquo;ve spent ten hours over the weekend trying to
-get into it, but I just can&rsquo;t. The game is horrendous. I&rsquo;ve had it. It&rsquo;s not
-just that there&rsquo;s nothing to do in the game, it&rsquo;s also that everything is
-exactly the same and nothing makes sense! For instance I visited a quite
-chilly planet, so to speak. The temperature was at -30 to -60 centrigrades.
-Despite this there were liquid water! Fancy that, no ice! When I then fly over
-to another planet in the same solar system I notice something interesting; the
-exact same plants as I found on another planet <em>in another solar system</em> lives
-there. Not something similar, the <em>exact</em> same but with a (presumably)
-different name. Not to mention the creatures created by the artificial
-evolution.
-<a href="https://twitter.com/Britbongreturns/status/765190830894317568">This</a> post
-by <a href="https://twitter.com/Britbongreturns">@Britbongreturns</a> sums it up quite
-nicely, so I&rsquo;ll leave it at that.</p>
-
-<p>Before I conclude this post, let&rsquo;s go over a few of the selling points on the
-game&rsquo;s <a href="http://store.steampowered.com/app/275850/#app_reviews_hash">Steam page</a>.</p>
-
-<ol>
-<li><p>&ldquo;<em>a galaxy to explore, filled with unique planets and lifeforms, and constant
- danger and action</em>&rdquo;</p>
-
-<p>Well this is just a downright lie: The planets may be procedurally
-generated, and therefore unique, but apparently reusing every resource
-there is in the game isn&rsquo;t covered by this. Also, if there is so much
-danger and action, how come I haven&rsquo;t experienced neither danger nor
-action?</p></li>
-<li><p>&ldquo;<em>Fly smoothly from deep space to planetary surfaces, with no loading
- screens, and no limits.</em>&rdquo;</p>
-
-<p>That is actually true! There are no loading screens! Instead there is the
-most terrible texture popping I have ever seen! Not only does it pop in
-textures as you&rsquo;re closing up to them, but it &ldquo;unpops&rdquo; them as well; if you
-have mined out a huge pillar of e.g. gold then you&rsquo;ll still see it at a
-distance! Terrible!</p></li>
-<li><p>&ldquo;<em>At the centre of the galaxy lies a irresistible pulse which draws you on a
- journey towards it</em>&rdquo;</p>
-
-<p>Huh, the more you know. Apart from the exposition given right here I haven&rsquo;t
-been given any incentive so far for going to the center of the galaxy.
-Weird.</p></li>
-</ol>
-
-
-<p>To conclude this rant I&rsquo;d like to say that I didn&rsquo;t want a 60€ game with
-horrible &ldquo;evolution&rdquo; in it. I already own a game like that: Spore! So now I&rsquo;m
-done with this disappointment. I&rsquo;m going back to buying small, unknown indie
-games via <a href="https://www.humblebundle.com/">HumbleBundle</a>, at least I usually
-enjoy at least they&rsquo;re enjoyable for the most part.</p>
-
-<p>/rant</p>
 ]]></content>
   </entry>
   

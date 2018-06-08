@@ -9,9 +9,8 @@
   <meta name="author" content="Erik Bergenholtz">
 
   
-  <meta name="description" content="It&rsquo;s been a long time coming, but now I am finally done reading
-Learn You a Haskell for Great Good, so it is
-time for me not only to get coding &hellip;">
+  <meta name="description" content="Here we are again, I&rsquo;ve actually read another book. That makes four this year,
+out of which three have been on some form of computer related &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +66,275 @@ time for me not only to get coding &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2017/07/11/my-thoughts-on-gray-hat-hacking/">My Thoughts on Gray Hat Hacking: The Ethical Hacker's Handbook</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-07-11T00:00:00+02:00'><span class='date'>2017-07-11</span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Here we are again, I&rsquo;ve actually read another book. That makes four this year,
+out of which three have been on some form of computer related topic. So my
+New Year&rsquo;s resolution to read twelve books this year is actually looking like
+it&rsquo;s doable.</p>
+
+<p>But enough beating around be bush, if you&rsquo;re reading this it&rsquo;s because you want
+to know what I think of <a href="http://pages.cs.wisc.edu/~ace/media/gray-hat-hacking.pdf">Gray Hat Hacking: The Ethical Hacker&rsquo;s Handbook</a>,
+so here&rsquo;s what I think of it: I&rsquo;m not sure. I think that I may be a poor judge,
+because I was expecting more than I got. See, this book is quite praised in
+hacker circles, at least as I remember it from the days when I used to hang out
+in hacker forums. It is one of <em>the</em> books you should read if you want to get
+into the world of hacking. So knowing this I obviously expected miracles, more
+or less, when I started reading. Unfortunately, that is not what <em>I</em> got.</p>
+
+<p>Before we go any further, I want to point out a few things. Firstly, I have not
+read this cover to cover. I&rsquo;ve read the better part of it, but I&rsquo;ve skipped
+quite some text that I didn&rsquo;t have a need for right now. This mostly involves
+fluff like how to use specific tools, what it means to be an <em>Ethical Hacker</em>.
+Secondly, since I have an education in computer security where I have actually
+had this book as course literature (I didn&rsquo;t read it at the time though), I knew
+a lot of these things before. This is part of the reason why I didn&rsquo;t get the
+miracle I was expecting. With that out of the way, let&rsquo;s get into the meat of'er!</p>
+
+<p>The book quite hefty at 672 pages. It covers <em>a lot</em> of topics, ranging from how
+to report found vulnerabilities to basic programming (I&rsquo;m coming back to this
+later) to quite advanced tricks to get around protection schemes. This is why I
+believe that it&rsquo;s considered such a good book to read if you want to enter the
+world of hacking; it does give an introduction to a great many things. However,
+some of these fields are covered so briefly that they might as well have left
+them out. This includes SQL and XSS injections, that are only really touched
+upon. Other topics, buffer overflows in particular, are elaborated on. The
+explanations of these topics are well composed, with working(ish) examples,
+complete with code, explanations and references. This allow you to follow along
+for the most part, which is great! As opposed to Black Hat Python, where the
+code examples comes first and the explanation afterwards, here the explanation
+of the vulnerability comes first and the exploit is then iteratively
+constructed, showing all steps along the way. The only real problem I have with
+this is that their type setting for the code segment is quite bad, and sometimes
+separate lines are printed on the same line. This is really a minor complaint
+though.</p>
+
+<p>One thing that is not the books fault, but decreases the value of it none the
+less, is that it is a book and it&rsquo;s written in 2011. This means that some of the
+things brought up in it is no longer possible, or no longer relevant. For
+instance, the book walked throught the process of injecting shellcode via the
+<code>.dtors</code> section of a program (I&rsquo;m not explaining that further, not in this
+post at least). That section is replaces with <code>.fini_array</code> since GCC 4.7, which
+works differently and makes the covered attack impossible. There&rsquo;s likely a
+similar attack that exploits the new format, but for obvious reasons the book
+doesn&rsquo;t cover it. There are a number of such instances, but as mentioned it&rsquo;s
+not the fault of the authors but rather the ever-changing nature of the field.</p>
+
+<p>Another thing that I find strange about the book is it&rsquo;s pacing. It&rsquo;s covering
+fairly advanced attacks and how to construct your own shellcode, while at the
+same time covering basic programming. This section is really quite short and as
+I&rsquo;m quite adept at programming I only skimmed it, but I could see that it was on
+the level of &ldquo;every C program needs a function called <code>main()</code>&rdquo;. In other words,
+that part of the text was aimed at someone who has never seen a line of code.
+This is odd to me, as security is no basic topic. Sure, there are a ton of
+script kiddies who run around on the interwebs thinking they&rsquo;re 1337 hax0rz
+because the figured out how to download LOIC (or whatever is the latest and
+greatest DDoS tool now-a-days), but this is a book that aims to educate security
+professionals. Demanding a certain amount of previous knowledge of how C,
+memory and such works would not be too much to ask in my opinion. Especially
+when, as I said, shellcode construction is covered. This involves writing
+(short) C programs that do what you want, compiling them and removing any
+unnecessary ASM that the compiler added, only to then assemble and extract the
+opcodes. In other words, it&rsquo;s nothing you&rsquo;d be able to do confidently if you
+don&rsquo;t know C before you start reading.</p>
+
+<p>Apart from this I like the book. I didn&rsquo;t get much out of it, but that is
+because I already knew most of it. The parts I didn&rsquo;t know where quite
+interesting to read about, and as I said it covers the topics well. Because of
+this I&rsquo;d agree with the statement that this is one of <em>the books</em> to read if you
+want to get going with <em>ethical</em> hacking. Do yourself a favour and wait until
+you&rsquo;re at least somewhat proficient in C and x86 assembler before you pick up
+the book though, as you might have a hard time understanding some of the
+examples otherwise.</p>
+
+<p>That&rsquo;s it for now, I hope you enjoyed this.. reviewish. Until next time,</p>
+
+<p>Happy Hacking!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2017/07/10/initial-impressions-bhp/">Initial Impressions: Black Hat Python</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-07-10T00:00:00+02:00'><span class='date'>2017-07-10</span> <span class='time'>12:00 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The other day I dug my teeth into a new piece of literature:
+<a href="https://www.nostarch.com/blackhatpython">Black Hat Python: Python Programming for Hackers and Pentesters</a>
+by <a href="https://www.nostarch.com/">No Starch Press</a>. Anyone who&rsquo;s spent more then
+five minutes on this site probably knows that No Starch is my favorite publisher
+and that I think they usually publish books of high quality. Spoiler alert; this
+book does not fall in that category.</p>
+
+<p>Before I go on, I want to give a short disclaimer though. This is by no means a
+<em>book review</em>. I have not read the whole thing cover to cover (yet), I have just
+read the first few chapters and put it away because I really disliked the way
+the author&rsquo;s style of teaching. I plan on reading the full thing at some point
+and give a <em>proper</em> review, but I want to give some kind of a heads up for
+anyone reading. So, let&rsquo;s do it!</p>
+
+<p>First off, I was quite excited to read this. I enjoy working with Python, and
+would say that it&rsquo;s probably the language I use the most. I&rsquo;m also quite
+interested in computer security, and one of my previous goals was to become a
+professional pentester. So obviously this book was quite appealing. The book is
+written by Justin Seitz, who at the time of writing writing the book worked at
+Immunity Inc with security analysis. He&rsquo;s also written another book for No
+Starch Press called <a href="https://www.nostarch.com/ghpython.htm">Gray Hat Python</a>
+(which I&rsquo;ll get arount to reading Soon™), so it all seems good! The book covers
+a range of topics, from how to set up the testing environment to how to automate
+forenic tasks, spread trojans via github, and playing around with the network.
+From just looking at it from the outside, it looks like a really nice book (it
+has a nice cover too!)</p>
+
+<p>Unfortunately, as the saying goes, you should not judge a book by it&rsquo;s cover.
+While the text itself holds up to the quality of the other No Starch books I&rsquo;ve
+read, the actual <em>content</em> of the book does not. Each section in the book
+describes a problem, like needing a quick way to send commands to a compromised
+server. The text then guides you through a solution to the problem, and this is
+where the problems start. Firstly, the solution is presented <em>before</em> the
+explanation of even the steps to take. This might seem like a small issue, and
+maybe it is for some, but I prefer to give it a go myself first, <em>before</em> I look
+at a solution. I know this might be hard with books like this, but just listing
+what the solution must do isn&rsquo;t too much to ask, is it? The second thing that
+bugged me, which is what made me put the book away, is the actual explanations
+themselves. They are really short, and don&rsquo;t explain much at all. To showcase
+this, let&rsquo;s have a look at the following example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">class</span> <span class="nc">Server</span> <span class="p">(</span><span class="n">paramiko</span><span class="o">.</span><span class="n">ServerInterface</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">_init_</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span class='line'>        <span class="bp">self</span><span class="o">.</span><span class="n">event</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Event</span><span class="p">()</span>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">check_channel_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">kind</span><span class="p">,</span> <span class="n">chanid</span><span class="p">):</span>
+</span><span class='line'>        <span class="k">if</span> <span class="n">kind</span> <span class="o">==</span> <span class="s">&#39;session&#39;</span><span class="p">:</span>
+</span><span class='line'>            <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">OPEN_SUCCEEDED</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED</span>
+</span><span class='line'>    <span class="k">def</span> <span class="nf">check_auth_password</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">username</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
+</span><span class='line'>        <span class="k">if</span> <span class="p">(</span><span class="n">username</span> <span class="o">==</span> <span class="s">&#39;justin&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">password</span> <span class="o">==</span> <span class="s">&#39;lovesthepython&#39;</span><span class="p">):</span>
+</span><span class='line'>            <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">AUTH_SUCCESSFUL</span>
+</span><span class='line'>        <span class="k">return</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">AUTH_FAILED</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>A simple enough python class, that is used to build an SSH-server to send
+commands through to the client, which is uploaded to the victim. The
+explanation for the code is as follows:</p>
+
+<blockquote><p>just like we did earlier in the chapter, and then SSHinize it</p></blockquote>
+
+<p>This is not the first thing the book covered on SSH using the Paramiko library,
+but a class was never used. Also, none of the Paramiko flags were used earlier.
+But their names are good, so it&rsquo;s easy enough to understand the function of the
+Server-class anyway. Now, let&rsquo;s skip forward in the code:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">bhSession</span> <span class="o">=</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">Transport</span><span class="p">(</span><span class="n">client</span><span class="p">)</span>
+</span><span class='line'><span class="n">bhSession</span><span class="o">.</span><span class="n">add_server_key</span><span class="p">(</span><span class="n">host_key</span><span class="p">)</span>
+</span><span class='line'><span class="n">server</span> <span class="o">=</span> <span class="n">Server</span><span class="p">()</span>
+</span><span class='line'><span class="k">try</span><span class="p">:</span>
+</span><span class='line'>    <span class="n">bhSession</span><span class="o">.</span><span class="n">start_server</span><span class="p">(</span><span class="n">server</span><span class="o">=</span><span class="n">server</span><span class="p">)</span>
+</span><span class='line'><span class="k">except</span> <span class="n">paramiko</span><span class="o">.</span><span class="n">SSHException</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span>
+</span><span class='line'>    <span class="k">print</span> <span class="s">&#39;[-] SSH negotiation failed.&#39;</span>
+</span><span class='line'><span class="n">chan</span> <span class="o">=</span> <span class="n">bhSession</span><span class="o">.</span><span class="n">accept</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>None of this has been used before, but it&rsquo;s all pretty obvious; set <code>client</code> (
+which is an already connected socket) as the socket on which to transport the
+SSH session, add a keyfile, build a server-object and use that as the server.
+The explanation for this is</p>
+
+<blockquote><p>configure the authentication methods</p></blockquote>
+
+<p>I&rsquo;m sorry, what? I guess this is technically correct, but it doesn&rsquo;t explain
+<em>anything</em>. Sure, it&rsquo;s not that hard to understand, but still. The thing that
+really annoys me is this: <code>bhSession.start_server(server=server)</code>. <code>bhSession</code>
+is a paramiko-object of some kind, and to that objects member function
+<code>start_server()</code> we pass our homebrewed Server-class. This means that, since
+it will be used by a function in a library, the Server-class have to have some
+functions and variables that should respond to different things. These are quite
+important pieces of information if you want to build something yourself rather
+than just copy and paste from a book. Alas, if I want to learn that I have to
+consult the Paramiko documentation, because there isn&rsquo;t an explanation within
+sight in the book.</p>
+
+<p>I really don&rsquo;t mind reading documentation, but I do mind paying $34 for a book
+that supposedly should teach me something, only to be forced to read open
+documentation if I want more understanding than copying, pasting and running can
+give. Fortunately I got the book in a HumbleBundle, so I hardly payed for it.
+And maybe it gets better later in the book, but right now I don&rsquo;t have time to
+find out. As I said, this is very much a first imporession of the book and I
+will get back to it. I just really think it&rsquo;s a shame that they didn&rsquo;t make it
+twice as long (it&rsquo;s just short of 165 pages) and elaborated on the explanations
+more, so that you don&rsquo;t need to consult the documentation to understand what&rsquo;s
+going on.</p>
+
+<p>That&rsquo;s it for my rant on this book. I&rsquo;ll revisit it Sometime™ and write a real
+review. But for now this will have to do. I&rsquo;ll have a review on another book I
+recently read shortly, but until then</p>
+
+<p>Happy Hacking!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -783,167 +1051,6 @@ go check that out!</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/08/15/linux-commandline-review/">Review: The Linux Commandline by William E. Shotts, Jr.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-08-15T00:00:00+02:00'><span class='date'>2016-08-15</span> <span class='time'>12:00 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It&rsquo;s finally time for me to post my first book review! As mentioned I&rsquo;ve wanted
-to do this for quite some time, both to get some more posting here on the blog
-done and to give me an incentive to actually read the books I buy. So here it
-is, the first book review on this blog!</p>
-
-<p>The book I&rsquo;ve (actually) read is
-<a href="https://www.nostarch.com/tlcl"><em>The Linux Commandline</em></a> by <strong>William E. Shotts,
-Jr.</strong>, published by <a href="https://www.nostarch.com/">No Starch Press</a>. The book is
-aimed at people who have just installed Linux and is clueless about where to go
-from there. As such I am quite a bit outside of the target audience, but despite
-this I found the book to be a very good read (I mean, I finished it&hellip;).</p>
-
-<p><em>The Linux Commandline</em> is divided into four parts: Learning the shell;
-Configuration and the Environment; Common Tasks and Essential Tools; and Writing
-Shell Scripts. Just looking at this it is clear that the book covers a great
-many subjects in the world of the Linux commandline. As I said it is aimed at
-complete Linux newbies, and as such it begins at a very basic level. In the very
-first chapter the concept of a <em>shell</em> is explained, along with things such as
-the fact that the shell tells you that no command was found if you try to
-execute random letters. Once that is dealt with the book works it&rsquo;s way from
-commands like <code>cd</code> and <code>ls</code> to more complex commands like <code>sed</code> and how to write
-regular expressions for <code>sed</code>. It covers pipes, redirection, searching with
-<code>find</code> and touches on editing with my personal favorite editor Vim. When all
-these topics are covered, the author shows how to glue it all together using
-<code>if</code>-statements, <code>for</code>-loops and shell functions to build complete shell
-scripts.</p>
-
-<p>It&rsquo;s obvious that the book covers a lot, but the big question is whether or not
-it does it well. To that my answer is yes. As mentioned I am far from the target
-audience with 10 years of working with Linux in my luggage. Despite this I
-actually learned a thing or two from the book. A large part of the book could be
-skimmed, such as descriptions of what <code>ls -l</code> and <code>ls -a</code> do, but some chapters
-were completely new such as how to print files to paper via the CLI. Apart from
-the content being very fleshed out it is also well written in a style that is
-easy to read and learn from. Descriptions are clear and the vast majority of all
-commands covered are also used in an example, so that it is easy for the reader
-to follow along and try things out.</p>
-
-<p>To conclude this is a book that according to me is clearly worth the $39.95. I
-only own it as an e-book, but I am tempted to buy a paperback as well to have a
-physical copy. It is well written, clearly describes how to efficiently work
-with the shell on a basic to intermediate level, and I think that if everyone
-who tried Linux would take the time to work through this their Linux experience
-would be a lot better.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/08/15/had-it-with-nms/">I've Had It With No Man's Sky</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-08-15T00:00:00+02:00'><span class='date'>2016-08-15</span> <span class='time'>12:00 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>As probably nobody with even the slightest interest in gaming has missed, the
-hype of the year has finally come out: No Man&rsquo;s Sky. The game where there is an
-infinite, procedurally generated universe to discover and explore, creatures
-created not by careful design but by artifical evolution to marvel at, alien
-cultures to encounter and interact with! Over at
-<a href="https://www.reddit.com/r/NoMansSkyTheGame">/r/NoMansSkyTheGame</a> people have
-torn their hair in anticipation of this game. And I must admit, I was quite
-excited about it as well. Becuase it sounds pretty cool, doesn&rsquo;t it? With all
-that exploration to do, all those discoveries to be made.</p>
-
-<p>Now I&rsquo;ve tried. I really have. I&rsquo;ve spent ten hours over the weekend trying to
-get into it, but I just can&rsquo;t. The game is horrendous. I&rsquo;ve had it. It&rsquo;s not
-just that there&rsquo;s nothing to do in the game, it&rsquo;s also that everything is
-exactly the same and nothing makes sense! For instance I visited a quite
-chilly planet, so to speak. The temperature was at -30 to -60 centrigrades.
-Despite this there were liquid water! Fancy that, no ice! When I then fly over
-to another planet in the same solar system I notice something interesting; the
-exact same plants as I found on another planet <em>in another solar system</em> lives
-there. Not something similar, the <em>exact</em> same but with a (presumably)
-different name. Not to mention the creatures created by the artificial
-evolution.
-<a href="https://twitter.com/Britbongreturns/status/765190830894317568">This</a> post
-by <a href="https://twitter.com/Britbongreturns">@Britbongreturns</a> sums it up quite
-nicely, so I&rsquo;ll leave it at that.</p>
-
-<p>Before I conclude this post, let&rsquo;s go over a few of the selling points on the
-game&rsquo;s <a href="http://store.steampowered.com/app/275850/#app_reviews_hash">Steam page</a>.</p>
-
-<ol>
-<li><p>&ldquo;<em>a galaxy to explore, filled with unique planets and lifeforms, and constant
- danger and action</em>&rdquo;</p>
-
-<p>Well this is just a downright lie: The planets may be procedurally
-generated, and therefore unique, but apparently reusing every resource
-there is in the game isn&rsquo;t covered by this. Also, if there is so much
-danger and action, how come I haven&rsquo;t experienced neither danger nor
-action?</p></li>
-<li><p>&ldquo;<em>Fly smoothly from deep space to planetary surfaces, with no loading
- screens, and no limits.</em>&rdquo;</p>
-
-<p>That is actually true! There are no loading screens! Instead there is the
-most terrible texture popping I have ever seen! Not only does it pop in
-textures as you&rsquo;re closing up to them, but it &ldquo;unpops&rdquo; them as well; if you
-have mined out a huge pillar of e.g. gold then you&rsquo;ll still see it at a
-distance! Terrible!</p></li>
-<li><p>&ldquo;<em>At the centre of the galaxy lies a irresistible pulse which draws you on a
- journey towards it</em>&rdquo;</p>
-
-<p>Huh, the more you know. Apart from the exposition given right here I haven&rsquo;t
-been given any incentive so far for going to the center of the galaxy.
-Weird.</p></li>
-</ol>
-
-
-<p>To conclude this rant I&rsquo;d like to say that I didn&rsquo;t want a 60€ game with
-horrible &ldquo;evolution&rdquo; in it. I already own a game like that: Spore! So now I&rsquo;m
-done with this disappointment. I&rsquo;m going back to buying small, unknown indie
-games via <a href="https://www.humblebundle.com/">HumbleBundle</a>, at least I usually
-enjoy at least they&rsquo;re enjoyable for the most part.</p>
-
-<p>/rant</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/3">&larr; Older</a>
@@ -982,6 +1089,10 @@ enjoy at least they&rsquo;re enjoyable for the most part.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2018/06/08/2018-bucket-list-june-progress/">2018 Bucket List - June Progress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2018/02/28/2018-bucket-list-february-progress/">2018 Bucket List - February Progress</a>
       </li>
     
@@ -994,11 +1105,7 @@ enjoy at least they&rsquo;re enjoyable for the most part.</p>
       </li>
     
       <li class="post">
-        <a href="/blog/2018/01/03/bucket-list-of-2018/">Bucket List of 2018</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2017/08/13/teaspresso/">Teaspresso</a>
+        <a href="/blog/2018/01/11/socket-programming-ipv6-extension-headers/">Socket Programming: IPv6 Extension Headers</a>
       </li>
     
   </ul>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://blog.erikbergenholtz.se/blog/2018/06/08/2018-bucket-list-june-progress/</loc>
+<lastmod>2018-06-08T22:46:44+02:00</lastmod>
+</url>
+<url>
 <loc>http://blog.erikbergenholtz.se/blog/2018/02/28/2018-bucket-list-february-progress/</loc>
 <lastmod>2018-02-28T23:00:38+01:00</lastmod>
 </url>
@@ -11,6 +15,10 @@
 <url>
 <loc>http://blog.erikbergenholtz.se/blog/2018/02/03/2018-bucket-list-january-progress/</loc>
 <lastmod>2018-02-03T22:49:50+01:00</lastmod>
+</url>
+<url>
+<loc>http://blog.erikbergenholtz.se/blog/2018/01/11/socket-programming-ipv6-extension-headers/</loc>
+<lastmod>2018-01-11T19:04:09+01:00</lastmod>
 </url>
 <url>
 <loc>http://blog.erikbergenholtz.se/blog/2018/01/03/bucket-list-of-2018/</loc>

@@ -4,7 +4,7 @@
   <title><![CDATA[Tags: Misc | Erik Bergenholtz' blog]]></title>
   <link href="http://blog.erikbergenholtz.se/blog/categories/misc/atom.xml" rel="self"/>
   <link href="http://blog.erikbergenholtz.se/"/>
-  <updated>2018-02-26T23:12:37+01:00</updated>
+  <updated>2018-06-08T22:59:11+02:00</updated>
   <id>http://blog.erikbergenholtz.se/</id>
   <author>
     <name><![CDATA[Erik Bergenholtz]]></name>
@@ -12,6 +12,131 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2018 Bucket List - June Progress]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2018/06/08/2018-bucket-list-june-progress/"/>
+    <updated>2018-06-08T22:46:44+02:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2018/06/08/2018-bucket-list-june-progress</id>
+    <content type="html"><![CDATA[<p>I know, I know. I was supposed to update this thing once a month. But being a
+PhD student is hectic. Who would&rsquo;ve guessed? I also realized in March that since
+I more or less don&rsquo;t ever put anything here, my entire blog would be just this
+list being reposted over and over. So I decided to reduce the frequency a bit.
+As long as I actually do follow up on these things, right?</p>
+
+<p>Anyhow, I&rsquo;ve done a lot since the last update. I&rsquo;ve finished a bunch of games
+(that weren&rsquo;t on the list, of course), I&rsquo;ve <em>almost</em> stopped biting my nails
+(I did actually stop for a couple of weeks, but then I got a small wound and I
+was back at it..). I have read about one third (I think) of <em>Tinker Tailor
+Solider Spy</em>. And, most importantly, I&rsquo;m about to submit my first paper. So I&rsquo;ve
+got a lot going on.</p>
+
+<p>But I <em>have</em> actually finished a couple of things as well. I&rsquo;ve fixed my home
+network, so there aren&rsquo;t ethernet cables snaking their way over the floor
+anymore. I&rsquo;ve read most of <em>Introduction to Algorithms</em>, which I&rsquo;m going to
+count as done because I realized while reading it that it&rsquo;s not a cover-to-cover
+kind of book. I&rsquo;ve also nailed the Advanced Algorithms course I took. Good
+stuff! So I haven&rsquo;t been lazy just because I haven&rsquo;t reposted this list,
+alright?</p>
+
+<p>Before I sign off here I&rsquo;d just like to say that I have a couple of posts
+planned actually, and I hope to finish them over vacation. They&rsquo;re going to be a
+bit more technical than the stuff I&rsquo;ve posted so far. And with a bit I mean &ldquo;a
+lot&rdquo;. Like fiddling around with raw sockets in C technical. But that&rsquo;s for
+later, hopefully during the summer. For now, this is all.</p>
+
+<p>Happy hacking!</p>
+
+<ul>
+<li>Books
+
+<ul>
+<li>Fiction
+
+<ul>
+<li><del>The Graveyard Book</del></li>
+<li>Dune</li>
+<li>Tinker Tailor Solider Spy</li>
+<li>House of Leaves</li>
+<li>The King in Yellow</li>
+<li>1984</li>
+<li>Bioshock - Rapture</li>
+</ul>
+</li>
+<li>Non-fiction
+
+<ul>
+<li><del>Introduction to Algorithms</del></li>
+<li>Violent Python</li>
+<li>Art of Intrusion</li>
+<li>Art of Deception</li>
+<li>Web Application Hacker&rsquo;s Handbook</li>
+<li>Practical Malware Analysis</li>
+<li>Get Started in German</li>
+<li>Konsten att få Metala Superkrafter</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Movies
+
+<ul>
+<li>Dune</li>
+<li>Brazil</li>
+<li>Fear and Loathing in Las Vegas</li>
+<li>Django Unchained</li>
+<li>The Hateful Eight</li>
+<li>Crouching Tiger Hidden Dragon: Sword of Destiny</li>
+<li>Soylent Green</li>
+</ul>
+</li>
+<li>Games
+
+<ul>
+<li><del>Mario Odyssey</del></li>
+<li><del>Subnautica</del></li>
+<li>Legend of Zelda: Breath of the Wild</li>
+<li>DOOM</li>
+<li>Cuphead</li>
+<li>Dishonored 2</li>
+</ul>
+</li>
+<li>Work
+
+<ul>
+<li><del>Nail Advanced Algorithms</del></li>
+<li>Two publications</li>
+</ul>
+</li>
+<li>Health and fitness
+
+<ul>
+<li>Start working out</li>
+<li>Try Aikido</li>
+<li><del>Start eating Keto</del></li>
+<li>Quit nailbiting</li>
+</ul>
+</li>
+<li>Other
+
+<ul>
+<li>Start practicing violin/viola regularly</li>
+<li><del>Fix home network</del></li>
+<li>Fix battlestation</li>
+<li>Git gud at hacking</li>
+<li>Finish German course on Duolingo</li>
+<li>Finish <em>Get Started in German</em></li>
+<li>Get more into tea and coffee</li>
+<li>Learn about brewing</li>
+<li>Learn about fermenting</li>
+<li>Get better at cooking</li>
+<li>Start posting here regularly, preferably about sciency stuff</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2018 Bucket List - February Progress]]></title>

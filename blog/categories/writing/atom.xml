@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tags: Writing, | Erik Bergenholtz' blog]]></title>
+  <link href="http://blog.erikbergenholtz.se/blog/categories/writing/atom.xml" rel="self"/>
+  <link href="http://blog.erikbergenholtz.se/"/>
+  <updated>2018-06-21T21:54:42+02:00</updated>
+  <id>http://blog.erikbergenholtz.se/</id>
+  <author>
+    <name><![CDATA[Erik Bergenholtz]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What I Learned From Writing My First Paper]]></title>
+    <link href="http://blog.erikbergenholtz.se/blog/2018/06/21/what-i-learned-from-writing-my-first-paper/"/>
+    <updated>2018-06-21T20:40:54+02:00</updated>
+    <id>http://blog.erikbergenholtz.se/blog/2018/06/21/what-i-learned-from-writing-my-first-paper</id>
+    <content type="html"><![CDATA[<p>Today I submitted my first scientific paper for review. I&rsquo;ve now been a PhD
+student for about nine months, six of which I&rsquo;ve spent on this project in
+particular. It&rsquo;s been quite a long road with a lot of bumps and a lot of set
+backs, but I&rsquo;ve learned a lot from it, and I suppose that&rsquo;s what doing a PhD is
+all about. It doesn&rsquo;t hurt that I&rsquo;m very happy with how my paper turned out as
+well. Now I just have to hope that the reviewers are as happy with it as I am.</p>
+
+<p>Anyway, what I wanted to talk about today is what I learned about doing science
+from writing this paper.</p>
+
+<h2>Don&rsquo;t ever think</h2>
+
+<p>You read that correctly. Don&rsquo;t ever <em>think</em>. I don&rsquo;t mean that in the senes of
+not having thoughts, but in the sense of not believing. In Sweden we have an
+idiom that goes &ldquo;Tro gör man i krykan, här vet man&rdquo;, which translates to
+&ldquo;Believe is something you do in church, here you know&rdquo;. What it means it that
+you should be certain, and this is one of the biggest lessons I learned from
+running and rerunning my experiments countless times. Every time I had to
+rebuild the lab, every time I had to reanalyze data, this was always the
+culprit. I wasn&rsquo;t <em>certain</em> about everything. I couln&rsquo;t answer every question
+about the experiments, their expected outcomes, or the test environment with &ldquo;I
+know that&hellip;&rdquo;. I could answer some in that way, but there were way too many
+that I could only answer with &ldquo;I <em>think</em> that&hellip;&rdquo;, and this caused me a
+tremendous amount of trouble. I <em>thought</em> that the lab was rigged correctly,
+but it wasn&rsquo;t. I <em>thought</em> that the real environment behaved a certain way, but
+it didn&rsquo;t. I <em>thought</em> that my program was bug free, but it wasn&rsquo;t. From now on
+I&rsquo;ll make sure that I don&rsquo;t have to answer any questions like that before I
+start running my experiments.</p>
+
+<h2>Get motivated</h2>
+
+<p>This kindof relates to the last point. Don&rsquo;t make arbitrary choices, think
+things through and make <em>decisions</em>. If you can point to any part of your
+experiment design and not say &ldquo;I did this because&hellip;&rdquo; you&rsquo;re doing it wrong. I
+did that with quite a few things, which got a bit awkward when my supervisors
+asked me &ldquo;So why did you pick X&rdquo; and I basically went ¯\_(ツ)_/¯. Not only
+was it a bit awkward in the meetings, but it got pretty bad when actually
+writing the article and I realized that I <em>had</em> to motivate things for it to
+not be, well, shit. Luckily for me, a lot of my arbitrary choices were based on
+gut feelings that were based on an internal model of reality that roughly
+correlated to the real world, so my choices weren&rsquo;t that bad. But for my next
+paper I&rsquo;m going to find the motivation <em>first</em> and use that as a basis for my
+choice.</p>
+
+<h2>Take care of the environment</h2>
+
+<p>For computer science, environment make a lot of difference. Maybe not the <em>real</em>
+environment, but the digital environment. One of the biggest mistakes I did when
+writing my first paper was that I didn&rsquo;t build the test environment <em>first</em> and
+developed my program to work in that environment. It resulted in finding bugs
+later down the road that were caused by me making assumptions about the
+environment based on the very small scale development environment that I set up
+on my computer. The <strong>But It Works On My Machine</strong>-award goes to&hellip;. me.</p>
+
+<h2>Don&rsquo;t give up</h2>
+
+<p>This may seem obvious, but let me tell you that I wanted to just say &ldquo;fuck it&rdquo;
+and go home so many times during this process. Experiments that went wrong, new
+bugs that were discovered way too late, data that didn&rsquo;t quite add up or make
+sense, etc. It&rsquo;s frustrating. <em>Very</em> frustrating, and since being a PhD student
+means that you set your own deadlines, work when and where you want, just going
+home is actually an option. But don&rsquo;t take it. Take a walk around campus, drink
+a cup of coffee or whatever you&rsquo;re into, and then grit your teeth and get on
+with it. You&rsquo;ll thank yourself for it later.</p>
+
+<h2>No stress, just productivity</h2>
+
+<p>I left a meeting with my supervisors swamped with things to do about two or
+three weeks before the deadline of the paper submission for the conferance I was
+aiming at. The reason for this amount of work being put on me so late was that
+we, after a good discussion, decided to not scrap part of the experiments that
+we did first say that we&rsquo;d scrap. I needed to rig a new set of simulations, set
+up my experiments based on the outcome of the simulations, rewrite parts of my
+program to facilitate these changes, and rerun all my experiments in three
+weeks. Oh, and write a good paper (because we aimed at a good conference). In
+short, I was swamped. But leaving the meeting, one of my supervisors told me
+something that strongly resonated with me: <em>No stress, just productivity</em>.r</p>
+
+<p>I&rsquo;m very happy that he said those words, because I think it helped me a lot.
+It&rsquo;s very easy to get stressed in situations like this, it&rsquo;s easy to feel
+overwhelmed. But the stress will only hinder you, and thus slow you down, making
+you more stressed, and so on. It&rsquo;s a recipe for anxiety, and when facing a
+deadline in a few weeks you don&rsquo;t want to run around being anxious. What does
+help is getting shit done, i.e. being productive. And let me tell you, I&rsquo;ve been
+really productive the last couple of weeks. I&rsquo;ve worked weekends and nights,
+I&rsquo;ve started early and stayed up late, I&rsquo;ve skipped lunch, etc. But somehow I
+haven&rsquo;t been stressed. <em>At all</em>. Whenevery I started to feel stressed I took a
+few minutes to gather myself; grab a cup of cofffee, talk a short walk, look out
+the window. Basically, just relaxing for a bit to let the stress go. And guess
+what, I managed to finish a paper that I&rsquo;m damn happy with, and that my
+supervisors are damn happy with, with 35 hours to go until the deadline. So
+keep that in mind: <em>No stress</em>, only productivity.</p>
+
+<h2>Closing thoughts</h2>
+
+<p>I think that&rsquo;s about it. Obviously I learned a lot more than this, especially
+about socket programming in C (I&rsquo;ve got a post coming up about that in a while),
+network scanning, and how to write the actual text of a paper. But these are the
+most important lessons I&rsquo;ve learned about the process itself.</p>
+
+<p>Anyway, I hope this can be useful to someone. If nothing else it&rsquo;s something
+for me to look back on whenever I need to be reminded of these things, so
+¯\_(ツ)_/¯.  Now, I&rsquo;m off to enjoy my vacation, and a gin&amp; tonic. So, until
+next time,</p>
+
+<p>Happy hacking!</p>
+]]></content>
+  </entry>
+  
+</feed>
